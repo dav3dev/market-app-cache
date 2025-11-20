@@ -3,24 +3,30 @@ const fs = require('fs');
 const path = require('path');
 
 const API_BASE = 'https://api.warframe.market/v2';
-const CORS_PROXY = 'https://api.allorigins.win/raw?url=';
 
 // Pomocnicza funkcja do delay
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
-async function fetchWithProxy(url) {
-  const response = await axios.get(`${CORS_PROXY}${encodeURIComponent(url)}`);
+async function fetchDirect(url) {
+  const response = await axios.get(url, {
+    headers: {
+      'Platform': 'pc',
+      'Language': 'en'
+    }
+  });
   return response.data;
 }
 
 async function fetchItems() {
   console.log('Fetching items...');
-  const data = await fetchWithProxy(`${API_BASE}/items`);
+  const data = await fetchDirect(`${API_BASE}/items`);
   
   // Filtruj tylko sety (Warframes, Weapons, Archwing)
   const sets = data.data.filter(item => {
     const tags = item.tags || [];
-    return item.set_root && (
+    const name = item.i18n?.en?.name || '';
+    const isSet = name.toLowerCase().includes(' set');
+    return isSet && (
       tags.includes('warframe') ||
       tags.includes('weapon') ||
       tags.includes('primary') ||
@@ -37,8 +43,11 @@ async function fetchItems() {
 async function fetchSetPrices(urlName, onlineOnly = true) {
   try {
     // Pobierz części setu
-    const setData = await fetchWithProxy(`${API_BASE}/items/${urlName}/set`);
-    const parts = setData.data || [];
+    const setData = await fetchDirect(`${API_BASE}/items/${urlName}/set`);
+    const items = setData.data?.items || [];
+    
+    // Znajdź części (nie setRoot)
+    const parts = items.filter(item => !item.setRoot);
     
     // Pobierz zamówienia dla każdej części
     const partPrices = [];
@@ -46,7 +55,7 @@ async function fetchSetPrices(urlName, onlineOnly = true) {
       await delay(500); // 500ms między requestami
       
       try {
-        const ordersData = await fetchWithProxy(`${API_BASE}/orders/item/${part.url_name}`);
+        const ordersData = await fetchDirect(`${API_BASE}/orders/item/${part.slug}`);
         const orders = ordersData.data || [];
         
         // Filtruj sell orders
@@ -60,15 +69,15 @@ async function fetchSetPrices(urlName, onlineOnly = true) {
         const minPrice = prices.length > 0 ? Math.min(...prices) : null;
         
         partPrices.push({
-          urlName: part.url_name,
-          displayName: part.item_name,
+          urlName: part.slug,
+          displayName: part.i18n?.en?.name || part.slug,
           price: minPrice
         });
       } catch (error) {
-        console.error(`Failed to fetch orders for ${part.url_name}:`, error.message);
+        console.error(`Failed to fetch orders for ${part.slug}:`, error.message);
         partPrices.push({
-          urlName: part.url_name,
-          displayName: part.item_name,
+          urlName: part.slug,
+          displayName: part.i18n?.en?.name || part.slug,
           price: null
         });
       }
@@ -84,7 +93,7 @@ async function fetchSetPrices(urlName, onlineOnly = true) {
     await delay(500);
     let directSetPrice = null;
     try {
-      const setOrdersData = await fetchWithProxy(`${API_BASE}/orders/item/${urlName}`);
+      const setOrdersData = await fetchDirect(`${API_BASE}/orders/item/${urlName}`);
       const setOrders = setOrdersData.data || [];
       
       let sellOrders = setOrders.filter(o => o.order_type === 'sell');
@@ -121,11 +130,12 @@ async function main() {
     
     for (let i = 0; i < items.length; i++) {
       const item = items[i];
-      console.log(`[${i + 1}/${items.length}] ${item.url_name}`);
+      const itemName = item.i18n?.en?.name || item.slug;
+      console.log(`[${i + 1}/${items.length}] ${itemName}`);
       
-      const prices = await fetchSetPrices(item.url_name, true);
+      const prices = await fetchSetPrices(item.slug, true);
       if (prices) {
-        cache[`${item.url_name}|online-true`] = prices;
+        cache[`${item.slug}|online-true`] = prices;
       }
       
       // Delay między itemami
