@@ -8,12 +8,12 @@ This repository hosts a JSON cache file (`cache.json`) that contains current mar
 
 ## Data Source
 
-- **API**: Warframe Market API v2 (`https://api.warframe.market/v2`)
-- **Items**: ~150 Prime sets (Warframes, Weapons, Archwings)
-- **Update Frequency**: Every hour
+- **API**: Warframe Market API v2
+- **Items**: All Prime sets (Warframes, Weapons, Archwings)
+- **Update Frequency**: Every hour (automatic via GitHub Actions)
 - **Data Includes**:
-  - Individual part prices
-  - Complete set prices
+  - Individual part prices (lowest online seller)
+  - Complete set prices (lowest online seller)
   - Total parts price
   - Timestamp and expiration
 
@@ -22,11 +22,13 @@ This repository hosts a JSON cache file (`cache.json`) that contains current mar
 Load the cache in your app:
 
 ```javascript
-const response = await fetch('https://your-username.github.io/warframe-cache/cache.json');
+const response = await fetch('https://dav3dev.github.io/market-app-cache/cache.json');
 const cache = await response.json();
 ```
 
 ## Cache Structure
+
+Each item is keyed by `{slug}|online-true` format:
 
 ```json
 {
@@ -44,6 +46,22 @@ const cache = await response.json();
 }
 ```
 
+**Fields:**
+- `partPrices[]` - Array of individual parts with their prices
+- `directSetPrice` - Lowest price for buying the complete set
+- `partsTotal` - Sum of individual part prices
+- `variant` - Either `"direct"` (buying set is cheaper) or `"parts"` (buying parts is cheaper)
+- `timestamp` - When the data was fetched (milliseconds)
+- `expiresAt` - Cache expiration time (1 hour after fetch)
+
+## Features
+
+- ✅ Automatic hourly updates via GitHub Actions
+- ✅ Incremental cache updates (saves progress after each item)
+- ✅ Rate limiting and retry logic for API stability
+- ✅ CORS-enabled via GitHub Pages
+- ✅ Only shows prices from online/in-game sellers
+
 ## Local Development
 
 To generate the cache locally:
@@ -53,11 +71,23 @@ npm install axios
 node fetch-prices.js
 ```
 
-This will create/update `cache.json` with current prices (~3-5 minutes to fetch all items).
+The script will:
+1. Load existing cache (if available)
+2. Fetch current prices from Warframe Market API
+3. Save progress incrementally after each item
+4. Complete in ~20-30 minutes (depends on API rate limits)
+
+## Automation
+
+GitHub Actions workflow runs every hour:
+- Fetches latest prices from Warframe Market API
+- Updates `cache.json`
+- Commits and pushes changes
+- Deploys to GitHub Pages automatically
 
 ## CORS
 
-This repository is configured with GitHub Pages to allow CORS requests. The cache can be loaded from any domain.
+This repository is configured with GitHub Pages to allow CORS requests. The cache can be loaded from any domain without proxy.
 
 ## License
 

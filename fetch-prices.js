@@ -141,53 +141,45 @@ async function fetchSetPrices(urlName, onlineOnly = true) {
 async function main() {
   try {
     const items = await fetchItems();
-    const cache = {};
     
-    console.log('Fetching prices for all sets...');
+    // Wczytaj istniejący cache jeśli istnieje
+    const outputPath = path.join(__dirname, 'cache.json');
+    let cache = {};
+    try {
+      if (fs.existsSync(outputPath)) {
+        cache = JSON.parse(fs.readFileSync(outputPath, 'utf-8'));
+        console.log(`📦 Loaded existing cache with ${Object.keys(cache).length} items`);
+      }
+    } catch (error) {
+      console.log('Starting fresh cache...');
+    }
+    
+    console.log(`\nFetching prices for ${items.length} sets...`);
     console.time('Total fetch time');
     
-    // Przetwarzaj w partiach po 5 itemów jednocześnie (API rate limit)
-    const BATCH_SIZE = 5;
-    for (let i = 0; i < items.length; i += BATCH_SIZE) {
-      const batch = items.slice(i, i + BATCH_SIZE);
-      const batchNumber = Math.floor(i / BATCH_SIZE) + 1;
-      const totalBatches = Math.ceil(items.length / BATCH_SIZE);
+    // Przetwarzaj sekwencyjnie, zapisuj po każdym
+    for (let i = 0; i < items.length; i++) {
+      const item = items[i];
+      const itemName = item.i18n?.en?.name || item.slug;
+      const cacheKey = `${item.slug}|online-true`;
       
-      console.log(`\n[Batch ${batchNumber}/${totalBatches}] Processing ${batch.length} items...`);
+      console.log(`[${i + 1}/${items.length}] ${itemName}`);
       
-      // Pobierz wszystkie w partii równolegle
-      const results = await Promise.all(
-        batch.map(async (item, idx) => {
-          const itemName = item.i18n?.en?.name || item.slug;
-          const globalIdx = i + idx + 1;
-          console.log(`  [${globalIdx}/${items.length}] ${itemName}`);
-          
-          const prices = await fetchSetPrices(item.slug, true);
-          return prices ? { key: `${item.slug}|online-true`, prices } : null;
-        })
-      );
+      const prices = await fetchSetPrices(item.slug, true);
+      if (prices) {
+        cache[cacheKey] = prices;
+        
+        // Zapisz cache po każdym itemie (incremental)
+        fs.writeFileSync(outputPath, JSON.stringify(cache, null, 2));
+      }
       
-      // Dodaj wyniki do cache
-      results.forEach(result => {
-        if (result) {
-          cache[result.key] = result.prices;
-        }
-      });
-      
-      console.log(`  ✓ Batch ${batchNumber} completed`);
-      
-      // Pauza między partiami (API rate limit: ~3 requesty/sec)
-      if (i + BATCH_SIZE < items.length) {
-        await delay(1000);
+      // Krótka pauza między itemami (API rate limit)
+      if (i < items.length - 1) {
+        await delay(350);
       }
     }
     
     console.timeEnd('Total fetch time');
-    
-    // Zapisz do pliku (w katalogu cache repo)
-    const outputPath = path.join(__dirname, 'cache.json');
-    fs.writeFileSync(outputPath, JSON.stringify(cache, null, 2));
-    
     console.log(`\n✅ Cache updated: ${Object.keys(cache).length} items saved to ${outputPath}`);
   } catch (error) {
     console.error('❌ Failed to update cache:', error);
