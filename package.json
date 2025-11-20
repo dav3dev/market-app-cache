@@ -1,0 +1,12 @@
+{
+  "name": "warframe-cache",
+  "version": "1.0.0",
+  "description": "Automated price cache for Warframe Market",
+  "main": "fetch-prices.js",
+  "scripts": {
+    "update": "node fetch-prices.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}
