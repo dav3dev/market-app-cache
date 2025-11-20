@@ -74,8 +74,8 @@ async function fetchSetPrices(urlName, onlineOnly = true) {
           sellOrders = sellOrders.filter(o => o.user?.status === 'ingame' || o.user?.status === 'online');
         }
         
-        // Znajdź najniższą cenę
-        const prices = sellOrders.map(o => o.price).filter(p => p > 0);
+        // Znajdź najniższą cenę (API v2 używa 'platinum' nie 'price')
+        const prices = sellOrders.map(o => o.platinum).filter(p => p > 0);
         const minPrice = prices.length > 0 ? Math.min(...prices) : null;
         
         return {
@@ -104,7 +104,7 @@ async function fetchSetPrices(urlName, onlineOnly = true) {
           sellOrders = sellOrders.filter(o => o.user?.status === 'ingame' || o.user?.status === 'online');
         }
         
-        const prices = sellOrders.map(o => o.price).filter(p => p > 0);
+        const prices = sellOrders.map(o => o.platinum).filter(p => p > 0);
         return prices.length > 0 ? Math.min(...prices) : null;
       } catch (error) {
         console.error(`Failed to fetch set orders for ${urlName}:`, error.message);
