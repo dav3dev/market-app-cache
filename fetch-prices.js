@@ -68,8 +68,8 @@ async function fetchSetPrices(urlName, onlineOnly = true) {
         const ordersData = await fetchDirect(`${API_BASE}/orders/item/${part.slug}`);
         const orders = ordersData.data || [];
         
-        // Filtruj sell orders
-        let sellOrders = orders.filter(o => o.order_type === 'sell');
+        // Filtruj sell orders (API v2 używa 'type' nie 'order_type')
+        let sellOrders = orders.filter(o => o.type === 'sell');
         if (onlineOnly) {
           sellOrders = sellOrders.filter(o => o.user?.status === 'ingame' || o.user?.status === 'online');
         }
@@ -99,7 +99,7 @@ async function fetchSetPrices(urlName, onlineOnly = true) {
         const setOrdersData = await fetchDirect(`${API_BASE}/orders/item/${urlName}`);
         const setOrders = setOrdersData.data || [];
         
-        let sellOrders = setOrders.filter(o => o.order_type === 'sell');
+        let sellOrders = setOrders.filter(o => o.type === 'sell');
         if (onlineOnly) {
           sellOrders = sellOrders.filter(o => o.user?.status === 'ingame' || o.user?.status === 'online');
         }
