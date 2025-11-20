@@ -7,14 +7,27 @@ const API_BASE = 'https://api.warframe.market/v2';
 // Pomocnicza funkcja do delay
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
-async function fetchDirect(url) {
-  const response = await axios.get(url, {
-    headers: {
-      'Platform': 'pc',
-      'Language': 'en'
+async function fetchDirect(url, retries = 3) {
+  for (let i = 0; i < retries; i++) {
+    try {
+      const response = await axios.get(url, {
+        headers: {
+          'Platform': 'pc',
+          'Language': 'en'
+        }
+      });
+      return response.data;
+    } catch (error) {
+      if (error.response?.status === 429 && i < retries - 1) {
+        // Rate limit - czekaj dłużej przed retry
+        const waitTime = (i + 1) * 2000;
+        console.log(`    Rate limited, waiting ${waitTime}ms...`);
+        await delay(waitTime);
+        continue;
+      }
+      throw error;
     }
-  });
-  return response.data;
+  }
 }
 
 async function fetchItems() {
@@ -49,11 +62,8 @@ async function fetchSetPrices(urlName, onlineOnly = true) {
     // Znajdź części (nie setRoot)
     const parts = items.filter(item => !item.setRoot);
     
-    // Pobierz zamówienia dla każdej części
-    const partPrices = [];
-    for (const part of parts) {
-      await delay(500); // 500ms między requestami
-      
+    // Pobierz wszystkie zamówienia RÓWNOLEGLE (Promise.all)
+    const partPromises = parts.map(async (part) => {
       try {
         const ordersData = await fetchDirect(`${API_BASE}/orders/item/${part.slug}`);
         const orders = ordersData.data || [];
@@ -68,44 +78,51 @@ async function fetchSetPrices(urlName, onlineOnly = true) {
         const prices = sellOrders.map(o => o.price).filter(p => p > 0);
         const minPrice = prices.length > 0 ? Math.min(...prices) : null;
         
-        partPrices.push({
+        return {
           urlName: part.slug,
           displayName: part.i18n?.en?.name || part.slug,
           price: minPrice
-        });
+        };
       } catch (error) {
         console.error(`Failed to fetch orders for ${part.slug}:`, error.message);
-        partPrices.push({
+        return {
           urlName: part.slug,
           displayName: part.i18n?.en?.name || part.slug,
           price: null
-        });
+        };
       }
-    }
+    });
+    
+    // Pobierz cenę bezpośrednią dla setu RÓWNOLEGLE
+    const setOrdersPromise = (async () => {
+      try {
+        const setOrdersData = await fetchDirect(`${API_BASE}/orders/item/${urlName}`);
+        const setOrders = setOrdersData.data || [];
+        
+        let sellOrders = setOrders.filter(o => o.order_type === 'sell');
+        if (onlineOnly) {
+          sellOrders = sellOrders.filter(o => o.user?.status === 'ingame' || o.user?.status === 'online');
+        }
+        
+        const prices = sellOrders.map(o => o.price).filter(p => p > 0);
+        return prices.length > 0 ? Math.min(...prices) : null;
+      } catch (error) {
+        console.error(`Failed to fetch set orders for ${urlName}:`, error.message);
+        return null;
+      }
+    })();
+    
+    // Czekaj na wszystkie requesty naraz
+    const [partPrices, directSetPrice] = await Promise.all([
+      Promise.all(partPromises),
+      setOrdersPromise
+    ]);
     
     // Suma cen części
     const partsTotal = partPrices
       .map(p => p.price)
       .filter(p => p !== null)
       .reduce((sum, p) => sum + p, 0);
-    
-    // Pobierz cenę bezpośrednią dla setu
-    await delay(500);
-    let directSetPrice = null;
-    try {
-      const setOrdersData = await fetchDirect(`${API_BASE}/orders/item/${urlName}`);
-      const setOrders = setOrdersData.data || [];
-      
-      let sellOrders = setOrders.filter(o => o.order_type === 'sell');
-      if (onlineOnly) {
-        sellOrders = sellOrders.filter(o => o.user?.status === 'ingame' || o.user?.status === 'online');
-      }
-      
-      const prices = sellOrders.map(o => o.price).filter(p => p > 0);
-      directSetPrice = prices.length > 0 ? Math.min(...prices) : null;
-    } catch (error) {
-      console.error(`Failed to fetch set orders for ${urlName}:`, error.message);
-    }
     
     return {
       partPrices,
@@ -127,26 +144,51 @@ async function main() {
     const cache = {};
     
     console.log('Fetching prices for all sets...');
+    console.time('Total fetch time');
     
-    for (let i = 0; i < items.length; i++) {
-      const item = items[i];
-      const itemName = item.i18n?.en?.name || item.slug;
-      console.log(`[${i + 1}/${items.length}] ${itemName}`);
+    // Przetwarzaj w partiach po 5 itemów jednocześnie (API rate limit)
+    const BATCH_SIZE = 5;
+    for (let i = 0; i < items.length; i += BATCH_SIZE) {
+      const batch = items.slice(i, i + BATCH_SIZE);
+      const batchNumber = Math.floor(i / BATCH_SIZE) + 1;
+      const totalBatches = Math.ceil(items.length / BATCH_SIZE);
       
-      const prices = await fetchSetPrices(item.slug, true);
-      if (prices) {
-        cache[`${item.slug}|online-true`] = prices;
+      console.log(`\n[Batch ${batchNumber}/${totalBatches}] Processing ${batch.length} items...`);
+      
+      // Pobierz wszystkie w partii równolegle
+      const results = await Promise.all(
+        batch.map(async (item, idx) => {
+          const itemName = item.i18n?.en?.name || item.slug;
+          const globalIdx = i + idx + 1;
+          console.log(`  [${globalIdx}/${items.length}] ${itemName}`);
+          
+          const prices = await fetchSetPrices(item.slug, true);
+          return prices ? { key: `${item.slug}|online-true`, prices } : null;
+        })
+      );
+      
+      // Dodaj wyniki do cache
+      results.forEach(result => {
+        if (result) {
+          cache[result.key] = result.prices;
+        }
+      });
+      
+      console.log(`  ✓ Batch ${batchNumber} completed`);
+      
+      // Pauza między partiami (API rate limit: ~3 requesty/sec)
+      if (i + BATCH_SIZE < items.length) {
+        await delay(1000);
       }
-      
-      // Delay między itemami
-      await delay(1000);
     }
+    
+    console.timeEnd('Total fetch time');
     
     // Zapisz do pliku (w katalogu cache repo)
     const outputPath = path.join(__dirname, 'cache.json');
     fs.writeFileSync(outputPath, JSON.stringify(cache, null, 2));
     
-    console.log(`✅ Cache updated: ${Object.keys(cache).length} items saved to ${outputPath}`);
+    console.log(`\n✅ Cache updated: ${Object.keys(cache).length} items saved to ${outputPath}`);
   } catch (error) {
     console.error('❌ Failed to update cache:', error);
     process.exit(1);
