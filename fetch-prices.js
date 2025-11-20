@@ -167,7 +167,12 @@ async function main() {
       
       const prices = await fetchSetPrices(item.slug, true);
       if (prices) {
-        cache[cacheKey] = prices;
+        // Dodaj thumb i displayName do cache
+        cache[cacheKey] = {
+          ...prices,
+          thumb: item.i18n?.en?.thumb,
+          displayName: itemName
+        };
         
         // Zapisz cache po każdym itemie (incremental)
         fs.writeFileSync(outputPath, JSON.stringify(cache, null, 2));
