@@ -4,29 +4,29 @@
       {
         "urlName": "frost_prime_blueprint",
         "displayName": "Frost Prime Blueprint",
-        "price": 43
+        "price": 44
       },
       {
         "urlName": "frost_prime_chassis_blueprint",
         "displayName": "Frost Prime Chassis Blueprint",
-        "price": 16
+        "price": 15
       },
       {
         "urlName": "frost_prime_neuroptics_blueprint",
         "displayName": "Frost Prime Neuroptics Blueprint",
-        "price": 9
+        "price": 8
       },
       {
         "urlName": "frost_prime_systems_blueprint",
         "displayName": "Frost Prime Systems Blueprint",
-        "price": 10
+        "price": 13
       }
     ],
-    "directSetPrice": 85,
-    "partsTotal": 78,
+    "directSetPrice": 84,
+    "partsTotal": 80,
     "variant": "parts",
-    "timestamp": 1763641765840,
-    "expiresAt": 1763645365840,
+    "timestamp": 1763645181059,
+    "expiresAt": 1763648781059,
     "thumb": "items/images/en/thumbs/frost_prime_set.4f8ff8605be1afaab9a0e5cc3c67cb21.128x128.png",
     "displayName": "Frost Prime Set"
   },
@@ -45,7 +45,7 @@
       {
         "urlName": "hydroid_prime_neuroptics_blueprint",
         "displayName": "Hydroid Prime Neuroptics Blueprint",
-        "price": 17
+        "price": 16
       },
       {
         "urlName": "hydroid_prime_systems_blueprint",
@@ -54,10 +54,10 @@
       }
     ],
     "directSetPrice": 89,
-    "partsTotal": 78,
+    "partsTotal": 77,
     "variant": "parts",
-    "timestamp": 1763641766695,
-    "expiresAt": 1763645366695,
+    "timestamp": 1763645181745,
+    "expiresAt": 1763648781745,
     "thumb": "items/images/en/thumbs/hydroid_prime_set.5f1abb4ef137bf0dd41565a913f5232a.128x128.png",
     "displayName": "Hydroid Prime Set"
   },
@@ -81,14 +81,14 @@
       {
         "urlName": "wolf_sledge_motor",
         "displayName": "Wolf Sledge Motor",
-        "price": 20
+        "price": 25
       }
     ],
-    "directSetPrice": 35,
-    "partsTotal": 43,
+    "directSetPrice": 30,
+    "partsTotal": 48,
     "variant": "direct",
-    "timestamp": 1763641767642,
-    "expiresAt": 1763645367642,
+    "timestamp": 1763645182642,
+    "expiresAt": 1763648782642,
     "thumb": "items/images/en/thumbs/wolf_sledge_set.6b288aa755e84f886faa90486ed17d37.128x128.png",
     "displayName": "Wolf Sledge Set"
   },
@@ -102,19 +102,19 @@
       {
         "urlName": "vasto_prime_blueprint",
         "displayName": "Vasto Prime Blueprint",
-        "price": 4
+        "price": 3
       },
       {
         "urlName": "vasto_prime_receiver",
         "displayName": "Vasto Prime Receiver",
-        "price": 6
+        "price": 4
       }
     ],
     "directSetPrice": 17,
-    "partsTotal": 15,
+    "partsTotal": 12,
     "variant": "parts",
-    "timestamp": 1763641768722,
-    "expiresAt": 1763645368722,
+    "timestamp": 1763645183438,
+    "expiresAt": 1763648783438,
     "thumb": "items/images/en/thumbs/vasto_prime_set.213e4b3b9b3be0f4facb77fd5242b6a4.128x128.png",
     "displayName": "Vasto Prime Set"
   },
@@ -128,7 +128,7 @@
       {
         "urlName": "zhuge_prime_blueprint",
         "displayName": "Zhuge Prime Blueprint",
-        "price": 4
+        "price": 5
       },
       {
         "urlName": "zhuge_prime_grip",
@@ -138,7 +138,7 @@
       {
         "urlName": "zhuge_prime_receiver",
         "displayName": "Zhuge Prime Receiver",
-        "price": 5
+        "price": 7
       },
       {
         "urlName": "zhuge_prime_string",
@@ -146,11 +146,11 @@
         "price": 5
       }
     ],
-    "directSetPrice": 45,
-    "partsTotal": 31,
+    "directSetPrice": 44,
+    "partsTotal": 34,
     "variant": "parts",
-    "timestamp": 1763641769466,
-    "expiresAt": 1763645369466,
+    "timestamp": 1763645184169,
+    "expiresAt": 1763648784169,
     "thumb": "items/images/en/thumbs/zhuge_prime_set.38e0e6189f1a333b382507a117b194a9.128x128.png",
     "displayName": "Zhuge Prime Set"
   },
@@ -175,8 +175,8 @@
     "directSetPrice": 110,
     "partsTotal": 52,
     "variant": "parts",
-    "timestamp": 1763641770252,
-    "expiresAt": 1763645370252,
+    "timestamp": 1763645184880,
+    "expiresAt": 1763648784880,
     "thumb": "items/images/en/thumbs/dual_kamas_prime_set.7d95cad6d71a59fa98902cc8bfe87da2.128x128.png",
     "displayName": "Dual Kamas Prime Set"
   },
@@ -190,7 +190,7 @@
       {
         "urlName": "snipetron_vandal_blueprint",
         "displayName": "Snipetron Vandal Blueprint",
-        "price": 4
+        "price": 5
       },
       {
         "urlName": "snipetron_vandal_receiver",
@@ -200,14 +200,14 @@
       {
         "urlName": "snipetron_vandal_stock",
         "displayName": "Snipetron Vandal Stock",
-        "price": 14
+        "price": 15
       }
     ],
     "directSetPrice": 35,
-    "partsTotal": 41,
+    "partsTotal": 43,
     "variant": "direct",
-    "timestamp": 1763641771086,
-    "expiresAt": 1763645371086,
+    "timestamp": 1763645185560,
+    "expiresAt": 1763648785560,
     "thumb": "items/images/en/thumbs/snipetron_vandal_set.d820059db951ba5a4ac7c1d7ec8515f1.128x128.png",
     "displayName": "Snipetron Vandal Set"
   },
@@ -221,19 +221,19 @@
       {
         "urlName": "destreza_prime_blueprint",
         "displayName": "Destreza Prime Blueprint",
-        "price": 5
+        "price": 4
       },
       {
         "urlName": "destreza_prime_handle",
         "displayName": "Destreza Prime Handle",
-        "price": 5
+        "price": 7
       }
     ],
     "directSetPrice": 60,
-    "partsTotal": 50,
+    "partsTotal": 51,
     "variant": "parts",
-    "timestamp": 1763641772115,
-    "expiresAt": 1763645372115,
+    "timestamp": 1763645186348,
+    "expiresAt": 1763648786348,
     "thumb": "items/images/en/thumbs/destreza_prime_set.b1a1cc461a2cfcf9998f0588c8e932a4.128x128.png",
     "displayName": "Destreza Prime Set"
   },
@@ -242,12 +242,12 @@
       {
         "urlName": "saryn_prime_blueprint",
         "displayName": "Saryn Prime Blueprint",
-        "price": 17
+        "price": 15
       },
       {
         "urlName": "saryn_prime_chassis_blueprint",
         "displayName": "Saryn Prime Chassis Blueprint",
-        "price": 39
+        "price": 38
       },
       {
         "urlName": "saryn_prime_neuroptics_blueprint",
@@ -261,10 +261,10 @@
       }
     ],
     "directSetPrice": 88,
-    "partsTotal": 74,
+    "partsTotal": 71,
     "variant": "parts",
-    "timestamp": 1763641772971,
-    "expiresAt": 1763645372971,
+    "timestamp": 1763645189191,
+    "expiresAt": 1763648789191,
     "thumb": "items/images/en/thumbs/saryn_prime_set.394094bef0383f954bd38d622bb075e5.128x128.png",
     "displayName": "Saryn Prime Set"
   },
@@ -278,7 +278,7 @@
       {
         "urlName": "stradavar_prime_blueprint",
         "displayName": "Stradavar Prime Blueprint",
-        "price": 9
+        "price": 10
       },
       {
         "urlName": "stradavar_prime_receiver",
@@ -288,14 +288,14 @@
       {
         "urlName": "stradavar_prime_stock",
         "displayName": "Stradavar Prime Stock",
-        "price": 7
+        "price": 8
       }
     ],
     "directSetPrice": 30,
-    "partsTotal": 25,
+    "partsTotal": 27,
     "variant": "parts",
-    "timestamp": 1763641774104,
-    "expiresAt": 1763645374104,
+    "timestamp": 1763645189870,
+    "expiresAt": 1763648789870,
     "thumb": "items/images/en/thumbs/stradavar_prime_set.57c042a30996514288dfd70f2ce267ca.128x128.png",
     "displayName": "Stradavar Prime Set"
   },
@@ -322,11 +322,11 @@
         "price": 5
       }
     ],
-    "directSetPrice": 45,
+    "directSetPrice": 40,
     "partsTotal": 33,
     "variant": "parts",
-    "timestamp": 1763641774855,
-    "expiresAt": 1763645374855,
+    "timestamp": 1763645190571,
+    "expiresAt": 1763648790571,
     "thumb": "items/images/en/thumbs/silva_and_aegis_prime_set.d226bbe86d3eccd8c751958dba46a4f6.128x128.png",
     "displayName": "Silva & Aegis Prime Set"
   },
@@ -335,7 +335,7 @@
       {
         "urlName": "latron_prime_barrel",
         "displayName": "Latron Prime Barrel",
-        "price": 15
+        "price": 14
       },
       {
         "urlName": "latron_prime_blueprint",
@@ -354,10 +354,10 @@
       }
     ],
     "directSetPrice": 90,
-    "partsTotal": 77,
+    "partsTotal": 76,
     "variant": "parts",
-    "timestamp": 1763641775817,
-    "expiresAt": 1763645375817,
+    "timestamp": 1763645191403,
+    "expiresAt": 1763648791403,
     "thumb": "items/images/en/thumbs/latron_prime_set.5c8b8009acbdb97fd49177ba155ecfbe.128x128.png",
     "displayName": "Latron Prime Set"
   },
@@ -379,11 +379,11 @@
         "price": 3
       }
     ],
-    "directSetPrice": 4,
+    "directSetPrice": 5,
     "partsTotal": 7,
     "variant": "direct",
-    "timestamp": 1763641776554,
-    "expiresAt": 1763645376554,
+    "timestamp": 1763645192093,
+    "expiresAt": 1763648792093,
     "thumb": "items/images/en/thumbs/lex_prime_set.13776cf63dfd68968067b517184a6ac0.128x128.png",
     "displayName": "Lex Prime Set"
   },
@@ -397,7 +397,7 @@
       {
         "urlName": "odonata_prime_harness_blueprint",
         "displayName": "Odonata Prime Harness Blueprint",
-        "price": 8
+        "price": 9
       },
       {
         "urlName": "odonata_prime_systems_blueprint",
@@ -410,11 +410,11 @@
         "price": 18
       }
     ],
-    "directSetPrice": 30,
-    "partsTotal": 36,
+    "directSetPrice": 35,
+    "partsTotal": 37,
     "variant": "direct",
-    "timestamp": 1763641779581,
-    "expiresAt": 1763645379581,
+    "timestamp": 1763645194907,
+    "expiresAt": 1763648794907,
     "thumb": "items/images/en/thumbs/odonata_prime_set.9087f5267b49dee37c38d36f57387753.128x128.png",
     "displayName": "Odonata Prime Set"
   },
@@ -428,24 +428,24 @@
       {
         "urlName": "vectis_prime_blueprint",
         "displayName": "Vectis Prime Blueprint",
-        "price": 8
+        "price": 6
       },
       {
         "urlName": "vectis_prime_receiver",
         "displayName": "Vectis Prime Receiver",
-        "price": 40
+        "price": 39
       },
       {
         "urlName": "vectis_prime_stock",
         "displayName": "Vectis Prime Stock",
-        "price": 17
+        "price": 14
       }
     ],
     "directSetPrice": 90,
-    "partsTotal": 77,
+    "partsTotal": 71,
     "variant": "parts",
-    "timestamp": 1763641780692,
-    "expiresAt": 1763645380692,
+    "timestamp": 1763645195633,
+    "expiresAt": 1763648795633,
     "thumb": "items/images/en/thumbs/vectis_prime_set.028e001af4469482df80bff29542e043.128x128.png",
     "displayName": "Vectis Prime Set"
   },
@@ -454,12 +454,12 @@
       {
         "urlName": "rhino_prime_blueprint",
         "displayName": "Rhino Prime Blueprint",
-        "price": 20
+        "price": 22
       },
       {
         "urlName": "rhino_prime_chassis_blueprint",
         "displayName": "Rhino Prime Chassis Blueprint",
-        "price": 8
+        "price": 7
       },
       {
         "urlName": "rhino_prime_neuroptics_blueprint",
@@ -469,14 +469,14 @@
       {
         "urlName": "rhino_prime_systems_blueprint",
         "displayName": "Rhino Prime Systems Blueprint",
-        "price": 8
+        "price": 7
       }
     ],
-    "directSetPrice": 68,
+    "directSetPrice": 69,
     "partsTotal": 51,
     "variant": "parts",
-    "timestamp": 1763641781589,
-    "expiresAt": 1763645381589,
+    "timestamp": 1763645196356,
+    "expiresAt": 1763648796356,
     "thumb": "items/images/en/thumbs/rhino_prime_set.22301207f9463fe9ab215e40eb23a326.128x128.png",
     "displayName": "Rhino Prime Set"
   },
@@ -490,19 +490,19 @@
       {
         "urlName": "sicarus_prime_blueprint",
         "displayName": "Sicarus Prime Blueprint",
-        "price": 5
+        "price": 6
       },
       {
         "urlName": "sicarus_prime_receiver",
         "displayName": "Sicarus Prime Receiver",
-        "price": 38
+        "price": 36
       }
     ],
     "directSetPrice": 65,
-    "partsTotal": 53,
+    "partsTotal": 52,
     "variant": "parts",
-    "timestamp": 1763641782418,
-    "expiresAt": 1763645382418,
+    "timestamp": 1763645197014,
+    "expiresAt": 1763648797014,
     "thumb": "items/images/en/thumbs/sicarus_prime_set.e7c07172e6d63d49ae349d508c56fc85.128x128.png",
     "displayName": "Sicarus Prime Set"
   },
@@ -521,7 +521,7 @@
       {
         "urlName": "braton_prime_receiver",
         "displayName": "Braton Prime Receiver",
-        "price": 4
+        "price": 2
       },
       {
         "urlName": "braton_prime_stock",
@@ -530,10 +530,10 @@
       }
     ],
     "directSetPrice": 7,
-    "partsTotal": 9,
-    "variant": "direct",
-    "timestamp": 1763641783450,
-    "expiresAt": 1763645383450,
+    "partsTotal": 7,
+    "variant": "parts",
+    "timestamp": 1763645197746,
+    "expiresAt": 1763648797746,
     "thumb": "items/images/en/thumbs/braton_prime_set.ae229642d6179ebfb1547ed7d976e749.128x128.png",
     "displayName": "Braton Prime Set"
   },
@@ -542,7 +542,7 @@
       {
         "urlName": "aklex_prime_blueprint",
         "displayName": "Aklex Prime Blueprint",
-        "price": 5
+        "price": 6
       },
       {
         "urlName": "aklex_prime_link",
@@ -551,10 +551,10 @@
       }
     ],
     "directSetPrice": 43,
-    "partsTotal": 44,
+    "partsTotal": 45,
     "variant": "direct",
-    "timestamp": 1763641784166,
-    "expiresAt": 1763645384166,
+    "timestamp": 1763645198305,
+    "expiresAt": 1763648798305,
     "thumb": "items/images/en/thumbs/aklex_prime_set.d4be2f3e545d5e1101d5b83a027e68fe.128x128.png",
     "displayName": "Aklex Prime Set"
   },
@@ -569,8 +569,8 @@
     "directSetPrice": 3,
     "partsTotal": 3,
     "variant": "parts",
-    "timestamp": 1763641785093,
-    "expiresAt": 1763645385093,
+    "timestamp": 1763645198963,
+    "expiresAt": 1763648798963,
     "thumb": "items/images/en/thumbs/motus_setup.a901c441bed40b5e7ab7726de16313c2.128x128.png",
     "displayName": "Motus Setup"
   },
@@ -584,7 +584,7 @@
       {
         "urlName": "ninkondi_prime_chain",
         "displayName": "Ninkondi Prime Chain",
-        "price": 3
+        "price": 4
       },
       {
         "urlName": "ninkondi_prime_handle",
@@ -592,11 +592,11 @@
         "price": 20
       }
     ],
-    "directSetPrice": 55,
-    "partsTotal": 28,
+    "directSetPrice": 54,
+    "partsTotal": 29,
     "variant": "parts",
-    "timestamp": 1763641785866,
-    "expiresAt": 1763645385866,
+    "timestamp": 1763645201842,
+    "expiresAt": 1763648801842,
     "thumb": "items/images/en/thumbs/ninkondi_prime_set.d8516fa5fc9fe9518b6b9ec8fa59cb28.128x128.png",
     "displayName": "Ninkondi Prime Set"
   },
@@ -605,7 +605,7 @@
       {
         "urlName": "wukong_prime_blueprint",
         "displayName": "Wukong Prime Blueprint",
-        "price": 38
+        "price": 35
       },
       {
         "urlName": "wukong_prime_chassis_blueprint",
@@ -623,11 +623,11 @@
         "price": 16
       }
     ],
-    "directSetPrice": 70,
-    "partsTotal": 70,
+    "directSetPrice": 79,
+    "partsTotal": 67,
     "variant": "parts",
-    "timestamp": 1763641786830,
-    "expiresAt": 1763645386830,
+    "timestamp": 1763645202569,
+    "expiresAt": 1763648802569,
     "thumb": "items/images/en/thumbs/wukong_prime_set.6fa7196ae48a7a3901c35834476f3891.128x128.png",
     "displayName": "Wukong Prime Set"
   },
@@ -646,7 +646,7 @@
       {
         "urlName": "ember_prime_neuroptics_blueprint",
         "displayName": "Ember Prime Neuroptics Blueprint",
-        "price": 19
+        "price": 18
       },
       {
         "urlName": "ember_prime_systems_blueprint",
@@ -655,10 +655,10 @@
       }
     ],
     "directSetPrice": 95,
-    "partsTotal": 75,
+    "partsTotal": 74,
     "variant": "parts",
-    "timestamp": 1763641787695,
-    "expiresAt": 1763645387695,
+    "timestamp": 1763645203483,
+    "expiresAt": 1763648803483,
     "thumb": "items/images/en/thumbs/ember_prime_set.971255acc3f1ad8a374d236c6af1c816.128x128.png",
     "displayName": "Ember Prime Set"
   },
@@ -680,11 +680,11 @@
         "price": 2
       }
     ],
-    "directSetPrice": 6,
+    "directSetPrice": 8,
     "partsTotal": 6,
     "variant": "parts",
-    "timestamp": 1763641788532,
-    "expiresAt": 1763645388532,
+    "timestamp": 1763645204165,
+    "expiresAt": 1763648804165,
     "thumb": "items/images/en/thumbs/fang_prime_set.13b0c690a76382d0fbdebe84e4c509db.128x128.png",
     "displayName": "Fang Prime Set"
   },
@@ -693,7 +693,7 @@
       {
         "urlName": "mag_prime_blueprint",
         "displayName": "Mag Prime Blueprint",
-        "price": 25
+        "price": 30
       },
       {
         "urlName": "mag_prime_chassis_blueprint",
@@ -703,7 +703,7 @@
       {
         "urlName": "mag_prime_neuroptics_blueprint",
         "displayName": "Mag Prime Neuroptics Blueprint",
-        "price": 7
+        "price": 6
       },
       {
         "urlName": "mag_prime_systems_blueprint",
@@ -712,10 +712,10 @@
       }
     ],
     "directSetPrice": 59,
-    "partsTotal": 48,
+    "partsTotal": 52,
     "variant": "parts",
-    "timestamp": 1763641789589,
-    "expiresAt": 1763645389589,
+    "timestamp": 1763645204844,
+    "expiresAt": 1763648804844,
     "thumb": "items/images/en/thumbs/mag_prime_set.2afb45373319b966737bd91cf05a813c.128x128.png",
     "displayName": "Mag Prime Set"
   },
@@ -729,19 +729,19 @@
       {
         "urlName": "euphona_prime_blueprint",
         "displayName": "Euphona Prime Blueprint",
-        "price": 4
+        "price": 5
       },
       {
         "urlName": "euphona_prime_receiver",
         "displayName": "Euphona Prime Receiver",
-        "price": 35
+        "price": 33
       }
     ],
     "directSetPrice": 50,
-    "partsTotal": 42,
+    "partsTotal": 41,
     "variant": "parts",
-    "timestamp": 1763641790348,
-    "expiresAt": 1763645390348,
+    "timestamp": 1763645207745,
+    "expiresAt": 1763648807745,
     "thumb": "items/images/en/thumbs/euphona_prime_set.6a18cc50c57ac13c3203e872baf85a8d.128x128.png",
     "displayName": "Euphona Prime Set"
   },
@@ -750,17 +750,17 @@
       {
         "urlName": "oberon_prime_blueprint",
         "displayName": "Oberon Prime Blueprint",
-        "price": 9
+        "price": 5
       },
       {
         "urlName": "oberon_prime_chassis_blueprint",
         "displayName": "Oberon Prime Chassis Blueprint",
-        "price": 10
+        "price": 15
       },
       {
         "urlName": "oberon_prime_neuroptics_blueprint",
         "displayName": "Oberon Prime Neuroptics Blueprint",
-        "price": 30
+        "price": 32
       },
       {
         "urlName": "oberon_prime_systems_blueprint",
@@ -768,11 +768,11 @@
         "price": 14
       }
     ],
-    "directSetPrice": 79,
-    "partsTotal": 63,
+    "directSetPrice": 80,
+    "partsTotal": 66,
     "variant": "parts",
-    "timestamp": 1763641793100,
-    "expiresAt": 1763645393100,
+    "timestamp": 1763645208481,
+    "expiresAt": 1763648808481,
     "thumb": "items/images/en/thumbs/oberon_prime_set.d7f1623552bce11f166b715679e27022.128x128.png",
     "displayName": "Oberon Prime Set"
   },
@@ -781,7 +781,7 @@
       {
         "urlName": "bo_prime_blueprint",
         "displayName": "Bo Prime Blueprint",
-        "price": 15
+        "price": 18
       },
       {
         "urlName": "bo_prime_handle",
@@ -795,10 +795,10 @@
       }
     ],
     "directSetPrice": 84,
-    "partsTotal": 56,
+    "partsTotal": 59,
     "variant": "parts",
-    "timestamp": 1763641794304,
-    "expiresAt": 1763645394304,
+    "timestamp": 1763645209202,
+    "expiresAt": 1763648809202,
     "thumb": "items/images/en/thumbs/bo_prime_set.fad65cfb95d62a4275be60be30375846.128x128.png",
     "displayName": "Bo Prime Set"
   },
@@ -817,7 +817,7 @@
       {
         "urlName": "boar_prime_receiver",
         "displayName": "Boar Prime Receiver",
-        "price": 17
+        "price": 18
       },
       {
         "urlName": "boar_prime_stock",
@@ -826,10 +826,10 @@
       }
     ],
     "directSetPrice": 70,
-    "partsTotal": 71,
+    "partsTotal": 72,
     "variant": "direct",
-    "timestamp": 1763641795263,
-    "expiresAt": 1763645395263,
+    "timestamp": 1763645209926,
+    "expiresAt": 1763648809926,
     "thumb": "items/images/en/thumbs/boar_prime_set.5e8a5ba1520169c7a99c738624328d26.128x128.png",
     "displayName": "Boar Prime Set"
   },
@@ -843,7 +843,7 @@
       {
         "urlName": "boltor_prime_blueprint",
         "displayName": "Boltor Prime Blueprint",
-        "price": 14
+        "price": 15
       },
       {
         "urlName": "boltor_prime_receiver",
@@ -857,10 +857,10 @@
       }
     ],
     "directSetPrice": 59,
-    "partsTotal": 39,
+    "partsTotal": 40,
     "variant": "parts",
-    "timestamp": 1763641796139,
-    "expiresAt": 1763645396139,
+    "timestamp": 1763645210632,
+    "expiresAt": 1763648810632,
     "thumb": "items/images/en/thumbs/boltor_prime_set.a26157003dea5b1e1fe6660f46f3ea11.128x128.png",
     "displayName": "Boltor Prime Set"
   },
@@ -879,7 +879,7 @@
       {
         "urlName": "strun_wraith_receiver",
         "displayName": "Strun Wraith Receiver",
-        "price": 20
+        "price": 10
       },
       {
         "urlName": "strun_wraith_stock",
@@ -888,10 +888,10 @@
       }
     ],
     "directSetPrice": 50,
-    "partsTotal": 60,
-    "variant": "direct",
-    "timestamp": 1763641796872,
-    "expiresAt": 1763645396872,
+    "partsTotal": 50,
+    "variant": "parts",
+    "timestamp": 1763645211353,
+    "expiresAt": 1763648811353,
     "thumb": "items/images/en/thumbs/strun_wraith_set.0ef693321b08beb361c5a654663ecf32.128x128.png",
     "displayName": "Strun Wraith Set"
   },
@@ -900,12 +900,12 @@
       {
         "urlName": "kogake_prime_blueprint",
         "displayName": "Kogake Prime Blueprint",
-        "price": 9
+        "price": 7
       },
       {
         "urlName": "kogake_prime_boot",
         "displayName": "Kogake Prime Boot",
-        "price": 6
+        "price": 4
       },
       {
         "urlName": "kogake_prime_gauntlet",
@@ -914,10 +914,10 @@
       }
     ],
     "directSetPrice": 80,
-    "partsTotal": 33,
+    "partsTotal": 29,
     "variant": "parts",
-    "timestamp": 1763641797602,
-    "expiresAt": 1763645397602,
+    "timestamp": 1763645214279,
+    "expiresAt": 1763648814279,
     "thumb": "items/images/en/thumbs/kogake_prime_set.456b865463108d6f6ff51da978f839cd.128x128.png",
     "displayName": "Kogake Prime Set"
   },
@@ -931,7 +931,7 @@
       {
         "urlName": "lato_vandal_blueprint",
         "displayName": "Lato Vandal Blueprint",
-        "price": 70
+        "price": 75
       },
       {
         "urlName": "lato_vandal_receiver",
@@ -940,10 +940,10 @@
       }
     ],
     "directSetPrice": 330,
-    "partsTotal": 272,
+    "partsTotal": 277,
     "variant": "parts",
-    "timestamp": 1763641798696,
-    "expiresAt": 1763645398696,
+    "timestamp": 1763645214935,
+    "expiresAt": 1763648814935,
     "thumb": "items/images/en/thumbs/lato_vandal_set.d3f82be07b93c35d6e1e9430c796ac9a.128x128.png",
     "displayName": "Lato Vandal Set"
   },
@@ -957,7 +957,7 @@
       {
         "urlName": "braton_vandal_blueprint",
         "displayName": "Braton Vandal Blueprint",
-        "price": 160
+        "price": 145
       },
       {
         "urlName": "braton_vandal_receiver",
@@ -967,14 +967,14 @@
       {
         "urlName": "braton_vandal_stock",
         "displayName": "Braton Vandal Stock",
-        "price": 120
+        "price": 105
       }
     ],
-    "directSetPrice": 320,
-    "partsTotal": 298,
+    "directSetPrice": 330,
+    "partsTotal": 268,
     "variant": "parts",
-    "timestamp": 1763641799639,
-    "expiresAt": 1763645399639,
+    "timestamp": 1763645215641,
+    "expiresAt": 1763648815641,
     "thumb": "items/images/en/thumbs/braton_vandal_set.91c532bcac702702bf7d259bd5d4d553.128x128.png",
     "displayName": "Braton Vandal Set"
   },
@@ -983,19 +983,19 @@
       {
         "urlName": "akvasto_prime_blueprint",
         "displayName": "Akvasto Prime Blueprint",
-        "price": 18
+        "price": 16
       },
       {
         "urlName": "akvasto_prime_link",
         "displayName": "Akvasto Prime Link",
-        "price": 9
+        "price": 8
       }
     ],
-    "directSetPrice": 36,
-    "partsTotal": 27,
+    "directSetPrice": 35,
+    "partsTotal": 24,
     "variant": "parts",
-    "timestamp": 1763641800491,
-    "expiresAt": 1763645400491,
+    "timestamp": 1763645216327,
+    "expiresAt": 1763648816327,
     "thumb": "items/images/en/thumbs/akvasto_prime_set.029887bbd387510ffec1debd81f65dab.128x128.png",
     "displayName": "Akvasto Prime Set"
   },
@@ -1009,7 +1009,7 @@
       {
         "urlName": "furax_wraith_left_gauntlet",
         "displayName": "Furax Wraith Left Gauntlet",
-        "price": 5
+        "price": 6
       },
       {
         "urlName": "furax_wraith_right_gauntlet",
@@ -1017,11 +1017,11 @@
         "price": 5
       }
     ],
-    "directSetPrice": 10,
-    "partsTotal": 15,
+    "directSetPrice": 9,
+    "partsTotal": 16,
     "variant": "direct",
-    "timestamp": 1763641801606,
-    "expiresAt": 1763645401606,
+    "timestamp": 1763645216972,
+    "expiresAt": 1763648816972,
     "thumb": "items/images/en/thumbs/furax_wraith_set.c460830e1437c5ab3cd37e2ea51b09a9.128x128.png",
     "displayName": "Furax Wraith Set"
   },
@@ -1030,7 +1030,7 @@
       {
         "urlName": "ankyros_prime_blade",
         "displayName": "Ankyros Prime Blade",
-        "price": 6
+        "price": 8
       },
       {
         "urlName": "ankyros_prime_blueprint",
@@ -1043,11 +1043,11 @@
         "price": 7
       }
     ],
-    "directSetPrice": 58,
-    "partsTotal": 18,
+    "directSetPrice": 50,
+    "partsTotal": 20,
     "variant": "parts",
-    "timestamp": 1763641803478,
-    "expiresAt": 1763645403478,
+    "timestamp": 1763645217709,
+    "expiresAt": 1763648817709,
     "thumb": "items/images/en/thumbs/ankyros_prime_set.81b3e5876c214047d10a0d90f92ebdfe.128x128.png",
     "displayName": "Ankyros Prime Set"
   },
@@ -1061,12 +1061,12 @@
       {
         "urlName": "paris_prime_grip",
         "displayName": "Paris Prime Grip",
-        "price": 1
+        "price": 2
       },
       {
         "urlName": "paris_prime_lower_limb",
         "displayName": "Paris Prime Lower Limb",
-        "price": 10
+        "price": 3
       },
       {
         "urlName": "paris_prime_string",
@@ -1079,11 +1079,11 @@
         "price": 2
       }
     ],
-    "directSetPrice": 7,
-    "partsTotal": 17,
+    "directSetPrice": 10,
+    "partsTotal": 11,
     "variant": "direct",
-    "timestamp": 1763641804473,
-    "expiresAt": 1763645404473,
+    "timestamp": 1763645220522,
+    "expiresAt": 1763648820522,
     "thumb": "items/images/en/thumbs/paris_prime_set.971f957f8304ce10617836343d47b238.128x128.png",
     "displayName": "Paris Prime Set"
   },
@@ -1107,14 +1107,14 @@
       {
         "urlName": "trinity_prime_systems_blueprint",
         "displayName": "Trinity Prime Systems Blueprint",
-        "price": 9
+        "price": 10
       }
     ],
-    "directSetPrice": 60,
-    "partsTotal": 42,
+    "directSetPrice": 69,
+    "partsTotal": 43,
     "variant": "parts",
-    "timestamp": 1763641805708,
-    "expiresAt": 1763645405708,
+    "timestamp": 1763645221264,
+    "expiresAt": 1763648821264,
     "thumb": "items/images/en/thumbs/trinity_prime_set.4115dba418ab8ee70197a7fdaee8da76.128x128.png",
     "displayName": "Trinity Prime Set"
   },
@@ -1138,19 +1138,19 @@
       {
         "urlName": "ballistica_prime_string",
         "displayName": "Ballistica Prime String",
-        "price": 9
+        "price": 8
       },
       {
         "urlName": "ballistica_prime_upper_limb",
         "displayName": "Ballistica Prime Upper Limb",
-        "price": 6
+        "price": 8
       }
     ],
     "directSetPrice": 70,
-    "partsTotal": 48,
+    "partsTotal": 49,
     "variant": "parts",
-    "timestamp": 1763641806992,
-    "expiresAt": 1763645406992,
+    "timestamp": 1763645221967,
+    "expiresAt": 1763648821967,
     "thumb": "items/images/en/thumbs/ballistica_prime_set.4ed33348008ace40406d0383f692ecac.128x128.png",
     "displayName": "Ballistica Prime Set"
   },
@@ -1164,19 +1164,19 @@
       {
         "urlName": "venka_prime_blueprint",
         "displayName": "Venka Prime Blueprint",
-        "price": 5
+        "price": 4
       },
       {
         "urlName": "venka_prime_gauntlet",
         "displayName": "Venka Prime Gauntlet",
-        "price": 27
+        "price": 25
       }
     ],
-    "directSetPrice": 78,
-    "partsTotal": 38,
+    "directSetPrice": 75,
+    "partsTotal": 35,
     "variant": "parts",
-    "timestamp": 1763641807849,
-    "expiresAt": 1763645407849,
+    "timestamp": 1763645222785,
+    "expiresAt": 1763648822785,
     "thumb": "items/images/en/thumbs/venka_prime_set.123cb62ab1e8a4edd78997a256cf1e7f.128x128.png",
     "displayName": "Venka Prime Set"
   },
@@ -1196,8 +1196,8 @@
     "directSetPrice": 7,
     "partsTotal": 4,
     "variant": "parts",
-    "timestamp": 1763641808671,
-    "expiresAt": 1763645408671,
+    "timestamp": 1763645223502,
+    "expiresAt": 1763648823502,
     "thumb": "items/images/en/thumbs/akbronco_prime_set.34b5a7f99e5f8c15cc2039a76c725069.128x128.png",
     "displayName": "Akbronco Prime Set"
   },
@@ -1206,7 +1206,7 @@
       {
         "urlName": "dakra_prime_blade",
         "displayName": "Dakra Prime Blade",
-        "price": 8
+        "price": 12
       },
       {
         "urlName": "dakra_prime_blueprint",
@@ -1219,11 +1219,11 @@
         "price": 4
       }
     ],
-    "directSetPrice": 12,
-    "partsTotal": 17,
+    "directSetPrice": 1,
+    "partsTotal": 21,
     "variant": "direct",
-    "timestamp": 1763641809519,
-    "expiresAt": 1763645409519,
+    "timestamp": 1763645224254,
+    "expiresAt": 1763648824254,
     "thumb": "items/images/en/thumbs/dakra_prime_set.785a613039ec892abc579c176f0b33da.128x128.png",
     "displayName": "Dakra Prime Set"
   },
@@ -1242,7 +1242,7 @@
       {
         "urlName": "dera_vandal_receiver",
         "displayName": "Dera Vandal Receiver",
-        "price": 6
+        "price": 8
       },
       {
         "urlName": "dera_vandal_stock",
@@ -1251,10 +1251,10 @@
       }
     ],
     "directSetPrice": 35,
-    "partsTotal": 36,
+    "partsTotal": 38,
     "variant": "direct",
-    "timestamp": 1763641810291,
-    "expiresAt": 1763645410291,
+    "timestamp": 1763645227029,
+    "expiresAt": 1763648827029,
     "thumb": "items/images/en/thumbs/dera_vandal_set.15c5a1f8b62ab0520cf7394563f73aea.128x128.png",
     "displayName": "Dera Vandal Set"
   },
@@ -1268,7 +1268,7 @@
       {
         "urlName": "latron_wraith_blueprint",
         "displayName": "Latron Wraith Blueprint",
-        "price": 15
+        "price": 11
       },
       {
         "urlName": "latron_wraith_receiver",
@@ -1278,14 +1278,14 @@
       {
         "urlName": "latron_wraith_stock",
         "displayName": "Latron Wraith Stock",
-        "price": 15
+        "price": 12
       }
     ],
-    "directSetPrice": 55,
-    "partsTotal": 65,
+    "directSetPrice": 50,
+    "partsTotal": 58,
     "variant": "direct",
-    "timestamp": 1763641811043,
-    "expiresAt": 1763645411043,
+    "timestamp": 1763645227692,
+    "expiresAt": 1763648827692,
     "thumb": "items/images/en/thumbs/latron_wraith_set.57295b3f36571ea8ea47471d7a70caea.128x128.png",
     "displayName": "Latron Wraith Set"
   },
@@ -1315,8 +1315,8 @@
     "directSetPrice": 50,
     "partsTotal": 58,
     "variant": "direct",
-    "timestamp": 1763641813998,
-    "expiresAt": 1763645413998,
+    "timestamp": 1763645228337,
+    "expiresAt": 1763648828337,
     "thumb": "items/images/en/thumbs/twin_vipers_wraith_set.c80af69695edc4c30fb44018404ea432.128x128.png",
     "displayName": "Twin Vipers Wraith Set"
   },
@@ -1325,7 +1325,7 @@
       {
         "urlName": "baza_prime_barrel",
         "displayName": "Baza Prime Barrel",
-        "price": 3
+        "price": 5
       },
       {
         "urlName": "baza_prime_blueprint",
@@ -1335,7 +1335,7 @@
       {
         "urlName": "baza_prime_receiver",
         "displayName": "Baza Prime Receiver",
-        "price": 4
+        "price": 5
       },
       {
         "urlName": "baza_prime_stock",
@@ -1344,10 +1344,10 @@
       }
     ],
     "directSetPrice": 66,
-    "partsTotal": 46,
+    "partsTotal": 49,
     "variant": "parts",
-    "timestamp": 1763641814948,
-    "expiresAt": 1763645414948,
+    "timestamp": 1763645229227,
+    "expiresAt": 1763648829227,
     "thumb": "items/images/en/thumbs/baza_prime_set.a5f9c94cee410a5af7726ee6b2fca2b5.128x128.png",
     "displayName": "Baza Prime Set"
   },
@@ -1366,7 +1366,7 @@
       {
         "urlName": "aksomati_prime_link",
         "displayName": "Aksomati Prime Link",
-        "price": 39
+        "price": 40
       },
       {
         "urlName": "aksomati_prime_receiver",
@@ -1375,10 +1375,10 @@
       }
     ],
     "directSetPrice": 87,
-    "partsTotal": 57,
+    "partsTotal": 58,
     "variant": "parts",
-    "timestamp": 1763641815806,
-    "expiresAt": 1763645415806,
+    "timestamp": 1763645231978,
+    "expiresAt": 1763648831978,
     "thumb": "items/images/en/thumbs/aksomati_prime_set.617fca3e38e6696ec87a6c28bd6bbebf.128x128.png",
     "displayName": "Aksomati Prime Set"
   },
@@ -1397,14 +1397,14 @@
       {
         "urlName": "hikou_prime_stars",
         "displayName": "Hikou Prime Stars",
-        "price": 9
+        "price": 8
       }
     ],
     "directSetPrice": 45,
-    "partsTotal": 22,
+    "partsTotal": 21,
     "variant": "parts",
-    "timestamp": 1763641816834,
-    "expiresAt": 1763645416834,
+    "timestamp": 1763645232700,
+    "expiresAt": 1763648832700,
     "thumb": "items/images/en/thumbs/hikou_prime_set.cd5cefce60a4e85c15614139a8ee9400.128x128.png",
     "displayName": "Hikou Prime Set"
   },
@@ -1413,7 +1413,7 @@
       {
         "urlName": "reaper_prime_blade",
         "displayName": "Reaper Prime Blade",
-        "price": 8
+        "price": 9
       },
       {
         "urlName": "reaper_prime_blueprint",
@@ -1423,14 +1423,14 @@
       {
         "urlName": "reaper_prime_handle",
         "displayName": "Reaper Prime Handle",
-        "price": 10
+        "price": 18
       }
     ],
     "directSetPrice": 40,
-    "partsTotal": 28,
+    "partsTotal": 37,
     "variant": "parts",
-    "timestamp": 1763641817931,
-    "expiresAt": 1763645417931,
+    "timestamp": 1763645233445,
+    "expiresAt": 1763648833445,
     "thumb": "items/images/en/thumbs/reaper_prime_set.4e1d36812203a97fd0191930485b1095.128x128.png",
     "displayName": "Reaper Prime Set"
   },
@@ -1449,7 +1449,7 @@
       {
         "urlName": "sybaris_prime_receiver",
         "displayName": "Sybaris Prime Receiver",
-        "price": 7
+        "price": 8
       },
       {
         "urlName": "sybaris_prime_stock",
@@ -1457,11 +1457,11 @@
         "price": 8
       }
     ],
-    "directSetPrice": 65,
-    "partsTotal": 47,
+    "directSetPrice": 64,
+    "partsTotal": 48,
     "variant": "parts",
-    "timestamp": 1763641819393,
-    "expiresAt": 1763645419393,
+    "timestamp": 1763645234498,
+    "expiresAt": 1763648834498,
     "thumb": "items/images/en/thumbs/sybaris_prime_set.39d7dc4a904f7db7e7c78901976aa5fa.128x128.png",
     "displayName": "Sybaris Prime Set"
   },
@@ -1470,7 +1470,7 @@
       {
         "urlName": "shedu_barrel",
         "displayName": "Shedu Barrel",
-        "price": 7
+        "price": 9
       },
       {
         "urlName": "shedu_chassis",
@@ -1480,7 +1480,7 @@
       {
         "urlName": "shedu_handle",
         "displayName": "Shedu Handle",
-        "price": 9
+        "price": 10
       },
       {
         "urlName": "shedu_receiver",
@@ -1489,10 +1489,10 @@
       }
     ],
     "directSetPrice": 40,
-    "partsTotal": 35,
+    "partsTotal": 38,
     "variant": "parts",
-    "timestamp": 1763641820210,
-    "expiresAt": 1763645420210,
+    "timestamp": 1763645235221,
+    "expiresAt": 1763648835221,
     "thumb": "items/images/en/thumbs/shedu_set.765c016812e915e1e06ceb5e3820ae48.128x128.png",
     "displayName": "Shedu Set"
   },
@@ -1501,24 +1501,24 @@
       {
         "urlName": "redeemer_prime_blade",
         "displayName": "Redeemer Prime Blade",
-        "price": 4
+        "price": 5
       },
       {
         "urlName": "redeemer_prime_blueprint",
         "displayName": "Redeemer Prime Blueprint",
-        "price": 3
+        "price": 4
       },
       {
         "urlName": "redeemer_prime_handle",
         "displayName": "Redeemer Prime Handle",
-        "price": 40
+        "price": 38
       }
     ],
-    "directSetPrice": 40,
+    "directSetPrice": 45,
     "partsTotal": 47,
     "variant": "direct",
-    "timestamp": 1763641820986,
-    "expiresAt": 1763645420986,
+    "timestamp": 1763645236002,
+    "expiresAt": 1763648836002,
     "thumb": "items/images/en/thumbs/redeemer_prime_set.92fcede37c1ab66d22a2287dc2334731.128x128.png",
     "displayName": "Redeemer Prime Set"
   },
@@ -1527,7 +1527,7 @@
       {
         "urlName": "orthos_prime_blade",
         "displayName": "Orthos Prime Blade",
-        "price": 2
+        "price": 3
       },
       {
         "urlName": "orthos_prime_blueprint",
@@ -1541,10 +1541,10 @@
       }
     ],
     "directSetPrice": 10,
-    "partsTotal": 8,
+    "partsTotal": 9,
     "variant": "parts",
-    "timestamp": 1763641821823,
-    "expiresAt": 1763645421823,
+    "timestamp": 1763645236752,
+    "expiresAt": 1763648836752,
     "thumb": "items/images/en/thumbs/orthos_prime_set.049c8584708b849d1eff500b182825f2.128x128.png",
     "displayName": "Orthos Prime Set"
   },
@@ -1553,17 +1553,17 @@
       {
         "urlName": "volt_prime_blueprint",
         "displayName": "Volt Prime Blueprint",
-        "price": 19
+        "price": 18
       },
       {
         "urlName": "volt_prime_chassis_blueprint",
         "displayName": "Volt Prime Chassis Blueprint",
-        "price": 8
+        "price": 7
       },
       {
         "urlName": "volt_prime_neuroptics_blueprint",
         "displayName": "Volt Prime Neuroptics Blueprint",
-        "price": 23
+        "price": 22
       },
       {
         "urlName": "volt_prime_systems_blueprint",
@@ -1572,10 +1572,10 @@
       }
     ],
     "directSetPrice": 70,
-    "partsTotal": 64,
+    "partsTotal": 61,
     "variant": "parts",
-    "timestamp": 1763641822989,
-    "expiresAt": 1763645422989,
+    "timestamp": 1763645237935,
+    "expiresAt": 1763648837935,
     "thumb": "items/images/en/thumbs/volt_prime_set.9481daa3eb02aaec1108cdbeeaeea159.128x128.png",
     "displayName": "Volt Prime Set"
   },
@@ -1600,8 +1600,8 @@
     "directSetPrice": 30,
     "partsTotal": null,
     "variant": "direct",
-    "timestamp": 1763641824469,
-    "expiresAt": 1763645424469,
+    "timestamp": 1763645240619,
+    "expiresAt": 1763648840619,
     "thumb": "items/images/en/thumbs/amesha_set.ff297caf790ef259b5715a2510974338.128x128.png",
     "displayName": "Amesha Set"
   },
@@ -1626,8 +1626,8 @@
     "directSetPrice": 40,
     "partsTotal": null,
     "variant": "parts",
-    "timestamp": 1763641825262,
-    "expiresAt": 1763645425262,
+    "timestamp": 1763645241195,
+    "expiresAt": 1763648841195,
     "thumb": "items/images/en/thumbs/elytron_set.971d1e23ad3033ff3af37147302efb8b.128x128.png",
     "displayName": "Elytron Set"
   },
@@ -1652,8 +1652,8 @@
     "directSetPrice": 25,
     "partsTotal": null,
     "variant": "direct",
-    "timestamp": 1763641826033,
-    "expiresAt": 1763645426033,
+    "timestamp": 1763645241776,
+    "expiresAt": 1763648841776,
     "thumb": "items/images/en/thumbs/itzal_set.0010e4eeee847edd082019f488da2fc2.128x128.png",
     "displayName": "Itzal Set"
   },
@@ -1667,12 +1667,12 @@
       {
         "urlName": "tigris_prime_blueprint",
         "displayName": "Tigris Prime Blueprint",
-        "price": 17
+        "price": 19
       },
       {
         "urlName": "tigris_prime_receiver",
         "displayName": "Tigris Prime Receiver",
-        "price": 7
+        "price": 8
       },
       {
         "urlName": "tigris_prime_stock",
@@ -1681,10 +1681,10 @@
       }
     ],
     "directSetPrice": 40,
-    "partsTotal": 34,
+    "partsTotal": 37,
     "variant": "parts",
-    "timestamp": 1763641826904,
-    "expiresAt": 1763645426904,
+    "timestamp": 1763645242481,
+    "expiresAt": 1763648842481,
     "thumb": "items/images/en/thumbs/tigris_prime_set.5f82721ea78697c95208b9bceb72c4a4.128x128.png",
     "displayName": "Tigris Prime Set"
   },
@@ -1698,7 +1698,7 @@
       {
         "urlName": "karak_wraith_blueprint",
         "displayName": "Karak Wraith Blueprint",
-        "price": 16
+        "price": 13
       },
       {
         "urlName": "karak_wraith_receiver",
@@ -1711,11 +1711,11 @@
         "price": 16
       }
     ],
-    "directSetPrice": 43,
-    "partsTotal": 57,
+    "directSetPrice": 45,
+    "partsTotal": 54,
     "variant": "direct",
-    "timestamp": 1763641827949,
-    "expiresAt": 1763645427949,
+    "timestamp": 1763645243159,
+    "expiresAt": 1763648843159,
     "thumb": "items/images/en/thumbs/karak_wraith_set.b26c71305a536b33e469bc4a8866adea.128x128.png",
     "displayName": "Karak Wraith Set"
   },
@@ -1734,14 +1734,14 @@
       {
         "urlName": "fragor_prime_head",
         "displayName": "Fragor Prime Head",
-        "price": 8
+        "price": 9
       }
     ],
     "directSetPrice": 40,
-    "partsTotal": 26,
+    "partsTotal": 27,
     "variant": "parts",
-    "timestamp": 1763641829390,
-    "expiresAt": 1763645429390,
+    "timestamp": 1763645245936,
+    "expiresAt": 1763648845936,
     "thumb": "items/images/en/thumbs/fragor_prime_set.2b917b8a12f0981ff0a9a48c6c24edb1.128x128.png",
     "displayName": "Fragor Prime Set"
   },
@@ -1750,7 +1750,7 @@
       {
         "urlName": "pangolin_prime_blade",
         "displayName": "Pangolin Prime Blade",
-        "price": 6
+        "price": 7
       },
       {
         "urlName": "pangolin_prime_blueprint",
@@ -1764,10 +1764,10 @@
       }
     ],
     "directSetPrice": 29,
-    "partsTotal": 20,
+    "partsTotal": 21,
     "variant": "parts",
-    "timestamp": 1763641830133,
-    "expiresAt": 1763645430133,
+    "timestamp": 1763645246738,
+    "expiresAt": 1763648846738,
     "thumb": "items/images/en/thumbs/pangolin_prime_set.0b93ac58408417e3f8646ccf1fb5a77e.128x128.png",
     "displayName": "Pangolin Prime Set"
   },
@@ -1776,12 +1776,12 @@
       {
         "urlName": "titania_prime_blueprint",
         "displayName": "Titania Prime Blueprint",
-        "price": 10
+        "price": 3
       },
       {
         "urlName": "titania_prime_chassis_blueprint",
         "displayName": "Titania Prime Chassis Blueprint",
-        "price": 7
+        "price": 8
       },
       {
         "urlName": "titania_prime_neuroptics_blueprint",
@@ -1791,14 +1791,14 @@
       {
         "urlName": "titania_prime_systems_blueprint",
         "displayName": "Titania Prime Systems Blueprint",
-        "price": 36
+        "price": 39
       }
     ],
     "directSetPrice": 75,
-    "partsTotal": 60,
+    "partsTotal": 57,
     "variant": "parts",
-    "timestamp": 1763641831088,
-    "expiresAt": 1763645431088,
+    "timestamp": 1763645247632,
+    "expiresAt": 1763648847632,
     "thumb": "items/images/en/thumbs/titania_prime_set.d783da2b4926bc3760d50bba21eff7db.128x128.png",
     "displayName": "Titania Prime Set"
   },
@@ -1807,24 +1807,24 @@
       {
         "urlName": "centaur_aegis",
         "displayName": "Centaur Aegis",
-        "price": 7
+        "price": 11
       },
       {
         "urlName": "centaur_blade",
         "displayName": "Centaur Blade",
-        "price": 12
+        "price": 11
       },
       {
         "urlName": "centaur_handle",
         "displayName": "Centaur Handle",
-        "price": 12
+        "price": 10
       }
     ],
     "directSetPrice": 50,
-    "partsTotal": 31,
+    "partsTotal": 32,
     "variant": "parts",
-    "timestamp": 1763641831876,
-    "expiresAt": 1763645431876,
+    "timestamp": 1763645248285,
+    "expiresAt": 1763648848285,
     "thumb": "items/images/en/thumbs/centaur_set.7365135b7b3831714b657721d6b1df22.128x128.png",
     "displayName": "Centaur Set"
   },
@@ -1841,11 +1841,11 @@
         "price": 9
       }
     ],
-    "directSetPrice": 27,
+    "directSetPrice": 35,
     "partsTotal": 21,
     "variant": "parts",
-    "timestamp": 1763641833261,
-    "expiresAt": 1763645433261,
+    "timestamp": 1763645249256,
+    "expiresAt": 1763648849256,
     "thumb": "items/images/en/thumbs/onorix_set.04c7efcf7c6239c88c275d164d6a259a.128x128.png",
     "displayName": "Onorix Set"
   },
@@ -1854,12 +1854,12 @@
       {
         "urlName": "agkuza_blade",
         "displayName": "Agkuza Blade",
-        "price": 11
+        "price": 10
       },
       {
         "urlName": "agkuza_guard",
         "displayName": "Agkuza Guard",
-        "price": 7
+        "price": 8
       },
       {
         "urlName": "agkuza_handle",
@@ -1867,11 +1867,11 @@
         "price": 7
       }
     ],
-    "directSetPrice": 59,
+    "directSetPrice": 55,
     "partsTotal": 25,
     "variant": "parts",
-    "timestamp": 1763641834268,
-    "expiresAt": 1763645434268,
+    "timestamp": 1763645249896,
+    "expiresAt": 1763648849896,
     "thumb": "items/images/en/thumbs/agkuza_set.037f45c1777df3ce5657b0c40aac04b1.128x128.png",
     "displayName": "Agkuza Set"
   },
@@ -1885,7 +1885,7 @@
       {
         "urlName": "corvas_receiver",
         "displayName": "Corvas Receiver",
-        "price": 11
+        "price": 15
       },
       {
         "urlName": "corvas_stock",
@@ -1893,11 +1893,11 @@
         "price": 10
       }
     ],
-    "directSetPrice": 34,
-    "partsTotal": 29,
+    "directSetPrice": 50,
+    "partsTotal": 33,
     "variant": "parts",
-    "timestamp": 1763641835198,
-    "expiresAt": 1763645435198,
+    "timestamp": 1763645250590,
+    "expiresAt": 1763648850590,
     "thumb": "items/images/en/thumbs/corvas_set.0248b2ad006d7ad6a460cc03eac4baa7.128x128.png",
     "displayName": "Corvas Set"
   },
@@ -1911,14 +1911,14 @@
       {
         "urlName": "rathbone_head",
         "displayName": "Rathbone Head",
-        "price": 12
+        "price": 13
       }
     ],
-    "directSetPrice": 45,
-    "partsTotal": 22,
+    "directSetPrice": 40,
+    "partsTotal": 23,
     "variant": "parts",
-    "timestamp": 1763641836070,
-    "expiresAt": 1763645436070,
+    "timestamp": 1763645251293,
+    "expiresAt": 1763648851293,
     "thumb": "items/images/en/thumbs/rathbone_set.7e6a0db9a09fae95a9f6a4e96b1f0979.128x128.png",
     "displayName": "Rathbone Set"
   },
@@ -1927,7 +1927,7 @@
       {
         "urlName": "glaive_prime_blade",
         "displayName": "Glaive Prime Blade",
-        "price": 20
+        "price": 19
       },
       {
         "urlName": "glaive_prime_blueprint",
@@ -1937,14 +1937,14 @@
       {
         "urlName": "glaive_prime_disc",
         "displayName": "Glaive Prime Disc",
-        "price": 7
+        "price": 8
       }
     ],
-    "directSetPrice": 70,
+    "directSetPrice": 74,
     "partsTotal": 45,
     "variant": "parts",
-    "timestamp": 1763641836913,
-    "expiresAt": 1763645436913,
+    "timestamp": 1763645252119,
+    "expiresAt": 1763648852119,
     "thumb": "items/images/en/thumbs/glaive_prime_set.17767ab370f143a315df90177995ef92.128x128.png",
     "displayName": "Glaive Prime Set"
   },
@@ -1969,8 +1969,8 @@
     "directSetPrice": 25,
     "partsTotal": 25,
     "variant": "parts",
-    "timestamp": 1763641837755,
-    "expiresAt": 1763645437755,
+    "timestamp": 1763645254927,
+    "expiresAt": 1763648854927,
     "thumb": "items/images/en/thumbs/scindo_prime_set.ae70ac90b811a44f64263394b6410c28.128x128.png",
     "displayName": "Scindo Prime Set"
   },
@@ -1979,12 +1979,12 @@
       {
         "urlName": "akstiletto_prime_barrel",
         "displayName": "Akstiletto Prime Barrel",
-        "price": 20
+        "price": 15
       },
       {
         "urlName": "akstiletto_prime_blueprint",
         "displayName": "Akstiletto Prime Blueprint",
-        "price": 15
+        "price": 17
       },
       {
         "urlName": "akstiletto_prime_link",
@@ -1997,11 +1997,11 @@
         "price": 25
       }
     ],
-    "directSetPrice": 130,
-    "partsTotal": 69,
+    "directSetPrice": 137,
+    "partsTotal": 66,
     "variant": "parts",
-    "timestamp": 1763641838869,
-    "expiresAt": 1763645438869,
+    "timestamp": 1763645255663,
+    "expiresAt": 1763648855663,
     "thumb": "items/images/en/thumbs/akstiletto_prime_set.a88c0a1e43ba462af7cc44efd01a7044.128x128.png",
     "displayName": "Akstiletto Prime Set"
   },
@@ -2025,14 +2025,14 @@
       {
         "urlName": "stropha_barrel",
         "displayName": "Stropha Barrel",
-        "price": 5
+        "price": 8
       }
     ],
     "directSetPrice": 20,
-    "partsTotal": 20,
-    "variant": "parts",
-    "timestamp": 1763641841912,
-    "expiresAt": 1763645441912,
+    "partsTotal": 23,
+    "variant": "direct",
+    "timestamp": 1763645256317,
+    "expiresAt": 1763648856317,
     "thumb": "items/images/en/thumbs/stropha_set.08c23ce01edf041f6204aa470f8f12c9.128x128.png",
     "displayName": "Stropha Set"
   },
@@ -2052,8 +2052,8 @@
     "directSetPrice": 10,
     "partsTotal": 15,
     "variant": "direct",
-    "timestamp": 1763641842653,
-    "expiresAt": 1763645442653,
+    "timestamp": 1763645256969,
+    "expiresAt": 1763648856969,
     "thumb": "items/images/en/thumbs/velox_set.8d807d2b4f5eddf0d1b17e52adc717ac.128x128.png",
     "displayName": "Velox Set"
   },
@@ -2067,7 +2067,7 @@
       {
         "urlName": "stahlta_receiver",
         "displayName": "Stahlta Receiver",
-        "price": 10
+        "price": 9
       },
       {
         "urlName": "stahlta_stock",
@@ -2076,10 +2076,10 @@
       }
     ],
     "directSetPrice": 15,
-    "partsTotal": 19,
+    "partsTotal": 18,
     "variant": "direct",
-    "timestamp": 1763641843524,
-    "expiresAt": 1763645443524,
+    "timestamp": 1763645257614,
+    "expiresAt": 1763648857614,
     "thumb": "items/images/en/thumbs/stahlta_set.30d7537c3158976f86998e5b9fa05f96.128x128.png",
     "displayName": "Stahlta Set"
   },
@@ -2088,7 +2088,7 @@
       {
         "urlName": "inaros_prime_blueprint",
         "displayName": "Inaros Prime Blueprint",
-        "price": 5
+        "price": 4
       },
       {
         "urlName": "inaros_prime_chassis_blueprint",
@@ -2106,11 +2106,11 @@
         "price": 5
       }
     ],
-    "directSetPrice": 45,
-    "partsTotal": 49,
-    "variant": "direct",
-    "timestamp": 1763641844895,
-    "expiresAt": 1763645444895,
+    "directSetPrice": 54,
+    "partsTotal": 48,
+    "variant": "parts",
+    "timestamp": 1763645260361,
+    "expiresAt": 1763648860361,
     "thumb": "items/images/en/thumbs/inaros_prime_set.58fc170fbf04332e7d541a615c198b41.128x128.png",
     "displayName": "Inaros Prime Set"
   },
@@ -2124,7 +2124,7 @@
       {
         "urlName": "karyst_prime_blueprint",
         "displayName": "Karyst Prime Blueprint",
-        "price": 6
+        "price": 8
       },
       {
         "urlName": "karyst_prime_handle",
@@ -2132,11 +2132,11 @@
         "price": 4
       }
     ],
-    "directSetPrice": 29,
-    "partsTotal": 27,
-    "variant": "parts",
-    "timestamp": 1763641845727,
-    "expiresAt": 1763645445727,
+    "directSetPrice": 25,
+    "partsTotal": 29,
+    "variant": "direct",
+    "timestamp": 1763645261022,
+    "expiresAt": 1763648861022,
     "thumb": "items/images/en/thumbs/karyst_prime_set.4ac2616227b5e4e2e42e44473acf9a91.128x128.png",
     "displayName": "Karyst Prime Set"
   },
@@ -2160,14 +2160,14 @@
       {
         "urlName": "panthera_prime_stock",
         "displayName": "Panthera Prime Stock",
-        "price": 6
+        "price": 7
       }
     ],
-    "directSetPrice": 50,
-    "partsTotal": 40,
+    "directSetPrice": 54,
+    "partsTotal": 41,
     "variant": "parts",
-    "timestamp": 1763641846607,
-    "expiresAt": 1763645446607,
+    "timestamp": 1763645261765,
+    "expiresAt": 1763648861765,
     "thumb": "items/images/en/thumbs/panthera_prime_set.7a4ebdc3f85ef877a6ffce8790660e30.128x128.png",
     "displayName": "Panthera Prime Set"
   },
@@ -2181,19 +2181,19 @@
       {
         "urlName": "phaedra_receiver",
         "displayName": "Phaedra Receiver",
-        "price": 10
+        "price": 8
       },
       {
         "urlName": "phaedra_stock",
         "displayName": "Phaedra Stock",
-        "price": 12
+        "price": 10
       }
     ],
     "directSetPrice": 50,
-    "partsTotal": 32,
+    "partsTotal": 28,
     "variant": "parts",
-    "timestamp": 1763641847413,
-    "expiresAt": 1763645447413,
+    "timestamp": 1763645262650,
+    "expiresAt": 1763648862650,
     "thumb": "items/images/en/thumbs/phaedra_set.93a06c74d5ecc242c76ea0ff91e3d9ca.128x128.png",
     "displayName": "Phaedra Set"
   },
@@ -2202,7 +2202,7 @@
       {
         "urlName": "cernos_prime_blueprint",
         "displayName": "Cernos Prime Blueprint",
-        "price": 4
+        "price": 5
       },
       {
         "urlName": "cernos_prime_grip",
@@ -2222,14 +2222,14 @@
       {
         "urlName": "cernos_prime_upper_limb",
         "displayName": "Cernos Prime Upper Limb",
-        "price": 6
+        "price": 5
       }
     ],
-    "directSetPrice": 55,
+    "directSetPrice": 65,
     "partsTotal": 47,
     "variant": "parts",
-    "timestamp": 1763641848305,
-    "expiresAt": 1763645448305,
+    "timestamp": 1763645263375,
+    "expiresAt": 1763648863375,
     "thumb": "items/images/en/thumbs/cernos_prime_set.b3ac02e80ee17cc0756348f1d04b69cc.128x128.png",
     "displayName": "Cernos Prime Set"
   },
@@ -2238,7 +2238,7 @@
       {
         "urlName": "valkyr_prime_blueprint",
         "displayName": "Valkyr Prime Blueprint",
-        "price": 6
+        "price": 3
       },
       {
         "urlName": "valkyr_prime_chassis_blueprint",
@@ -2248,7 +2248,7 @@
       {
         "urlName": "valkyr_prime_neuroptics_blueprint",
         "displayName": "Valkyr Prime Neuroptics Blueprint",
-        "price": 14
+        "price": 16
       },
       {
         "urlName": "valkyr_prime_systems_blueprint",
@@ -2257,10 +2257,10 @@
       }
     ],
     "directSetPrice": 99,
-    "partsTotal": 88,
+    "partsTotal": 87,
     "variant": "parts",
-    "timestamp": 1763641849170,
-    "expiresAt": 1763645449170,
+    "timestamp": 1763645266138,
+    "expiresAt": 1763648866138,
     "thumb": "items/images/en/thumbs/valkyr_prime_set.a5c906d66a11ff70158f0ffad0c628e8.128x128.png",
     "displayName": "Valkyr Prime Set"
   },
@@ -2269,24 +2269,24 @@
       {
         "urlName": "imperator_vandal_barrel",
         "displayName": "Imperator Vandal Barrel",
-        "price": 19
+        "price": 9
       },
       {
         "urlName": "imperator_vandal_blueprint",
         "displayName": "Imperator Vandal Blueprint",
-        "price": 7
+        "price": 10
       },
       {
         "urlName": "imperator_vandal_receiver",
         "displayName": "Imperator Vandal Receiver",
-        "price": 55
+        "price": 50
       }
     ],
-    "directSetPrice": 45,
-    "partsTotal": 81,
+    "directSetPrice": 50,
+    "partsTotal": 69,
     "variant": "direct",
-    "timestamp": 1763641849911,
-    "expiresAt": 1763645449911,
+    "timestamp": 1763645266935,
+    "expiresAt": 1763648866935,
     "thumb": "items/images/en/thumbs/imperator_vandal_set.a7802d291f16f9dcd97afb2e69c879b6.128x128.png",
     "displayName": "Imperator Vandal Set"
   },
@@ -2300,7 +2300,7 @@
       {
         "urlName": "akbolto_prime_blueprint",
         "displayName": "Akbolto Prime Blueprint",
-        "price": 4
+        "price": 5
       },
       {
         "urlName": "akbolto_prime_link",
@@ -2313,11 +2313,11 @@
         "price": 25
       }
     ],
-    "directSetPrice": 83,
-    "partsTotal": 39,
+    "directSetPrice": 85,
+    "partsTotal": 40,
     "variant": "parts",
-    "timestamp": 1763641852754,
-    "expiresAt": 1763645452754,
+    "timestamp": 1763645268266,
+    "expiresAt": 1763648868266,
     "thumb": "items/images/en/thumbs/akbolto_prime_set.fdb7b0be60ed776a1ba1d800d7cda22b.128x128.png",
     "displayName": "Akbolto Prime Set"
   },
@@ -2336,7 +2336,7 @@
       {
         "urlName": "limbo_prime_neuroptics_blueprint",
         "displayName": "Limbo Prime Neuroptics Blueprint",
-        "price": 18
+        "price": 17
       },
       {
         "urlName": "limbo_prime_systems_blueprint",
@@ -2344,11 +2344,11 @@
         "price": 4
       }
     ],
-    "directSetPrice": 80,
-    "partsTotal": 74,
+    "directSetPrice": 95,
+    "partsTotal": 73,
     "variant": "parts",
-    "timestamp": 1763641853654,
-    "expiresAt": 1763645453654,
+    "timestamp": 1763645269012,
+    "expiresAt": 1763648869012,
     "thumb": "items/images/en/thumbs/limbo_prime_set.7bfbc70bd8438594d45a47fba260b174.128x128.png",
     "displayName": "Limbo Prime Set"
   },
@@ -2367,7 +2367,7 @@
       {
         "urlName": "gorgon_wraith_receiver",
         "displayName": "Gorgon Wraith Receiver",
-        "price": 5
+        "price": 4
       },
       {
         "urlName": "gorgon_wraith_stock",
@@ -2376,10 +2376,10 @@
       }
     ],
     "directSetPrice": 9,
-    "partsTotal": 19,
+    "partsTotal": 18,
     "variant": "direct",
-    "timestamp": 1763641854391,
-    "expiresAt": 1763645454391,
+    "timestamp": 1763645269661,
+    "expiresAt": 1763648869661,
     "thumb": "items/images/en/thumbs/gorgon_wraith_set.2fe2c6cae89adbecbba049aafcd664d7.128x128.png",
     "displayName": "Gorgon Wraith Set"
   },
@@ -2388,7 +2388,7 @@
       {
         "urlName": "nikana_prime_blade",
         "displayName": "Nikana Prime Blade",
-        "price": 20
+        "price": 15
       },
       {
         "urlName": "nikana_prime_blueprint",
@@ -2401,11 +2401,11 @@
         "price": 40
       }
     ],
-    "directSetPrice": 80,
-    "partsTotal": 65,
+    "directSetPrice": 84,
+    "partsTotal": 60,
     "variant": "parts",
-    "timestamp": 1763641855506,
-    "expiresAt": 1763645455506,
+    "timestamp": 1763645270538,
+    "expiresAt": 1763648870538,
     "thumb": "items/images/en/thumbs/nikana_prime_set.2daac0807a52385bfcf62f71075f2221.128x128.png",
     "displayName": "Nikana Prime Set"
   },
@@ -2424,14 +2424,14 @@
       {
         "urlName": "cyngas_stock",
         "displayName": "Cyngas Stock",
-        "price": 14
+        "price": 15
       }
     ],
     "directSetPrice": 50,
-    "partsTotal": 33,
+    "partsTotal": 34,
     "variant": "parts",
-    "timestamp": 1763641856988,
-    "expiresAt": 1763645456988,
+    "timestamp": 1763645271187,
+    "expiresAt": 1763648871187,
     "thumb": "items/images/en/thumbs/cyngas_set.5b9891a467264b6048cd58b409911767.128x128.png",
     "displayName": "Cyngas Set"
   },
@@ -2451,8 +2451,8 @@
     "directSetPrice": 4,
     "partsTotal": 3,
     "variant": "parts",
-    "timestamp": 1763641858268,
-    "expiresAt": 1763645458268,
+    "timestamp": 1763645271960,
+    "expiresAt": 1763648871960,
     "thumb": "items/images/en/thumbs/broken_war_set.a42d7af24d80abea602d631293f89b13.128x128.png",
     "displayName": "Broken War Set"
   },
@@ -2469,11 +2469,11 @@
         "price": 10
       }
     ],
-    "directSetPrice": 20,
+    "directSetPrice": 19,
     "partsTotal": 20,
-    "variant": "parts",
-    "timestamp": 1763641858988,
-    "expiresAt": 1763645458988,
+    "variant": "direct",
+    "timestamp": 1763645272600,
+    "expiresAt": 1763648872600,
     "thumb": "items/images/en/thumbs/kaszas_set.11baea8229af2d3500c79b829f9dfcee.128x128.png",
     "displayName": "Kaszas Set"
   },
@@ -2495,11 +2495,11 @@
         "price": 10
       }
     ],
-    "directSetPrice": 42,
+    "directSetPrice": 43,
     "partsTotal": 28,
     "variant": "parts",
-    "timestamp": 1763641859761,
-    "expiresAt": 1763645459761,
+    "timestamp": 1763645275342,
+    "expiresAt": 1763648875342,
     "thumb": "items/images/en/thumbs/velocitus_set.0e2289bd3cc8bba9a0393d1fad061ab6.128x128.png",
     "displayName": "Velocitus Set"
   },
@@ -2524,8 +2524,8 @@
     "directSetPrice": 50,
     "partsTotal": 26,
     "variant": "parts",
-    "timestamp": 1763641860517,
-    "expiresAt": 1763645460517,
+    "timestamp": 1763645276136,
+    "expiresAt": 1763648876136,
     "thumb": "items/images/en/thumbs/fluctus_set.764b2148dde0c8969f748d6e0b80f957.128x128.png",
     "displayName": "Fluctus Set"
   },
@@ -2539,14 +2539,14 @@
       {
         "urlName": "decurion_receiver",
         "displayName": "Decurion Receiver",
-        "price": 10
+        "price": 9
       }
     ],
     "directSetPrice": 35,
-    "partsTotal": 30,
+    "partsTotal": 29,
     "variant": "parts",
-    "timestamp": 1763641861241,
-    "expiresAt": 1763645461241,
+    "timestamp": 1763645276780,
+    "expiresAt": 1763648876780,
     "thumb": "items/images/en/thumbs/dual_decurion_set.5682bc698e5481541faba69246a2c248.128x128.png",
     "displayName": "Dual Decurion Set"
   },
@@ -2565,14 +2565,14 @@
       {
         "urlName": "spira_prime_pouch",
         "displayName": "Spira Prime Pouch",
-        "price": 28
+        "price": 27
       }
     ],
     "directSetPrice": 125,
-    "partsTotal": 49,
+    "partsTotal": 48,
     "variant": "parts",
-    "timestamp": 1763641862085,
-    "expiresAt": 1763645462085,
+    "timestamp": 1763645277831,
+    "expiresAt": 1763648877831,
     "thumb": "items/images/en/thumbs/spira_prime_set.1a495b1cb31bba268dc7a50f2a4f7134.128x128.png",
     "displayName": "Spira Prime Set"
   },
@@ -2599,11 +2599,11 @@
         "price": 10
       }
     ],
-    "directSetPrice": 13,
+    "directSetPrice": 15,
     "partsTotal": 34,
     "variant": "direct",
-    "timestamp": 1763641863142,
-    "expiresAt": 1763645463142,
+    "timestamp": 1763645278485,
+    "expiresAt": 1763648878485,
     "thumb": "items/images/en/thumbs/sheev_set.96c63b432f3d71f2bf5918e9f8d721fa.128x128.png",
     "displayName": "Sheev Set"
   },
@@ -2612,7 +2612,7 @@
       {
         "urlName": "nami_skyla_prime_blade",
         "displayName": "Nami Skyla Prime Blade",
-        "price": 29
+        "price": 35
       },
       {
         "urlName": "nami_skyla_prime_blueprint",
@@ -2622,14 +2622,14 @@
       {
         "urlName": "nami_skyla_prime_handle",
         "displayName": "Nami Skyla Prime Handle",
-        "price": 8
+        "price": 9
       }
     ],
-    "directSetPrice": 115,
-    "partsTotal": 47,
+    "directSetPrice": 113,
+    "partsTotal": 54,
     "variant": "parts",
-    "timestamp": 1763641864009,
-    "expiresAt": 1763645464009,
+    "timestamp": 1763645279143,
+    "expiresAt": 1763648879143,
     "thumb": "items/images/en/thumbs/nami_skyla_prime_set.d83bcdd72463d5dd1f78faea07ff02a4.128x128.png",
     "displayName": "Nami Skyla Prime Set"
   },
@@ -2638,7 +2638,7 @@
       {
         "urlName": "kronen_prime_blade",
         "displayName": "Kronen Prime Blade",
-        "price": 25
+        "price": 26
       },
       {
         "urlName": "kronen_prime_blueprint",
@@ -2652,10 +2652,10 @@
       }
     ],
     "directSetPrice": 84,
-    "partsTotal": 36,
+    "partsTotal": 37,
     "variant": "parts",
-    "timestamp": 1763641865196,
-    "expiresAt": 1763645465196,
+    "timestamp": 1763645279851,
+    "expiresAt": 1763648879851,
     "thumb": "items/images/en/thumbs/kronen_prime_set.09023145e06199878b94a9c664e95ce7.128x128.png",
     "displayName": "Kronen Prime Set"
   },
@@ -2685,8 +2685,8 @@
     "directSetPrice": 44,
     "partsTotal": 38,
     "variant": "parts",
-    "timestamp": 1763641866038,
-    "expiresAt": 1763645466038,
+    "timestamp": 1763645280603,
+    "expiresAt": 1763648880603,
     "thumb": "items/images/en/thumbs/tiberon_prime_set.53f3cf1c68314c0555fbb7020d01f001.128x128.png",
     "displayName": "Tiberon Prime Set"
   },
@@ -2708,11 +2708,11 @@
         "price": 10
       }
     ],
-    "directSetPrice": 67,
+    "directSetPrice": 60,
     "partsTotal": 39,
     "variant": "parts",
-    "timestamp": 1763641866796,
-    "expiresAt": 1763645466796,
+    "timestamp": 1763645283446,
+    "expiresAt": 1763648883446,
     "thumb": "items/images/en/thumbs/tipedo_prime_set.fd4fdcee6ab035eddce9a802ff091cfd.128x128.png",
     "displayName": "Tipedo Prime Set"
   },
@@ -2742,8 +2742,8 @@
     "directSetPrice": 60,
     "partsTotal": 60,
     "variant": "parts",
-    "timestamp": 1763641867664,
-    "expiresAt": 1763645467664,
+    "timestamp": 1763645284162,
+    "expiresAt": 1763648884162,
     "thumb": "items/images/en/thumbs/atlas_prime_set.91fb26397de19c27bfece550a8315a14.128x128.png",
     "displayName": "Atlas Prime Set"
   },
@@ -2752,7 +2752,7 @@
       {
         "urlName": "tekko_prime_blade",
         "displayName": "Tekko Prime Blade",
-        "price": 18
+        "price": 20
       },
       {
         "urlName": "tekko_prime_blueprint",
@@ -2765,11 +2765,11 @@
         "price": 8
       }
     ],
-    "directSetPrice": 88,
-    "partsTotal": 30,
+    "directSetPrice": 80,
+    "partsTotal": 32,
     "variant": "parts",
-    "timestamp": 1763641868555,
-    "expiresAt": 1763645468555,
+    "timestamp": 1763645284863,
+    "expiresAt": 1763648884863,
     "thumb": "items/images/en/thumbs/tekko_prime_set.ace5f3ef4976ceae04ed01d8fcc695c7.128x128.png",
     "displayName": "Tekko Prime Set"
   },
@@ -2778,24 +2778,24 @@
       {
         "urlName": "damaged_necramech_weapon_barrel",
         "displayName": "Damaged Necramech Weapon Barrel",
-        "price": 9
+        "price": 5
       },
       {
         "urlName": "damaged_necramech_weapon_receiver",
         "displayName": "Damaged Necramech Weapon Receiver",
-        "price": 9
+        "price": 5
       },
       {
         "urlName": "damaged_necramech_weapon_stock",
         "displayName": "Damaged Necramech Weapon Stock",
-        "price": 5
+        "price": 4
       }
     ],
-    "directSetPrice": 29,
-    "partsTotal": 23,
+    "directSetPrice": 15,
+    "partsTotal": 14,
     "variant": "parts",
-    "timestamp": 1763641869167,
-    "expiresAt": 1763645469167,
+    "timestamp": 1763645285447,
+    "expiresAt": 1763648885447,
     "thumb": "items/images/en/thumbs/damaged_necramech_weapon_set.b273d89779e4f681c8323227ce22052f.128x128.webp",
     "displayName": "Damaged Necramech Weapon Set"
   },
@@ -2814,14 +2814,14 @@
       {
         "urlName": "arum_spinosa_rivet",
         "displayName": "Arum Spinosa Rivet",
-        "price": 49
+        "price": 50
       }
     ],
-    "directSetPrice": 115,
-    "partsTotal": 78,
+    "directSetPrice": 130,
+    "partsTotal": 79,
     "variant": "parts",
-    "timestamp": 1763641872155,
-    "expiresAt": 1763645472155,
+    "timestamp": 1763645286190,
+    "expiresAt": 1763648886190,
     "thumb": "items/images/en/thumbs/arum_spinosa_set.a676e9febc397c744ba0f3d4f13b891f.128x128.png",
     "displayName": "Arum Spinosa Set"
   },
@@ -2830,7 +2830,7 @@
       {
         "urlName": "sporothrix_blueprint",
         "displayName": "Sporothrix Blueprint",
-        "price": 3
+        "price": 4
       },
       {
         "urlName": "sporothrix_stock",
@@ -2840,19 +2840,19 @@
       {
         "urlName": "sporothrix_receiver",
         "displayName": "Sporothrix Receiver",
-        "price": 29
+        "price": 34
       },
       {
         "urlName": "sporothrix_barrel",
         "displayName": "Sporothrix Barrel",
-        "price": 30
+        "price": 29
       }
     ],
-    "directSetPrice": 110,
-    "partsTotal": 91,
+    "directSetPrice": 105,
+    "partsTotal": 96,
     "variant": "parts",
-    "timestamp": 1763641873224,
-    "expiresAt": 1763645473224,
+    "timestamp": 1763645288923,
+    "expiresAt": 1763648888923,
     "thumb": "items/images/en/thumbs/sporothrix_set.d9a3fe663f9fee156958a698e597a6bb.128x128.png",
     "displayName": "Sporothrix Set"
   },
@@ -2861,7 +2861,7 @@
       {
         "urlName": "cortege_barrel",
         "displayName": "Cortege Barrel",
-        "price": 59
+        "price": 58
       },
       {
         "urlName": "cortege_receiver",
@@ -2875,10 +2875,10 @@
       }
     ],
     "directSetPrice": 95,
-    "partsTotal": 182,
+    "partsTotal": 181,
     "variant": "direct",
-    "timestamp": 1763641873874,
-    "expiresAt": 1763645473874,
+    "timestamp": 1763645289483,
+    "expiresAt": 1763648889483,
     "thumb": "items/images/en/thumbs/cortege_set.5ceaf430bceccb606feb14dd9cf7316d.128x128.png",
     "displayName": "Cortege Set"
   },
@@ -2887,7 +2887,7 @@
       {
         "urlName": "cedo_blueprint",
         "displayName": "Cedo Blueprint",
-        "price": 9
+        "price": 10
       },
       {
         "urlName": "cedo_stock",
@@ -2905,11 +2905,11 @@
         "price": 9
       }
     ],
-    "directSetPrice": 25,
-    "partsTotal": 35,
+    "directSetPrice": 24,
+    "partsTotal": 36,
     "variant": "direct",
-    "timestamp": 1763641874616,
-    "expiresAt": 1763645474616,
+    "timestamp": 1763645290158,
+    "expiresAt": 1763648890158,
     "thumb": "items/images/en/thumbs/cedo_set.beb0319f93c38fe11119204a3ed47614.128x128.png",
     "displayName": "Cedo Set"
   },
@@ -2923,24 +2923,24 @@
       {
         "urlName": "chroma_prime_chassis_blueprint",
         "displayName": "Chroma Prime Chassis Blueprint",
-        "price": 8
+        "price": 7
       },
       {
         "urlName": "chroma_prime_neuroptics_blueprint",
         "displayName": "Chroma Prime Neuroptics Blueprint",
-        "price": 26
+        "price": 25
       },
       {
         "urlName": "chroma_prime_systems_blueprint",
         "displayName": "Chroma Prime Systems Blueprint",
-        "price": 20
+        "price": 19
       }
     ],
     "directSetPrice": 69,
-    "partsTotal": 62,
+    "partsTotal": 59,
     "variant": "parts",
-    "timestamp": 1763641875558,
-    "expiresAt": 1763645475558,
+    "timestamp": 1763645290968,
+    "expiresAt": 1763648890968,
     "thumb": "items/images/en/thumbs/chroma_prime_set.746ea1c1556aa60f94f0c2399946baaf.128x128.png",
     "displayName": "Chroma Prime Set"
   },
@@ -2954,7 +2954,7 @@
       {
         "urlName": "rubico_prime_blueprint",
         "displayName": "Rubico Prime Blueprint",
-        "price": 17
+        "price": 19
       },
       {
         "urlName": "rubico_prime_receiver",
@@ -2967,11 +2967,11 @@
         "price": 5
       }
     ],
-    "directSetPrice": 40,
-    "partsTotal": 32,
+    "directSetPrice": 42,
+    "partsTotal": 34,
     "variant": "parts",
-    "timestamp": 1763641876499,
-    "expiresAt": 1763645476499,
+    "timestamp": 1763645291805,
+    "expiresAt": 1763648891805,
     "thumb": "items/images/en/thumbs/rubico_prime_set.2071211bc2436d4e768dbb61f98f6efd.128x128.png",
     "displayName": "Rubico Prime Set"
   },
@@ -2985,7 +2985,7 @@
       {
         "urlName": "banshee_prime_chassis_blueprint",
         "displayName": "Banshee Prime Chassis Blueprint",
-        "price": 25
+        "price": 28
       },
       {
         "urlName": "banshee_prime_neuroptics_blueprint",
@@ -2995,14 +2995,14 @@
       {
         "urlName": "banshee_prime_systems_blueprint",
         "displayName": "Banshee Prime Systems Blueprint",
-        "price": 25
+        "price": 28
       }
     ],
-    "directSetPrice": 65,
-    "partsTotal": 59,
+    "directSetPrice": 68,
+    "partsTotal": 65,
     "variant": "parts",
-    "timestamp": 1763641877361,
-    "expiresAt": 1763645477361,
+    "timestamp": 1763645294543,
+    "expiresAt": 1763648894543,
     "thumb": "items/images/en/thumbs/banshee_prime_set.a0956816beb733841bce57e69a568cd6.128x128.png",
     "displayName": "Banshee Prime Set"
   },
@@ -3011,12 +3011,12 @@
       {
         "urlName": "vauban_prime_blueprint",
         "displayName": "Vauban Prime Blueprint",
-        "price": 16
+        "price": 18
       },
       {
         "urlName": "vauban_prime_chassis_blueprint",
         "displayName": "Vauban Prime Chassis Blueprint",
-        "price": 19
+        "price": 20
       },
       {
         "urlName": "vauban_prime_neuroptics_blueprint",
@@ -3026,14 +3026,14 @@
       {
         "urlName": "vauban_prime_systems_blueprint",
         "displayName": "Vauban Prime Systems Blueprint",
-        "price": 40
+        "price": 42
       }
     ],
     "directSetPrice": 130,
-    "partsTotal": 104,
+    "partsTotal": 109,
     "variant": "parts",
-    "timestamp": 1763641880511,
-    "expiresAt": 1763645480511,
+    "timestamp": 1763645295274,
+    "expiresAt": 1763648895274,
     "thumb": "items/images/en/thumbs/vauban_prime_set.9c15bb47d3ed4ed8e960c2502fac82f2.128x128.png",
     "displayName": "Vauban Prime Set"
   },
@@ -3047,7 +3047,7 @@
       {
         "urlName": "burston_prime_blueprint",
         "displayName": "Burston Prime Blueprint",
-        "price": 2
+        "price": 3
       },
       {
         "urlName": "burston_prime_receiver",
@@ -3061,10 +3061,10 @@
       }
     ],
     "directSetPrice": 7,
-    "partsTotal": 9,
+    "partsTotal": 10,
     "variant": "direct",
-    "timestamp": 1763641881418,
-    "expiresAt": 1763645481418,
+    "timestamp": 1763645296034,
+    "expiresAt": 1763648896034,
     "thumb": "items/images/en/thumbs/burston_prime_set.9fc6c6a6dca24113027828df669cd89e.128x128.png",
     "displayName": "Burston Prime Set"
   },
@@ -3078,7 +3078,7 @@
       {
         "urlName": "loki_prime_chassis_blueprint",
         "displayName": "Loki Prime Chassis Blueprint",
-        "price": 18
+        "price": 16
       },
       {
         "urlName": "loki_prime_neuroptics_blueprint",
@@ -3088,14 +3088,14 @@
       {
         "urlName": "loki_prime_systems_blueprint",
         "displayName": "Loki Prime Systems Blueprint",
-        "price": 29
+        "price": 25
       }
     ],
     "directSetPrice": 80,
-    "partsTotal": 73,
+    "partsTotal": 67,
     "variant": "parts",
-    "timestamp": 1763641882812,
-    "expiresAt": 1763645482812,
+    "timestamp": 1763645296792,
+    "expiresAt": 1763648896792,
     "thumb": "items/images/en/thumbs/loki_prime_set.abc05c280f92196bcb688643873fbf95.128x128.png",
     "displayName": "Loki Prime Set"
   },
@@ -3109,7 +3109,7 @@
       {
         "urlName": "nova_prime_chassis_blueprint",
         "displayName": "Nova Prime Chassis Blueprint",
-        "price": 29
+        "price": 28
       },
       {
         "urlName": "nova_prime_neuroptics_blueprint",
@@ -3122,11 +3122,11 @@
         "price": 11
       }
     ],
-    "directSetPrice": 67,
-    "partsTotal": 62,
+    "directSetPrice": 69,
+    "partsTotal": 61,
     "variant": "parts",
-    "timestamp": 1763641883770,
-    "expiresAt": 1763645483770,
+    "timestamp": 1763645299654,
+    "expiresAt": 1763648899654,
     "thumb": "items/images/en/thumbs/nova_prime_set.639a9222e1cb351cd6dd09ef28155ef0.128x128.png",
     "displayName": "Nova Prime Set"
   },
@@ -3150,14 +3150,14 @@
       {
         "urlName": "nyx_prime_systems_blueprint",
         "displayName": "Nyx Prime Systems Blueprint",
-        "price": 12
+        "price": 8
       }
     ],
-    "directSetPrice": 94,
-    "partsTotal": 78,
+    "directSetPrice": 90,
+    "partsTotal": 74,
     "variant": "parts",
-    "timestamp": 1763641884674,
-    "expiresAt": 1763645484674,
+    "timestamp": 1763645300397,
+    "expiresAt": 1763648900397,
     "thumb": "items/images/en/thumbs/nyx_prime_set.fd41c04c9e9bcc7e0e6963914f68f880.128x128.png",
     "displayName": "Nyx Prime Set"
   },
@@ -3166,7 +3166,7 @@
       {
         "urlName": "soma_prime_barrel",
         "displayName": "Soma Prime Barrel",
-        "price": 7
+        "price": 9
       },
       {
         "urlName": "soma_prime_blueprint",
@@ -3184,11 +3184,11 @@
         "price": 16
       }
     ],
-    "directSetPrice": 48,
-    "partsTotal": 35,
+    "directSetPrice": 45,
+    "partsTotal": 37,
     "variant": "parts",
-    "timestamp": 1763641885509,
-    "expiresAt": 1763645485509,
+    "timestamp": 1763645301144,
+    "expiresAt": 1763648901144,
     "thumb": "items/images/en/thumbs/soma_prime_set.1bf4937a6c2106c373cffeb93b1c87e0.128x128.png",
     "displayName": "Soma Prime Set"
   },
@@ -3212,14 +3212,14 @@
       {
         "urlName": "zephyr_prime_systems_blueprint",
         "displayName": "Zephyr Prime Systems Blueprint",
-        "price": 35
+        "price": 34
       }
     ],
     "directSetPrice": 59,
-    "partsTotal": 58,
+    "partsTotal": 57,
     "variant": "parts",
-    "timestamp": 1763641886374,
-    "expiresAt": 1763645486374,
+    "timestamp": 1763645301864,
+    "expiresAt": 1763648901864,
     "thumb": "items/images/en/thumbs/zephyr_prime_set.4ffc19dd100b3c182beef5f1ef3d337e.128x128.png",
     "displayName": "Zephyr Prime Set"
   },
@@ -3233,7 +3233,7 @@
       {
         "urlName": "ivara_prime_chassis_blueprint",
         "displayName": "Ivara Prime Chassis Blueprint",
-        "price": 28
+        "price": 30
       },
       {
         "urlName": "ivara_prime_neuroptics_blueprint",
@@ -3243,14 +3243,14 @@
       {
         "urlName": "ivara_prime_systems_blueprint",
         "displayName": "Ivara Prime Systems Blueprint",
-        "price": 7
+        "price": 8
       }
     ],
     "directSetPrice": 60,
-    "partsTotal": 47,
+    "partsTotal": 50,
     "variant": "parts",
-    "timestamp": 1763641887131,
-    "expiresAt": 1763645487131,
+    "timestamp": 1763645302612,
+    "expiresAt": 1763648902612,
     "thumb": "items/images/en/thumbs/ivara_prime_set.5c4fbd8ffa071c741cf93e260e43b6db.128x128.png",
     "displayName": "Ivara Prime Set"
   },
@@ -3259,12 +3259,12 @@
       {
         "urlName": "akjagara_prime_barrel",
         "displayName": "Akjagara Prime Barrel",
-        "price": 30
+        "price": 25
       },
       {
         "urlName": "akjagara_prime_blueprint",
         "displayName": "Akjagara Prime Blueprint",
-        "price": 3
+        "price": 4
       },
       {
         "urlName": "akjagara_prime_link",
@@ -3278,10 +3278,10 @@
       }
     ],
     "directSetPrice": 94,
-    "partsTotal": 49,
+    "partsTotal": 45,
     "variant": "parts",
-    "timestamp": 1763641889978,
-    "expiresAt": 1763645489978,
+    "timestamp": 1763645305427,
+    "expiresAt": 1763648905427,
     "thumb": "items/images/en/thumbs/akjagara_prime_set.5ed111e5dcb3df5d57c5411849c113e4.128x128.png",
     "displayName": "Akjagara Prime Set"
   },
@@ -3295,7 +3295,7 @@
       {
         "urlName": "mirage_prime_chassis_blueprint",
         "displayName": "Mirage Prime Chassis Blueprint",
-        "price": 9
+        "price": 10
       },
       {
         "urlName": "mirage_prime_neuroptics_blueprint",
@@ -3308,11 +3308,11 @@
         "price": 18
       }
     ],
-    "directSetPrice": 84,
-    "partsTotal": 71,
+    "directSetPrice": 80,
+    "partsTotal": 72,
     "variant": "parts",
-    "timestamp": 1763641890807,
-    "expiresAt": 1763645490807,
+    "timestamp": 1763645306242,
+    "expiresAt": 1763648906242,
     "thumb": "items/images/en/thumbs/mirage_prime_set.e7f8f484dd6ae6c35f0767fff35a5109.128x128.png",
     "displayName": "Mirage Prime Set"
   },
@@ -3331,14 +3331,14 @@
       {
         "urlName": "gram_prime_handle",
         "displayName": "Gram Prime Handle",
-        "price": 15
+        "price": 14
       }
     ],
     "directSetPrice": 29,
-    "partsTotal": 25,
+    "partsTotal": 24,
     "variant": "parts",
-    "timestamp": 1763641891756,
-    "expiresAt": 1763645491756,
+    "timestamp": 1763645306894,
+    "expiresAt": 1763648906894,
     "thumb": "items/images/en/thumbs/gram_prime_set.678c245a88b54368ae895b73b6987231.128x128.png",
     "displayName": "Gram Prime Set"
   },
@@ -3352,19 +3352,19 @@
       {
         "urlName": "pyrana_prime_blueprint",
         "displayName": "Pyrana Prime Blueprint",
-        "price": 29
+        "price": 25
       },
       {
         "urlName": "pyrana_prime_receiver",
         "displayName": "Pyrana Prime Receiver",
-        "price": 4
+        "price": 7
       }
     ],
-    "directSetPrice": 52,
-    "partsTotal": 37,
+    "directSetPrice": 50,
+    "partsTotal": 36,
     "variant": "parts",
-    "timestamp": 1763641892505,
-    "expiresAt": 1763645492505,
+    "timestamp": 1763645307629,
+    "expiresAt": 1763648907629,
     "thumb": "items/images/en/thumbs/pyrana_prime_set.006fc1f35a3662cb6d84ce6a7f63cd9e.128x128.png",
     "displayName": "Pyrana Prime Set"
   },
@@ -3373,7 +3373,7 @@
       {
         "urlName": "equinox_prime_blueprint",
         "displayName": "Equinox Prime Blueprint",
-        "price": 10
+        "price": 15
       },
       {
         "urlName": "equinox_prime_chassis_blueprint",
@@ -3391,11 +3391,11 @@
         "price": 30
       }
     ],
-    "directSetPrice": 59,
-    "partsTotal": 51,
+    "directSetPrice": 57,
+    "partsTotal": 56,
     "variant": "parts",
-    "timestamp": 1763641893505,
-    "expiresAt": 1763645493505,
+    "timestamp": 1763645308376,
+    "expiresAt": 1763648908376,
     "thumb": "items/images/en/thumbs/equinox_prime_set.1163c3dad7a8ffce02af7d475fc0ccd4.128x128.png",
     "displayName": "Equinox Prime Set"
   },
@@ -3404,12 +3404,12 @@
       {
         "urlName": "guandao_prime_blade",
         "displayName": "Guandao Prime Blade",
-        "price": 5
+        "price": 6
       },
       {
         "urlName": "guandao_prime_blueprint",
         "displayName": "Guandao Prime Blueprint",
-        "price": 5
+        "price": 4
       },
       {
         "urlName": "guandao_prime_handle",
@@ -3420,8 +3420,8 @@
     "directSetPrice": 40,
     "partsTotal": 27,
     "variant": "parts",
-    "timestamp": 1763641894652,
-    "expiresAt": 1763645494652,
+    "timestamp": 1763645309018,
+    "expiresAt": 1763648909018,
     "thumb": "items/images/en/thumbs/guandao_prime_set.cded3d77be7d60eef1d3eb82f189e70f.128x128.png",
     "displayName": "Guandao Prime Set"
   },
@@ -3435,7 +3435,7 @@
       {
         "urlName": "zakti_prime_blueprint",
         "displayName": "Zakti Prime Blueprint",
-        "price": 13
+        "price": 17
       },
       {
         "urlName": "zakti_prime_receiver",
@@ -3443,11 +3443,11 @@
         "price": 6
       }
     ],
-    "directSetPrice": 35,
-    "partsTotal": 23,
+    "directSetPrice": 34,
+    "partsTotal": 27,
     "variant": "parts",
-    "timestamp": 1763641895558,
-    "expiresAt": 1763645495558,
+    "timestamp": 1763645311887,
+    "expiresAt": 1763648911887,
     "thumb": "items/images/en/thumbs/zakti_prime_set.42dbab2b3b28d1291c7e803ad83e29fa.128x128.png",
     "displayName": "Zakti Prime Set"
   },
@@ -3456,29 +3456,29 @@
       {
         "urlName": "spectra_vandal_barrel",
         "displayName": "Spectra Vandal Barrel",
-        "price": 9
+        "price": 15
       },
       {
         "urlName": "spectra_vandal_blueprint",
         "displayName": "Spectra Vandal Blueprint",
-        "price": 7
+        "price": 8
       },
       {
         "urlName": "spectra_vandal_chassis",
         "displayName": "Spectra Vandal Chassis",
-        "price": 13
+        "price": 8
       },
       {
         "urlName": "spectra_vandal_handle",
         "displayName": "Spectra Vandal Handle",
-        "price": 12
+        "price": 13
       }
     ],
     "directSetPrice": 20,
-    "partsTotal": 41,
+    "partsTotal": 44,
     "variant": "direct",
-    "timestamp": 1763641896385,
-    "expiresAt": 1763645496385,
+    "timestamp": 1763645312539,
+    "expiresAt": 1763648912539,
     "thumb": "items/images/en/thumbs/spectra_vandal_set.fe39f6aee4576d50c445d4203ee91db2.128x128.png",
     "displayName": "Spectra Vandal Set"
   },
@@ -3492,7 +3492,7 @@
       {
         "urlName": "bronco_prime_blueprint",
         "displayName": "Bronco Prime Blueprint",
-        "price": 4
+        "price": 2
       },
       {
         "urlName": "bronco_prime_receiver",
@@ -3500,11 +3500,11 @@
         "price": 1
       }
     ],
-    "directSetPrice": 4,
-    "partsTotal": 7,
-    "variant": "direct",
-    "timestamp": 1763641897332,
-    "expiresAt": 1763645497332,
+    "directSetPrice": 6,
+    "partsTotal": 5,
+    "variant": "parts",
+    "timestamp": 1763645313301,
+    "expiresAt": 1763648913301,
     "thumb": "items/images/en/thumbs/bronco_prime_set.aa5499a3b26806f1f26a987be9dcf0ca.128x128.png",
     "displayName": "Bronco Prime Set"
   },
@@ -3513,7 +3513,7 @@
       {
         "urlName": "pathocyst_blueprint",
         "displayName": "Pathocyst Blueprint",
-        "price": 4
+        "price": 5
       },
       {
         "urlName": "pathocyst_blade",
@@ -3523,14 +3523,14 @@
       {
         "urlName": "pathocyst_subcortex",
         "displayName": "Pathocyst Subcortex",
-        "price": 5
+        "price": 4
       }
     ],
-    "directSetPrice": 40,
+    "directSetPrice": 39,
     "partsTotal": 17,
     "variant": "parts",
-    "timestamp": 1763641898146,
-    "expiresAt": 1763645498146,
+    "timestamp": 1763645313871,
+    "expiresAt": 1763648913871,
     "thumb": "items/images/en/thumbs/pathocyst_set.f423b7a6a78d2e4780c1007f0f0fb464.128x128.png",
     "displayName": "Pathocyst Set"
   },
@@ -3544,7 +3544,7 @@
       {
         "urlName": "ash_prime_chassis_blueprint",
         "displayName": "Ash Prime Chassis Blueprint",
-        "price": 15
+        "price": 13
       },
       {
         "urlName": "ash_prime_neuroptics_blueprint",
@@ -3558,10 +3558,10 @@
       }
     ],
     "directSetPrice": 95,
-    "partsTotal": 80,
+    "partsTotal": 78,
     "variant": "parts",
-    "timestamp": 1763641899057,
-    "expiresAt": 1763645499057,
+    "timestamp": 1763645314642,
+    "expiresAt": 1763648914642,
     "thumb": "items/images/en/thumbs/ash_prime_set.9f3f82bee82a9741531857cf76eb6594.128x128.png",
     "displayName": "Ash Prime Set"
   },
@@ -3570,7 +3570,7 @@
       {
         "urlName": "mesa_prime_blueprint",
         "displayName": "Mesa Prime Blueprint",
-        "price": 7
+        "price": 6
       },
       {
         "urlName": "mesa_prime_chassis_blueprint",
@@ -3580,7 +3580,7 @@
       {
         "urlName": "mesa_prime_neuroptics_blueprint",
         "displayName": "Mesa Prime Neuroptics Blueprint",
-        "price": 33
+        "price": 30
       },
       {
         "urlName": "mesa_prime_systems_blueprint",
@@ -3588,11 +3588,11 @@
         "price": 18
       }
     ],
-    "directSetPrice": 75,
-    "partsTotal": 62,
+    "directSetPrice": 79,
+    "partsTotal": 58,
     "variant": "parts",
-    "timestamp": 1763641902249,
-    "expiresAt": 1763645502249,
+    "timestamp": 1763645317614,
+    "expiresAt": 1763648917614,
     "thumb": "items/images/en/thumbs/mesa_prime_set.34d67af54de052f6de1d5ae64ed40197.128x128.png",
     "displayName": "Mesa Prime Set"
   },
@@ -3611,7 +3611,7 @@
       {
         "urlName": "nekros_prime_neuroptics_blueprint",
         "displayName": "Nekros Prime Neuroptics Blueprint",
-        "price": 19
+        "price": 21
       },
       {
         "urlName": "nekros_prime_systems_blueprint",
@@ -3620,10 +3620,10 @@
       }
     ],
     "directSetPrice": 88,
-    "partsTotal": 87,
-    "variant": "parts",
-    "timestamp": 1763641903181,
-    "expiresAt": 1763645503181,
+    "partsTotal": 89,
+    "variant": "direct",
+    "timestamp": 1763645318358,
+    "expiresAt": 1763648918358,
     "thumb": "items/images/en/thumbs/nekros_prime_set.523943a15c82985ebe7cf14eac98966d.128x128.png",
     "displayName": "Nekros Prime Set"
   },
@@ -3648,8 +3648,8 @@
     "directSetPrice": 50,
     "partsTotal": 48,
     "variant": "parts",
-    "timestamp": 1763641904090,
-    "expiresAt": 1763645504090,
+    "timestamp": 1763645319090,
+    "expiresAt": 1763648919090,
     "thumb": "items/images/en/thumbs/galatine_prime_set.066b855eb73def09ca5f21f677010098.128x128.png",
     "displayName": "Galatine Prime Set"
   },
@@ -3658,17 +3658,17 @@
       {
         "urlName": "corinth_prime_barrel",
         "displayName": "Corinth Prime Barrel",
-        "price": 35
+        "price": 36
       },
       {
         "urlName": "corinth_prime_blueprint",
         "displayName": "Corinth Prime Blueprint",
-        "price": 5
+        "price": 3
       },
       {
         "urlName": "corinth_prime_receiver",
         "displayName": "Corinth Prime Receiver",
-        "price": 6
+        "price": 5
       },
       {
         "urlName": "corinth_prime_stock",
@@ -3676,11 +3676,11 @@
         "price": 10
       }
     ],
-    "directSetPrice": 70,
-    "partsTotal": 56,
+    "directSetPrice": 74,
+    "partsTotal": 54,
     "variant": "parts",
-    "timestamp": 1763641904818,
-    "expiresAt": 1763645504818,
+    "timestamp": 1763645319733,
+    "expiresAt": 1763648919733,
     "thumb": "items/images/en/thumbs/corinth_prime_set.1f73bc83dd117b5e0295b90ed0cccc8d.128x128.png",
     "displayName": "Corinth Prime Set"
   },
@@ -3699,19 +3699,19 @@
       {
         "urlName": "nezha_prime_neuroptics_blueprint",
         "displayName": "Nezha Prime Neuroptics Blueprint",
-        "price": 13
+        "price": 14
       },
       {
         "urlName": "nezha_prime_systems_blueprint",
         "displayName": "Nezha Prime Systems Blueprint",
-        "price": 8
+        "price": 5
       }
     ],
     "directSetPrice": 50,
-    "partsTotal": 43,
+    "partsTotal": 41,
     "variant": "parts",
-    "timestamp": 1763641905769,
-    "expiresAt": 1763645505769,
+    "timestamp": 1763645320549,
+    "expiresAt": 1763648920549,
     "thumb": "items/images/en/thumbs/nezha_prime_set.462f17d4752cca5cea3988ecb9786467.128x128.png",
     "displayName": "Nezha Prime Set"
   },
@@ -3736,8 +3736,8 @@
     "directSetPrice": 95,
     "partsTotal": 174,
     "variant": "direct",
-    "timestamp": 1763641906498,
-    "expiresAt": 1763645506498,
+    "timestamp": 1763645321107,
+    "expiresAt": 1763648921107,
     "thumb": "items/images/en/thumbs/morgha_set.f2cd71d06c4e7d5c63b1d66a986bfdd8.128x128.png",
     "displayName": "Morgha Set"
   },
@@ -3746,7 +3746,7 @@
       {
         "urlName": "pandero_prime_barrel",
         "displayName": "Pandero Prime Barrel",
-        "price": 5
+        "price": 4
       },
       {
         "urlName": "pandero_prime_blueprint",
@@ -3756,14 +3756,14 @@
       {
         "urlName": "pandero_prime_receiver",
         "displayName": "Pandero Prime Receiver",
-        "price": 17
+        "price": 16
       }
     ],
     "directSetPrice": 29,
-    "partsTotal": 26,
+    "partsTotal": 24,
     "variant": "parts",
-    "timestamp": 1763641907450,
-    "expiresAt": 1763645507450,
+    "timestamp": 1763645323896,
+    "expiresAt": 1763648923896,
     "thumb": "items/images/en/thumbs/pandero_prime_set.b83adf601737a6357fb8a5c06b637e8f.128x128.png",
     "displayName": "Pandero Prime Set"
   },
@@ -3787,14 +3787,14 @@
       {
         "urlName": "tenora_prime_stock",
         "displayName": "Tenora Prime Stock",
-        "price": 10
+        "price": 9
       }
     ],
     "directSetPrice": 44,
-    "partsTotal": 37,
+    "partsTotal": 36,
     "variant": "parts",
-    "timestamp": 1763641908426,
-    "expiresAt": 1763645508426,
+    "timestamp": 1763645324851,
+    "expiresAt": 1763648924851,
     "thumb": "items/images/en/thumbs/tenora_prime_set.cdda299ba3526be64a78df20883fd173.128x128.png",
     "displayName": "Tenora Prime Set"
   },
@@ -3803,12 +3803,12 @@
       {
         "urlName": "octavia_prime_blueprint",
         "displayName": "Octavia Prime Blueprint",
-        "price": 24
+        "price": 20
       },
       {
         "urlName": "octavia_prime_chassis_blueprint",
         "displayName": "Octavia Prime Chassis Blueprint",
-        "price": 9
+        "price": 7
       },
       {
         "urlName": "octavia_prime_neuroptics_blueprint",
@@ -3821,11 +3821,11 @@
         "price": 8
       }
     ],
-    "directSetPrice": 54,
-    "partsTotal": 48,
+    "directSetPrice": 55,
+    "partsTotal": 42,
     "variant": "parts",
-    "timestamp": 1763641909574,
-    "expiresAt": 1763645509574,
+    "timestamp": 1763645325938,
+    "expiresAt": 1763648925938,
     "thumb": "items/images/en/thumbs/octavia_prime_set.4e24ab1ec9ff333596952d391e69b397.128x128.png",
     "displayName": "Octavia Prime Set"
   },
@@ -3834,29 +3834,29 @@
       {
         "urlName": "carmine_penta_barrel",
         "displayName": "Carmine Penta Barrel",
-        "price": 15
+        "price": 20
       },
       {
         "urlName": "carmine_penta_blueprint",
         "displayName": "Carmine Penta Blueprint",
-        "price": 13
+        "price": 15
       },
       {
         "urlName": "carmine_penta_receiver",
         "displayName": "Carmine Penta Receiver",
-        "price": 15
+        "price": 20
       },
       {
         "urlName": "carmine_penta_stock",
         "displayName": "Carmine Penta Stock",
-        "price": 11
+        "price": 13
       }
     ],
     "directSetPrice": 100,
-    "partsTotal": 54,
+    "partsTotal": 68,
     "variant": "parts",
-    "timestamp": 1763641910329,
-    "expiresAt": 1763645510329,
+    "timestamp": 1763645326592,
+    "expiresAt": 1763648926592,
     "thumb": "items/images/en/thumbs/carmine_penta_set.c1aca6866f8ca8647358966756a8a81b.128x128.png",
     "displayName": "Carmine Penta Set"
   },
@@ -3865,12 +3865,12 @@
       {
         "urlName": "athodai_blueprint",
         "displayName": "Athodai Blueprint",
-        "price": 20
+        "price": 15
       },
       {
         "urlName": "athodai_barrel",
         "displayName": "Athodai Barrel",
-        "price": 20
+        "price": 15
       },
       {
         "urlName": "athodai_receiver",
@@ -3878,11 +3878,11 @@
         "price": 20
       }
     ],
-    "directSetPrice": 70,
-    "partsTotal": 60,
+    "directSetPrice": 50,
+    "partsTotal": 50,
     "variant": "parts",
-    "timestamp": 1763641913209,
-    "expiresAt": 1763645513209,
+    "timestamp": 1763645327393,
+    "expiresAt": 1763648927393,
     "thumb": "items/images/en/thumbs/athodai_set.df278ff7a927e6fa6e2c3a20f4ccdcfb.128x128.png",
     "displayName": "Athodai Set"
   },
@@ -3891,7 +3891,7 @@
       {
         "urlName": "epitaph_receiver",
         "displayName": "Epitaph Receiver",
-        "price": 7
+        "price": 5
       },
       {
         "urlName": "epitaph_barrel",
@@ -3901,14 +3901,14 @@
       {
         "urlName": "epitaph_blueprint",
         "displayName": "Epitaph Blueprint",
-        "price": 5
+        "price": 4
       }
     ],
     "directSetPrice": 9,
-    "partsTotal": 16,
+    "partsTotal": 13,
     "variant": "direct",
-    "timestamp": 1763641913961,
-    "expiresAt": 1763645513961,
+    "timestamp": 1763645328585,
+    "expiresAt": 1763648928585,
     "thumb": "items/images/en/thumbs/epitaph_set.b3a75cdcef1c7ba2971d2c550f8390e3.128x128.png",
     "displayName": "Epitaph Set"
   },
@@ -3922,7 +3922,7 @@
       {
         "urlName": "volnus_prime_handle",
         "displayName": "Volnus Prime Handle",
-        "price": 20
+        "price": 19
       },
       {
         "urlName": "volnus_prime_head",
@@ -3930,11 +3930,11 @@
         "price": 4
       }
     ],
-    "directSetPrice": 28,
-    "partsTotal": 26,
+    "directSetPrice": 30,
+    "partsTotal": 25,
     "variant": "parts",
-    "timestamp": 1763641914780,
-    "expiresAt": 1763645514780,
+    "timestamp": 1763645329408,
+    "expiresAt": 1763648929408,
     "thumb": "items/images/en/thumbs/volnus_prime_set.61e00a9ff67ea0fb1ce0be39e6263ea2.128x128.png",
     "displayName": "Volnus Prime Set"
   },
@@ -3948,7 +3948,7 @@
       {
         "urlName": "gara_prime_chassis_blueprint",
         "displayName": "Gara Prime Chassis Blueprint",
-        "price": 15
+        "price": 14
       },
       {
         "urlName": "gara_prime_neuroptics_blueprint",
@@ -3958,14 +3958,14 @@
       {
         "urlName": "gara_prime_systems_blueprint",
         "displayName": "Gara Prime Systems Blueprint",
-        "price": 4
+        "price": 5
       }
     ],
-    "directSetPrice": 65,
+    "directSetPrice": 70,
     "partsTotal": 59,
     "variant": "parts",
-    "timestamp": 1763641915705,
-    "expiresAt": 1763645515705,
+    "timestamp": 1763645330166,
+    "expiresAt": 1763648930166,
     "thumb": "items/images/en/thumbs/gara_prime_set.e0359bcb2d3e747c46edd23083f39de8.128x128.png",
     "displayName": "Gara Prime Set"
   },
@@ -3984,19 +3984,19 @@
       {
         "urlName": "astilla_prime_receiver",
         "displayName": "Astilla Prime Receiver",
-        "price": 6
+        "price": 7
       },
       {
         "urlName": "astilla_prime_stock",
         "displayName": "Astilla Prime Stock",
-        "price": 4
+        "price": 5
       }
     ],
     "directSetPrice": 39,
-    "partsTotal": 30,
+    "partsTotal": 32,
     "variant": "parts",
-    "timestamp": 1763641916444,
-    "expiresAt": 1763645516444,
+    "timestamp": 1763645332931,
+    "expiresAt": 1763648932931,
     "thumb": "items/images/en/thumbs/astilla_prime_set.4bad71b95376c38d100a5d8caa581266.128x128.png",
     "displayName": "Astilla Prime Set"
   },
@@ -4010,7 +4010,7 @@
       {
         "urlName": "ambassador_blueprint",
         "displayName": "Ambassador Blueprint",
-        "price": 32
+        "price": 30
       },
       {
         "urlName": "ambassador_receiver",
@@ -4024,10 +4024,10 @@
       }
     ],
     "directSetPrice": 28,
-    "partsTotal": 35,
+    "partsTotal": 33,
     "variant": "direct",
-    "timestamp": 1763641917390,
-    "expiresAt": 1763645517390,
+    "timestamp": 1763645333590,
+    "expiresAt": 1763648933590,
     "thumb": "items/images/en/thumbs/ambassador_set.7ccc0f5c1047f5a0cd9f02de8d40b06f.128x128.png",
     "displayName": "Ambassador Set"
   },
@@ -4036,12 +4036,12 @@
       {
         "urlName": "strun_prime_barrel",
         "displayName": "Strun Prime Barrel",
-        "price": 8
+        "price": 7
       },
       {
         "urlName": "strun_prime_blueprint",
         "displayName": "Strun Prime Blueprint",
-        "price": 15
+        "price": 19
       },
       {
         "urlName": "strun_prime_receiver",
@@ -4054,11 +4054,11 @@
         "price": 6
       }
     ],
-    "directSetPrice": 35,
-    "partsTotal": 34,
+    "directSetPrice": 42,
+    "partsTotal": 37,
     "variant": "parts",
-    "timestamp": 1763641918315,
-    "expiresAt": 1763645518315,
+    "timestamp": 1763645334355,
+    "expiresAt": 1763648934355,
     "thumb": "items/images/en/thumbs/strun_prime_set.e7f858160a34886c105633deab6b343e.128x128.png",
     "displayName": "Strun Prime Set"
   },
@@ -4077,14 +4077,14 @@
       {
         "urlName": "magnus_prime_receiver",
         "displayName": "Magnus Prime Receiver",
-        "price": 5
+        "price": 4
       }
     ],
     "directSetPrice": 40,
-    "partsTotal": 36,
+    "partsTotal": 35,
     "variant": "parts",
-    "timestamp": 1763641919129,
-    "expiresAt": 1763645519129,
+    "timestamp": 1763645335090,
+    "expiresAt": 1763648935090,
     "thumb": "items/images/en/thumbs/magnus_prime_set.0a344c24cc5add7707d6bb7c65e585b2.128x128.png",
     "displayName": "Magnus Prime Set"
   },
@@ -4098,12 +4098,12 @@
       {
         "urlName": "nidus_prime_chassis_blueprint",
         "displayName": "Nidus Prime Chassis Blueprint",
-        "price": 19
+        "price": 22
       },
       {
         "urlName": "nidus_prime_neuroptics_blueprint",
         "displayName": "Nidus Prime Neuroptics Blueprint",
-        "price": 30
+        "price": 32
       },
       {
         "urlName": "nidus_prime_systems_blueprint",
@@ -4111,11 +4111,11 @@
         "price": 4
       }
     ],
-    "directSetPrice": 60,
-    "partsTotal": 57,
+    "directSetPrice": 68,
+    "partsTotal": 62,
     "variant": "parts",
-    "timestamp": 1763641922035,
-    "expiresAt": 1763645522035,
+    "timestamp": 1763645335924,
+    "expiresAt": 1763648935924,
     "thumb": "items/images/en/thumbs/nidus_prime_set.1cf479b37c98ce42340156c9c005e91e.128x128.png",
     "displayName": "Nidus Prime Set"
   },
@@ -4129,7 +4129,7 @@
       {
         "urlName": "ghoulsaw_blueprint",
         "displayName": "Ghoulsaw Blueprint",
-        "price": 20
+        "price": 5
       },
       {
         "urlName": "ghoulsaw_chassis_blueprint",
@@ -4150,8 +4150,8 @@
     "directSetPrice": 10,
     "partsTotal": null,
     "variant": "direct",
-    "timestamp": 1763641922700,
-    "expiresAt": 1763645522700,
+    "timestamp": 1763645338596,
+    "expiresAt": 1763648938596,
     "thumb": "items/images/en/thumbs/ghoulsaw_set.f9a355d3f35098841d346d536abd801c.128x128.png",
     "displayName": "Ghoulsaw Set"
   },
@@ -4160,7 +4160,7 @@
       {
         "urlName": "knell_prime_barrel",
         "displayName": "Knell Prime Barrel",
-        "price": 24
+        "price": 25
       },
       {
         "urlName": "knell_prime_blueprint",
@@ -4173,11 +4173,11 @@
         "price": 3
       }
     ],
-    "directSetPrice": 30,
-    "partsTotal": 29,
+    "directSetPrice": 35,
+    "partsTotal": 30,
     "variant": "parts",
-    "timestamp": 1763641923563,
-    "expiresAt": 1763645523563,
+    "timestamp": 1763645339307,
+    "expiresAt": 1763648939307,
     "thumb": "items/images/en/thumbs/knell_prime_set.bde803a974cb2f30577f31b4b2961efb.128x128.png",
     "displayName": "Knell Prime Set"
   },
@@ -4186,7 +4186,7 @@
       {
         "urlName": "harrow_prime_blueprint",
         "displayName": "Harrow Prime Blueprint",
-        "price": 4
+        "price": 5
       },
       {
         "urlName": "harrow_prime_chassis_blueprint",
@@ -4204,11 +4204,11 @@
         "price": 30
       }
     ],
-    "directSetPrice": 60,
-    "partsTotal": 48,
+    "directSetPrice": 58,
+    "partsTotal": 49,
     "variant": "parts",
-    "timestamp": 1763641925217,
-    "expiresAt": 1763645525217,
+    "timestamp": 1763645340080,
+    "expiresAt": 1763648940080,
     "thumb": "items/images/en/thumbs/harrow_prime_set.532d5a9a035beaca81c15bbaa4001a1d.128x128.png",
     "displayName": "Harrow Prime Set"
   },
@@ -4232,14 +4232,14 @@
       {
         "urlName": "scourge_prime_handle",
         "displayName": "Scourge Prime Handle",
-        "price": 4
+        "price": 5
       }
     ],
-    "directSetPrice": 73,
-    "partsTotal": 49,
+    "directSetPrice": 75,
+    "partsTotal": 50,
     "variant": "parts",
-    "timestamp": 1763641926123,
-    "expiresAt": 1763645526123,
+    "timestamp": 1763645340809,
+    "expiresAt": 1763648940809,
     "thumb": "items/images/en/thumbs/scourge_prime_set.0a3ad76487e9722f613f6e57e3983cbd.128x128.png",
     "displayName": "Scourge Prime Set"
   },
@@ -4248,7 +4248,7 @@
       {
         "urlName": "corvas_prime_barrel",
         "displayName": "Corvas Prime Barrel",
-        "price": 25
+        "price": 20
       },
       {
         "urlName": "corvas_prime_blueprint",
@@ -4258,7 +4258,7 @@
       {
         "urlName": "corvas_prime_receiver",
         "displayName": "Corvas Prime Receiver",
-        "price": 7
+        "price": 5
       },
       {
         "urlName": "corvas_prime_stock",
@@ -4267,10 +4267,10 @@
       }
     ],
     "directSetPrice": 40,
-    "partsTotal": 40,
+    "partsTotal": 33,
     "variant": "parts",
-    "timestamp": 1763641927026,
-    "expiresAt": 1763645527026,
+    "timestamp": 1763645343696,
+    "expiresAt": 1763648943696,
     "thumb": "items/images/en/thumbs/corvas_prime_set.f6bd98b0b4a2491580a40775708b21f4.128x128.png",
     "displayName": "Corvas Prime Set"
   },
@@ -4289,7 +4289,7 @@
       {
         "urlName": "nagantaka_prime_receiver",
         "displayName": "Nagantaka Prime Receiver",
-        "price": 5
+        "price": 2
       },
       {
         "urlName": "nagantaka_prime_stock",
@@ -4297,11 +4297,11 @@
         "price": 3
       }
     ],
-    "directSetPrice": 35,
-    "partsTotal": 25,
+    "directSetPrice": 28,
+    "partsTotal": 22,
     "variant": "parts",
-    "timestamp": 1763641927960,
-    "expiresAt": 1763645527960,
+    "timestamp": 1763645344459,
+    "expiresAt": 1763648944459,
     "thumb": "items/images/en/thumbs/nagantaka_prime_set.f1af5a1cf53058c86df2c4969f37ea27.128x128.png",
     "displayName": "Nagantaka Prime Set"
   },
@@ -4315,7 +4315,7 @@
       {
         "urlName": "garuda_prime_chassis_blueprint",
         "displayName": "Garuda Prime Chassis Blueprint",
-        "price": 6
+        "price": 5
       },
       {
         "urlName": "garuda_prime_neuroptics_blueprint",
@@ -4328,11 +4328,11 @@
         "price": 39
       }
     ],
-    "directSetPrice": 70,
-    "partsTotal": 68,
+    "directSetPrice": 75,
+    "partsTotal": 67,
     "variant": "parts",
-    "timestamp": 1763641928850,
-    "expiresAt": 1763645528850,
+    "timestamp": 1763645345214,
+    "expiresAt": 1763648945214,
     "thumb": "items/images/en/thumbs/garuda_prime_set.283072e865cfc5da28d322b15a2065fa.128x128.png",
     "displayName": "Garuda Prime Set"
   },
@@ -4357,8 +4357,8 @@
     "directSetPrice": 75,
     "partsTotal": 60,
     "variant": "parts",
-    "timestamp": 1763641931638,
-    "expiresAt": 1763645531638,
+    "timestamp": 1763645345862,
+    "expiresAt": 1763648945862,
     "thumb": "items/images/en/thumbs/aeolak_set.6bea718eeee31f702d625029e035b646.128x128.png",
     "displayName": "Aeolak Set"
   },
@@ -4367,19 +4367,19 @@
       {
         "urlName": "hespar_blade_blueprint",
         "displayName": "Hespar Blade Blueprint",
-        "price": 140
+        "price": 150
       },
       {
         "urlName": "hespar_handle_blueprint",
         "displayName": "Hespar Handle Blueprint",
-        "price": 4
+        "price": 10
       }
     ],
-    "directSetPrice": 170,
-    "partsTotal": 144,
+    "directSetPrice": 169,
+    "partsTotal": 160,
     "variant": "parts",
-    "timestamp": 1763641932353,
-    "expiresAt": 1763645532353,
+    "timestamp": 1763645346541,
+    "expiresAt": 1763648946541,
     "thumb": "items/images/en/thumbs/hespar_set.58bd4fbd6ed4930402342b2662d68ac4.128x128.png",
     "displayName": "Hespar Set"
   },
@@ -4388,7 +4388,7 @@
       {
         "urlName": "dual_keres_prime_blade",
         "displayName": "Dual Keres Prime Blade",
-        "price": 8
+        "price": 5
       },
       {
         "urlName": "dual_keres_prime_blueprint",
@@ -4401,11 +4401,11 @@
         "price": 5
       }
     ],
-    "directSetPrice": 45,
-    "partsTotal": 23,
+    "directSetPrice": 40,
+    "partsTotal": 20,
     "variant": "parts",
-    "timestamp": 1763641933221,
-    "expiresAt": 1763645533221,
+    "timestamp": 1763645347264,
+    "expiresAt": 1763648947264,
     "thumb": "items/images/en/thumbs/dual_keres_prime_set.ea70ac30dab8db745193cb166b246efc.128x128.png",
     "displayName": "Dual Keres Prime Set"
   },
@@ -4414,24 +4414,24 @@
       {
         "urlName": "hystrix_prime_barrel",
         "displayName": "Hystrix Prime Barrel",
-        "price": 7
+        "price": 2
       },
       {
         "urlName": "hystrix_prime_blueprint",
         "displayName": "Hystrix Prime Blueprint",
-        "price": 4
+        "price": 2
       },
       {
         "urlName": "hystrix_prime_receiver",
         "displayName": "Hystrix Prime Receiver",
-        "price": 15
+        "price": 12
       }
     ],
     "directSetPrice": 20,
-    "partsTotal": 26,
-    "variant": "direct",
-    "timestamp": 1763641934053,
-    "expiresAt": 1763645534053,
+    "partsTotal": 16,
+    "variant": "parts",
+    "timestamp": 1763645348110,
+    "expiresAt": 1763648948110,
     "thumb": "items/images/en/thumbs/hystrix_prime_set.1ac7d440197ca107e3df6646cb58a43d.128x128.png",
     "displayName": "Hystrix Prime Set"
   },
@@ -4440,12 +4440,12 @@
       {
         "urlName": "khora_prime_blueprint",
         "displayName": "Khora Prime Blueprint",
-        "price": 29
+        "price": 25
       },
       {
         "urlName": "khora_prime_chassis_blueprint",
         "displayName": "Khora Prime Chassis Blueprint",
-        "price": 5
+        "price": 3
       },
       {
         "urlName": "khora_prime_neuroptics_blueprint",
@@ -4458,11 +4458,11 @@
         "price": 5
       }
     ],
-    "directSetPrice": 79,
-    "partsTotal": 69,
+    "directSetPrice": 80,
+    "partsTotal": 63,
     "variant": "parts",
-    "timestamp": 1763641934931,
-    "expiresAt": 1763645534931,
+    "timestamp": 1763645351171,
+    "expiresAt": 1763648951171,
     "thumb": "items/images/en/thumbs/khora_prime_set.12b9da415ed4f659296947b5c7157dc0.128x128.png",
     "displayName": "Khora Prime Set"
   },
@@ -4471,7 +4471,7 @@
       {
         "urlName": "tatsu_prime_blade",
         "displayName": "Tatsu Prime Blade",
-        "price": 3
+        "price": 5
       },
       {
         "urlName": "tatsu_prime_blueprint",
@@ -4485,10 +4485,10 @@
       }
     ],
     "directSetPrice": 23,
-    "partsTotal": 21,
+    "partsTotal": 23,
     "variant": "parts",
-    "timestamp": 1763641935712,
-    "expiresAt": 1763645535712,
+    "timestamp": 1763645351943,
+    "expiresAt": 1763648951943,
     "thumb": "items/images/en/thumbs/tatsu_prime_set.d517fb4c89ed6076ddf26ffdb8efb88e.128x128.png",
     "displayName": "Tatsu Prime Set"
   },
@@ -4497,7 +4497,7 @@
       {
         "urlName": "revenant_prime_blueprint",
         "displayName": "Revenant Prime Blueprint",
-        "price": 25
+        "price": 22
       },
       {
         "urlName": "revenant_prime_chassis_blueprint",
@@ -4507,7 +4507,7 @@
       {
         "urlName": "revenant_prime_neuroptics_blueprint",
         "displayName": "Revenant Prime Neuroptics Blueprint",
-        "price": 6
+        "price": 7
       },
       {
         "urlName": "revenant_prime_systems_blueprint",
@@ -4515,11 +4515,11 @@
         "price": 9
       }
     ],
-    "directSetPrice": 55,
-    "partsTotal": 45,
+    "directSetPrice": 50,
+    "partsTotal": 43,
     "variant": "parts",
-    "timestamp": 1763641936694,
-    "expiresAt": 1763645536694,
+    "timestamp": 1763645352771,
+    "expiresAt": 1763648952771,
     "thumb": "items/images/en/thumbs/revenant_prime_set.469f99b4183a5dda7769b78b2cde6658.128x128.png",
     "displayName": "Revenant Prime Set"
   },
@@ -4528,7 +4528,7 @@
       {
         "urlName": "phantasma_prime_barrel",
         "displayName": "Phantasma Prime Barrel",
-        "price": 15
+        "price": 18
       },
       {
         "urlName": "phantasma_prime_blueprint",
@@ -4538,19 +4538,19 @@
       {
         "urlName": "phantasma_prime_receiver",
         "displayName": "Phantasma Prime Receiver",
-        "price": 4
+        "price": 5
       },
       {
         "urlName": "phantasma_prime_stock",
         "displayName": "Phantasma Prime Stock",
-        "price": 16
+        "price": 17
       }
     ],
     "directSetPrice": 45,
-    "partsTotal": 39,
+    "partsTotal": 44,
     "variant": "parts",
-    "timestamp": 1763641937511,
-    "expiresAt": 1763645537511,
+    "timestamp": 1763645353482,
+    "expiresAt": 1763648953482,
     "thumb": "items/images/en/thumbs/phantasma_prime_set.a296718b56d5a40b6df80bbedeeb4b75.128x128.png",
     "displayName": "Phantasma Prime Set"
   },
@@ -4569,14 +4569,14 @@
       {
         "urlName": "perigale_stock",
         "displayName": "Perigale Stock",
-        "price": 2
+        "price": 3
       }
     ],
     "directSetPrice": 3,
-    "partsTotal": 5,
+    "partsTotal": 6,
     "variant": "direct",
-    "timestamp": 1763641938245,
-    "expiresAt": 1763645538245,
+    "timestamp": 1763645354297,
+    "expiresAt": 1763648954297,
     "thumb": "items/images/en/thumbs/perigale_set.679b0e40d7651d8a117e07d1c7039886.128x128.png",
     "displayName": "Perigale Set"
   },
@@ -4590,14 +4590,14 @@
       {
         "urlName": "sarofang_handle",
         "displayName": "Sarofang Handle",
-        "price": 2
+        "price": 3
       }
     ],
     "directSetPrice": 3,
-    "partsTotal": 4,
+    "partsTotal": 5,
     "variant": "direct",
-    "timestamp": 1763641939195,
-    "expiresAt": 1763645539195,
+    "timestamp": 1763645355045,
+    "expiresAt": 1763648955045,
     "thumb": "items/images/en/thumbs/sarofang_set.b9dddab4cdb3312fa7a7bf8c78d82246.128x128.png",
     "displayName": "Sarofang Set"
   },
@@ -4606,7 +4606,7 @@
       {
         "urlName": "baruuk_prime_blueprint",
         "displayName": "Baruuk Prime Blueprint",
-        "price": 15
+        "price": 14
       },
       {
         "urlName": "baruuk_prime_chassis_blueprint",
@@ -4616,7 +4616,7 @@
       {
         "urlName": "baruuk_prime_neuroptics_blueprint",
         "displayName": "Baruuk Prime Neuroptics Blueprint",
-        "price": 22
+        "price": 21
       },
       {
         "urlName": "baruuk_prime_systems_blueprint",
@@ -4625,10 +4625,10 @@
       }
     ],
     "directSetPrice": 50,
-    "partsTotal": 44,
+    "partsTotal": 42,
     "variant": "parts",
-    "timestamp": 1763641940165,
-    "expiresAt": 1763645540165,
+    "timestamp": 1763645355810,
+    "expiresAt": 1763648955810,
     "thumb": "items/images/en/thumbs/baruuk_prime_set.90bcb486d7a5defe4a74c94acfebf6d0.128x128.png",
     "displayName": "Baruuk Prime Set"
   },
@@ -4652,14 +4652,14 @@
       {
         "urlName": "afuris_prime_receiver",
         "displayName": "Afuris Prime Receiver",
-        "price": 29
+        "price": 28
       }
     ],
-    "directSetPrice": 50,
-    "partsTotal": 40,
+    "directSetPrice": 75,
+    "partsTotal": 39,
     "variant": "parts",
-    "timestamp": 1763641941325,
-    "expiresAt": 1763645541325,
+    "timestamp": 1763645358706,
+    "expiresAt": 1763648958706,
     "thumb": "items/images/en/thumbs/afuris_prime_set.bfdca7167652c5c2d474ac75ea3af595.128x128.png",
     "displayName": "Afuris Prime Set"
   },
@@ -4668,17 +4668,17 @@
       {
         "urlName": "cobra_and_crane_prime_blade",
         "displayName": "Cobra & Crane Prime Blade",
-        "price": 4
+        "price": 5
       },
       {
         "urlName": "cobra_and_crane_prime_blueprint",
         "displayName": "Cobra & Crane Prime Blueprint",
-        "price": 2
+        "price": 3
       },
       {
         "urlName": "cobra_and_crane_prime_guard",
         "displayName": "Cobra & Crane Prime Guard",
-        "price": 9
+        "price": 10
       },
       {
         "urlName": "cobra_and_crane_prime_hilt",
@@ -4687,10 +4687,10 @@
       }
     ],
     "directSetPrice": 20,
-    "partsTotal": 19,
-    "variant": "parts",
-    "timestamp": 1763641944356,
-    "expiresAt": 1763645544356,
+    "partsTotal": 22,
+    "variant": "direct",
+    "timestamp": 1763645359433,
+    "expiresAt": 1763648959433,
     "thumb": "items/images/en/thumbs/cobra_and_crane_prime_set.84b2733b9f7486c23028b5a2b4e012b4.128x128.png",
     "displayName": "Cobra & Crane Prime Set"
   },
@@ -4699,7 +4699,7 @@
       {
         "urlName": "steflos_barrel",
         "displayName": "Steflos Barrel",
-        "price": 8
+        "price": 10
       },
       {
         "urlName": "steflos_receiver",
@@ -4712,11 +4712,11 @@
         "price": 6
       }
     ],
-    "directSetPrice": 20,
-    "partsTotal": 21,
-    "variant": "direct",
-    "timestamp": 1763641945130,
-    "expiresAt": 1763645545130,
+    "directSetPrice": 25,
+    "partsTotal": 23,
+    "variant": "parts",
+    "timestamp": 1763645360179,
+    "expiresAt": 1763648960179,
     "thumb": "items/images/en/thumbs/steflos_set.85c571f91d8c288ad8d544757a02d8ba.128x128.png",
     "displayName": "Steflos Set"
   },
@@ -4730,19 +4730,19 @@
       {
         "urlName": "corufell_handle",
         "displayName": "Corufell Handle",
-        "price": 9
+        "price": 8
       },
       {
         "urlName": "corufell_receiver",
         "displayName": "Corufell Receiver",
-        "price": 10
+        "price": 15
       }
     ],
-    "directSetPrice": 24,
-    "partsTotal": 29,
+    "directSetPrice": 20,
+    "partsTotal": 33,
     "variant": "direct",
-    "timestamp": 1763641945819,
-    "expiresAt": 1763645545819,
+    "timestamp": 1763645360900,
+    "expiresAt": 1763648960900,
     "thumb": "items/images/en/thumbs/corufell_set.1361201225387534bc5dd7896424974c.128x128.png",
     "displayName": "Corufell Set"
   },
@@ -4761,7 +4761,7 @@
       {
         "urlName": "hildryn_prime_neuroptics_blueprint",
         "displayName": "Hildryn Prime Neuroptics Blueprint",
-        "price": 5
+        "price": 6
       },
       {
         "urlName": "hildryn_prime_systems_blueprint",
@@ -4770,10 +4770,10 @@
       }
     ],
     "directSetPrice": 43,
-    "partsTotal": 45,
+    "partsTotal": 46,
     "variant": "direct",
-    "timestamp": 1763641946777,
-    "expiresAt": 1763645546777,
+    "timestamp": 1763645361677,
+    "expiresAt": 1763648961677,
     "thumb": "items/images/en/thumbs/hildryn_prime_set.7e3f1cd4b94baa590dde37cd0ad0ba9e.128x128.png",
     "displayName": "Hildryn Prime Set"
   },
@@ -4782,7 +4782,7 @@
       {
         "urlName": "larkspur_prime_barrel",
         "displayName": "Larkspur Prime Barrel",
-        "price": 27
+        "price": 25
       },
       {
         "urlName": "larkspur_prime_blueprint",
@@ -4792,19 +4792,19 @@
       {
         "urlName": "larkspur_prime_receiver",
         "displayName": "Larkspur Prime Receiver",
-        "price": 4
+        "price": 5
       },
       {
         "urlName": "larkspur_prime_stock",
         "displayName": "Larkspur Prime Stock",
-        "price": 4
+        "price": 5
       }
     ],
-    "directSetPrice": 42,
+    "directSetPrice": 40,
     "partsTotal": 38,
     "variant": "parts",
-    "timestamp": 1763641947641,
-    "expiresAt": 1763645547641,
+    "timestamp": 1763645362432,
+    "expiresAt": 1763648962432,
     "thumb": "items/images/en/thumbs/larkspur_prime_set.592e684b836593e202891aea8b3a3f6c.128x128.png",
     "displayName": "Larkspur Prime Set"
   },
@@ -4818,17 +4818,17 @@
       {
         "urlName": "cinta_grip_blueprint",
         "displayName": "Cinta Grip Blueprint",
-        "price": 9
+        "price": 12
       },
       {
         "urlName": "cinta_string_blueprint",
         "displayName": "Cinta String Blueprint",
-        "price": 15
+        "price": 10
       },
       {
         "urlName": "cinta_lower_limb_blueprint",
         "displayName": "Cinta Lower Limb Blueprint",
-        "price": 12
+        "price": 15
       },
       {
         "urlName": "cinta_blueprint",
@@ -4836,11 +4836,11 @@
         "price": 10
       }
     ],
-    "directSetPrice": 75,
-    "partsTotal": 56,
+    "directSetPrice": 70,
+    "partsTotal": 57,
     "variant": "parts",
-    "timestamp": 1763641948386,
-    "expiresAt": 1763645548386,
+    "timestamp": 1763645365211,
+    "expiresAt": 1763648965211,
     "thumb": "items/images/en/thumbs/cinta_set.b194993855e39e7e4c47706e7344736e.128x128.png",
     "displayName": "Cinta Set"
   },
@@ -4859,14 +4859,14 @@
       {
         "urlName": "rauta_stock",
         "displayName": "Rauta Stock",
-        "price": null
+        "price": 15
       }
     ],
-    "directSetPrice": 40,
-    "partsTotal": null,
-    "variant": "parts",
-    "timestamp": 1763641951336,
-    "expiresAt": 1763645551336,
+    "directSetPrice": 35,
+    "partsTotal": 39,
+    "variant": "direct",
+    "timestamp": 1763645365949,
+    "expiresAt": 1763648965949,
     "thumb": "items/images/en/thumbs/rauta_set.cbe84e8e7131f82a5af0e4964dbbde79.128x128.png",
     "displayName": "Rauta Set"
   },
@@ -4880,7 +4880,7 @@
       {
         "urlName": "gunsen_prime_blueprint",
         "displayName": "Gunsen Prime Blueprint",
-        "price": 2
+        "price": 3
       },
       {
         "urlName": "gunsen_prime_handle",
@@ -4888,11 +4888,11 @@
         "price": 5
       }
     ],
-    "directSetPrice": 31,
-    "partsTotal": 17,
+    "directSetPrice": 36,
+    "partsTotal": 18,
     "variant": "parts",
-    "timestamp": 1763641952167,
-    "expiresAt": 1763645552167,
+    "timestamp": 1763645366672,
+    "expiresAt": 1763648966672,
     "thumb": "items/images/en/thumbs/gunsen_prime_set.a344dbe97a8e1968c9f04f1f21145edf.128x128.png",
     "displayName": "Gunsen Prime Set"
   },
@@ -4911,7 +4911,7 @@
       {
         "urlName": "wisp_prime_neuroptics_blueprint",
         "displayName": "Wisp Prime Neuroptics Blueprint",
-        "price": 5
+        "price": 4
       },
       {
         "urlName": "wisp_prime_systems_blueprint",
@@ -4920,10 +4920,10 @@
       }
     ],
     "directSetPrice": 55,
-    "partsTotal": 49,
+    "partsTotal": 48,
     "variant": "parts",
-    "timestamp": 1763641953187,
-    "expiresAt": 1763645553187,
+    "timestamp": 1763645367596,
+    "expiresAt": 1763648967596,
     "thumb": "items/images/en/thumbs/wisp_prime_set.609bc4e8676a77247cc126ca150cb132.128x128.png",
     "displayName": "Wisp Prime Set"
   },
@@ -4947,14 +4947,14 @@
       {
         "urlName": "fulmin_prime_stock",
         "displayName": "Fulmin Prime Stock",
-        "price": 3
+        "price": 4
       }
     ],
     "directSetPrice": 25,
-    "partsTotal": 27,
+    "partsTotal": 28,
     "variant": "direct",
-    "timestamp": 1763641954647,
-    "expiresAt": 1763645554647,
+    "timestamp": 1763645368402,
+    "expiresAt": 1763648968402,
     "thumb": "items/images/en/thumbs/fulmin_prime_set.a7295ff536f9f735088ebb3adc7c5958.128x128.png",
     "displayName": "Fulmin Prime Set"
   },
@@ -4981,11 +4981,11 @@
         "price": 19
       }
     ],
-    "directSetPrice": 38,
+    "directSetPrice": 40,
     "partsTotal": 36,
     "variant": "parts",
-    "timestamp": 1763641956474,
-    "expiresAt": 1763645556474,
+    "timestamp": 1763645369939,
+    "expiresAt": 1763648969939,
     "thumb": "items/images/en/thumbs/grendel_prime_set.c684407cdaea9bef16f0c7aa97c74369.128x128.png",
     "displayName": "Grendel Prime Set"
   },
@@ -4994,7 +4994,7 @@
       {
         "urlName": "masseter_prime_blade",
         "displayName": "Masseter Prime Blade",
-        "price": 9
+        "price": 10
       },
       {
         "urlName": "masseter_prime_blueprint",
@@ -5007,11 +5007,11 @@
         "price": 2
       }
     ],
-    "directSetPrice": 15,
-    "partsTotal": 14,
-    "variant": "parts",
-    "timestamp": 1763641958308,
-    "expiresAt": 1763645558308,
+    "directSetPrice": 10,
+    "partsTotal": 15,
+    "variant": "direct",
+    "timestamp": 1763645370570,
+    "expiresAt": 1763648970570,
     "thumb": "items/images/en/thumbs/masseter_prime_set.d507aa3bf568e9ca76f7bc9b6d2288c8.128x128.png",
     "displayName": "Masseter Prime Set"
   },
@@ -5025,19 +5025,19 @@
       {
         "urlName": "zylok_prime_blueprint",
         "displayName": "Zylok Prime Blueprint",
-        "price": 8
+        "price": 9
       },
       {
         "urlName": "zylok_prime_receiver",
         "displayName": "Zylok Prime Receiver",
-        "price": 3
+        "price": 4
       }
     ],
-    "directSetPrice": 14,
-    "partsTotal": 15,
+    "directSetPrice": 13,
+    "partsTotal": 17,
     "variant": "direct",
-    "timestamp": 1763641960096,
-    "expiresAt": 1763645560096,
+    "timestamp": 1763645373370,
+    "expiresAt": 1763648973370,
     "thumb": "items/images/en/thumbs/zylok_prime_set.3e33bc4a5c48f70000b4ad50fa283437.128x128.png",
     "displayName": "Zylok Prime Set"
   },
@@ -5061,14 +5061,14 @@
       {
         "urlName": "mandonel_stock",
         "displayName": "Mandonel Stock",
-        "price": 3
+        "price": 4
       }
     ],
     "directSetPrice": 15,
-    "partsTotal": 16,
+    "partsTotal": 17,
     "variant": "direct",
-    "timestamp": 1763641960972,
-    "expiresAt": 1763645560972,
+    "timestamp": 1763645374095,
+    "expiresAt": 1763648974095,
     "thumb": "items/images/en/thumbs/mandonel_set.242783b92f4aeadf1270b7012dfa9079.128x128.png",
     "displayName": "Mandonel Set"
   },
@@ -5092,14 +5092,14 @@
       {
         "urlName": "gauss_prime_systems_blueprint",
         "displayName": "Gauss Prime Systems Blueprint",
-        "price": 20
+        "price": 19
       }
     ],
-    "directSetPrice": 30,
-    "partsTotal": 32,
-    "variant": "direct",
-    "timestamp": 1763641961910,
-    "expiresAt": 1763645561910,
+    "directSetPrice": 35,
+    "partsTotal": 31,
+    "variant": "parts",
+    "timestamp": 1763645374812,
+    "expiresAt": 1763648974812,
     "thumb": "items/images/en/thumbs/gauss_prime_set.df5aa569d863730a4de767fd449c107e.128x128.png",
     "displayName": "Gauss Prime Set"
   },
@@ -5108,7 +5108,7 @@
       {
         "urlName": "akarius_prime_barrel",
         "displayName": "Akarius Prime Barrel",
-        "price": 4
+        "price": 3
       },
       {
         "urlName": "akarius_prime_blueprint",
@@ -5123,14 +5123,14 @@
       {
         "urlName": "akarius_prime_receiver",
         "displayName": "Akarius Prime Receiver",
-        "price": 11
+        "price": 13
       }
     ],
     "directSetPrice": 39,
-    "partsTotal": 24,
+    "partsTotal": 25,
     "variant": "parts",
-    "timestamp": 1763641962891,
-    "expiresAt": 1763645562891,
+    "timestamp": 1763645375619,
+    "expiresAt": 1763648975619,
     "thumb": "items/images/en/thumbs/akarius_prime_set.9e88bceafe14482e1a01672c1c292fe1.128x128.png",
     "displayName": "Akarius Prime Set"
   },
@@ -5139,7 +5139,7 @@
       {
         "urlName": "acceltra_prime_barrel",
         "displayName": "Acceltra Prime Barrel",
-        "price": 8
+        "price": 7
       },
       {
         "urlName": "acceltra_prime_blueprint",
@@ -5157,11 +5157,11 @@
         "price": 9
       }
     ],
-    "directSetPrice": 15,
-    "partsTotal": 21,
-    "variant": "direct",
-    "timestamp": 1763641963834,
-    "expiresAt": 1763645563834,
+    "directSetPrice": 20,
+    "partsTotal": 20,
+    "variant": "parts",
+    "timestamp": 1763645376262,
+    "expiresAt": 1763648976262,
     "thumb": "items/images/en/thumbs/acceltra_prime_set.b826cc938ba700ff8d8f07d2b38051f7.128x128.png",
     "displayName": "Acceltra Prime Set"
   },
@@ -5175,12 +5175,12 @@
       {
         "urlName": "protea_prime_neuroptics_blueprint",
         "displayName": "Protea Prime Neuroptics Blueprint",
-        "price": 1
+        "price": 2
       },
       {
         "urlName": "protea_prime_chassis_blueprint",
         "displayName": "Protea Prime Chassis Blueprint",
-        "price": 17
+        "price": 18
       },
       {
         "urlName": "protea_prime_systems_blueprint",
@@ -5188,11 +5188,11 @@
         "price": 9
       }
     ],
-    "directSetPrice": 25,
-    "partsTotal": 29,
+    "directSetPrice": 29,
+    "partsTotal": 31,
     "variant": "direct",
-    "timestamp": 1763641964688,
-    "expiresAt": 1763645564688,
+    "timestamp": 1763645379109,
+    "expiresAt": 1763648979109,
     "thumb": "items/images/en/thumbs/protea_prime_set.c4d0269d10f68228b05510982f06e58b.128x128.png",
     "displayName": "Protea Prime Set"
   },
@@ -5201,12 +5201,12 @@
       {
         "urlName": "velox_prime_barrel",
         "displayName": "Velox Prime Barrel",
-        "price": 7
+        "price": 8
       },
       {
         "urlName": "velox_prime_blueprint",
         "displayName": "Velox Prime Blueprint",
-        "price": 2
+        "price": 3
       },
       {
         "urlName": "velox_prime_receiver",
@@ -5215,10 +5215,10 @@
       }
     ],
     "directSetPrice": 10,
-    "partsTotal": 12,
+    "partsTotal": 14,
     "variant": "direct",
-    "timestamp": 1763641965516,
-    "expiresAt": 1763645565516,
+    "timestamp": 1763645379856,
+    "expiresAt": 1763648979856,
     "thumb": "items/images/en/thumbs/velox_prime_set.bc5a5e03386043e26ec2a69b90cc0cad.128x128.png",
     "displayName": "Velox Prime Set"
   },
@@ -5232,19 +5232,19 @@
       {
         "urlName": "okina_prime_blueprint",
         "displayName": "Okina Prime Blueprint",
-        "price": 7
+        "price": 8
       },
       {
         "urlName": "okina_prime_handle",
         "displayName": "Okina Prime Handle",
-        "price": 3
+        "price": 2
       }
     ],
-    "directSetPrice": 20,
+    "directSetPrice": 22,
     "partsTotal": 15,
     "variant": "parts",
-    "timestamp": 1763641966511,
-    "expiresAt": 1763645566511,
+    "timestamp": 1763645380667,
+    "expiresAt": 1763648980667,
     "thumb": "items/images/en/thumbs/okina_prime_set.d93cf8091977d4c4696423b69951ff7a.128x128.png",
     "displayName": "Okina Prime Set"
   },
@@ -5261,11 +5261,11 @@
         "price": 15
       }
     ],
-    "directSetPrice": 40,
+    "directSetPrice": 39,
     "partsTotal": 28,
     "variant": "parts",
-    "timestamp": 1763641967235,
-    "expiresAt": 1763645567235,
+    "timestamp": 1763645381301,
+    "expiresAt": 1763648981301,
     "thumb": "items/images/en/thumbs/akmagnus_prime.95b6f92e0f3a5b3b82d82195d1778d5d.128x128.webp",
     "displayName": "Akmagnus Prime Set"
   },
@@ -5274,29 +5274,29 @@
       {
         "urlName": "sevagoth_prime_blueprint",
         "displayName": "Sevagoth Prime Blueprint",
-        "price": 2
+        "price": 4
       },
       {
         "urlName": "sevagoth_prime_chassis_blueprint",
         "displayName": "Sevagoth Prime Chassis Blueprint",
-        "price": 17
+        "price": 20
       },
       {
         "urlName": "sevagoth_prime_neuroptics_blueprint",
         "displayName": "Sevagoth Prime Neuroptics Blueprint",
-        "price": 1
+        "price": 2
       },
       {
         "urlName": "sevagoth_prime_systems_blueprint",
         "displayName": "Sevagoth Prime Systems Blueprint",
-        "price": 2
+        "price": 1
       }
     ],
     "directSetPrice": 24,
-    "partsTotal": 22,
-    "variant": "parts",
-    "timestamp": 1763641968196,
-    "expiresAt": 1763645568196,
+    "partsTotal": 27,
+    "variant": "direct",
+    "timestamp": 1763645382121,
+    "expiresAt": 1763648982121,
     "thumb": "items/images/en/thumbs/sevagoth_prime.56633fb39859f758c11e42519c3521fb.128x128.webp",
     "displayName": "Sevagoth Prime Set"
   },
@@ -5310,7 +5310,7 @@
       {
         "urlName": "epitaph_prime_blueprint",
         "displayName": "Epitaph Prime Blueprint",
-        "price": 4
+        "price": 5
       },
       {
         "urlName": "epitaph_prime_receiver",
@@ -5318,11 +5318,11 @@
         "price": 9
       }
     ],
-    "directSetPrice": 19,
-    "partsTotal": 15,
+    "directSetPrice": 18,
+    "partsTotal": 16,
     "variant": "parts",
-    "timestamp": 1763641969107,
-    "expiresAt": 1763645569107,
+    "timestamp": 1763645382942,
+    "expiresAt": 1763648982942,
     "thumb": "items/images/en/thumbs/epitaph_prime.7402042b9ff2df97d76b99404f0bb527.128x128.webp",
     "displayName": "Epitaph Prime Set"
   },
@@ -5346,14 +5346,14 @@
       {
         "urlName": "xaku_prime_systems_blueprint",
         "displayName": "Xaku Prime Systems Blueprint",
-        "price": 3
+        "price": 4
       }
     ],
     "directSetPrice": 27,
-    "partsTotal": 22,
+    "partsTotal": 23,
     "variant": "parts",
-    "timestamp": 1763641970070,
-    "expiresAt": 1763645570070,
+    "timestamp": 1763645383735,
+    "expiresAt": 1763648983735,
     "thumb": "items/images/en/thumbs/xaku_prime.caeeda2f9eec158d19fd76d7631fa5de.128x128.webp",
     "displayName": "Xaku Prime Set"
   },
@@ -5362,7 +5362,7 @@
       {
         "urlName": "trumna_prime_barrel",
         "displayName": "Trumna Prime Barrel",
-        "price": 7
+        "price": 9
       },
       {
         "urlName": "trumna_prime_blueprint",
@@ -5372,7 +5372,7 @@
       {
         "urlName": "trumna_prime_receiver",
         "displayName": "Trumna Prime Receiver",
-        "price": 6
+        "price": 10
       },
       {
         "urlName": "trumna_prime_stock",
@@ -5380,11 +5380,11 @@
         "price": 2
       }
     ],
-    "directSetPrice": 20,
-    "partsTotal": 16,
+    "directSetPrice": 23,
+    "partsTotal": 22,
     "variant": "parts",
-    "timestamp": 1763641970815,
-    "expiresAt": 1763645570815,
+    "timestamp": 1763645386644,
+    "expiresAt": 1763648986644,
     "thumb": "items/images/en/thumbs/trumna_prime.ccbe6544b4b41bb246fee4f68fe4d371.128x128.webp",
     "displayName": "Trumna Prime Set"
   },
@@ -5398,7 +5398,7 @@
       {
         "urlName": "quassus_prime_blueprint",
         "displayName": "Quassus Prime Blueprint",
-        "price": 1
+        "price": 2
       },
       {
         "urlName": "quassus_prime_handle",
@@ -5406,11 +5406,11 @@
         "price": 3
       }
     ],
-    "directSetPrice": 29,
-    "partsTotal": 13,
+    "directSetPrice": 25,
+    "partsTotal": 14,
     "variant": "parts",
-    "timestamp": 1763641971997,
-    "expiresAt": 1763645571997,
+    "timestamp": 1763645387446,
+    "expiresAt": 1763648987446,
     "thumb": "items/images/en/thumbs/quassus_prime.e2d3b6fc89126a4d513be40752388c0e.128x128.webp",
     "displayName": "Quassus Prime Set"
   },
@@ -5424,19 +5424,19 @@
       {
         "urlName": "reconifex_receiver",
         "displayName": "Reconifex Receiver",
-        "price": 8
+        "price": 7
       },
       {
         "urlName": "reconifex_stock",
         "displayName": "Reconifex Stock",
-        "price": 10
+        "price": 50
       }
     ],
-    "directSetPrice": 15,
-    "partsTotal": 26,
+    "directSetPrice": 14,
+    "partsTotal": 65,
     "variant": "direct",
-    "timestamp": 1763641972758,
-    "expiresAt": 1763645572758,
+    "timestamp": 1763645387999,
+    "expiresAt": 1763648987999,
     "thumb": "items/images/en/thumbs/reconifex_set.10aa404ed9bd3e72d208a42fc1181b69.128x128.webp",
     "displayName": "Reconifex Set"
   },
@@ -5445,12 +5445,12 @@
       {
         "urlName": "vesper_77_barrel",
         "displayName": "Vesper 77 Barrel",
-        "price": null
+        "price": 20
       },
       {
         "urlName": "vesper_77_handle",
         "displayName": "Vesper 77 Handle",
-        "price": null
+        "price": 20
       },
       {
         "urlName": "vesper_77_receiver",
@@ -5458,11 +5458,11 @@
         "price": 5
       }
     ],
-    "directSetPrice": 15,
-    "partsTotal": null,
-    "variant": "parts",
-    "timestamp": 1763641973483,
-    "expiresAt": 1763645573483,
+    "directSetPrice": 14,
+    "partsTotal": 45,
+    "variant": "direct",
+    "timestamp": 1763645389322,
+    "expiresAt": 1763648989322,
     "thumb": "items/images/en/thumbs/vesper_77_set.8edf133ab02b6b5f87e365a67232cf28.128x128.webp",
     "displayName": "Vesper 77 Set"
   },
@@ -5471,29 +5471,29 @@
       {
         "urlName": "cedo_prime_barrel",
         "displayName": "Cedo Prime Barrel",
-        "price": 4
+        "price": 5
       },
       {
         "urlName": "cedo_prime_blueprint",
         "displayName": "Cedo Prime Blueprint",
-        "price": 9
+        "price": 8
       },
       {
         "urlName": "cedo_prime_receiver",
         "displayName": "Cedo Prime Receiver",
-        "price": 4
+        "price": 2
       },
       {
         "urlName": "cedo_prime_stock",
         "displayName": "Cedo Prime Stock",
-        "price": 4
+        "price": 3
       }
     ],
-    "directSetPrice": 25,
-    "partsTotal": 21,
+    "directSetPrice": 23,
+    "partsTotal": 18,
     "variant": "parts",
-    "timestamp": 1763641974362,
-    "expiresAt": 1763645574362,
+    "timestamp": 1763645390101,
+    "expiresAt": 1763648990101,
     "thumb": "items/images/en/thumbs/cedo_prime_set.0c958533f82b78967afb8394ec7c9af9.128x128.webp",
     "displayName": "Cedo Prime Set"
   },
@@ -5502,7 +5502,7 @@
       {
         "urlName": "dual_zoren_prime_blade",
         "displayName": "Dual Zoren Prime Blade",
-        "price": 11
+        "price": 10
       },
       {
         "urlName": "dual_zoren_prime_blueprint",
@@ -5512,14 +5512,14 @@
       {
         "urlName": "dual_zoren_prime_handle",
         "displayName": "Dual Zoren Prime Handle",
-        "price": 2
+        "price": 3
       }
     ],
-    "directSetPrice": 30,
+    "directSetPrice": 34,
     "partsTotal": 15,
     "variant": "parts",
-    "timestamp": 1763641975264,
-    "expiresAt": 1763645575264,
+    "timestamp": 1763645390993,
+    "expiresAt": 1763648990993,
     "thumb": "items/images/en/thumbs/dual_zoren_prime_set.d98ec2f1e8178524255002d3f248089f.128x128.webp",
     "displayName": "Dual Zoren Prime Set"
   },
@@ -5538,19 +5538,19 @@
       {
         "urlName": "lavos_prime_neuroptics_blueprint",
         "displayName": "Lavos Prime Neuroptics Blueprint",
-        "price": 2
+        "price": 3
       },
       {
         "urlName": "lavos_prime_systems_blueprint",
         "displayName": "Lavos Prime Systems Blueprint",
-        "price": 9
+        "price": 10
       }
     ],
     "directSetPrice": 30,
-    "partsTotal": 21,
+    "partsTotal": 23,
     "variant": "parts",
-    "timestamp": 1763641978314,
-    "expiresAt": 1763645578314,
+    "timestamp": 1763645391895,
+    "expiresAt": 1763648991895,
     "thumb": "items/images/en/thumbs/lavos_prime_set.b50879ee28eb0c9effda56dadca76c86.128x128.webp",
     "displayName": "Lavos Prime Set"
   },
@@ -5559,7 +5559,7 @@
       {
         "urlName": "riot_848_barrel",
         "displayName": "Riot-848 Barrel Blueprint",
-        "price": null
+        "price": 10
       },
       {
         "urlName": "riot_848_receiver",
@@ -5569,14 +5569,14 @@
       {
         "urlName": "riot_848_stock",
         "displayName": "Riot-848 Stock Blueprint",
-        "price": null
+        "price": 10
       }
     ],
-    "directSetPrice": null,
-    "partsTotal": null,
+    "directSetPrice": 45,
+    "partsTotal": 35,
     "variant": "parts",
-    "timestamp": 1763641979102,
-    "expiresAt": 1763645579102,
+    "timestamp": 1763645392681,
+    "expiresAt": 1763648992681,
     "thumb": "items/images/en/thumbs/riot_848_set.c674e6dc3c29b1f7d580edf2e2714ce1.128x128.webp",
     "displayName": "Riot-848 Set"
   },
@@ -5601,8 +5601,8 @@
     "directSetPrice": 20,
     "partsTotal": null,
     "variant": "parts",
-    "timestamp": 1763641979974,
-    "expiresAt": 1763645579974,
+    "timestamp": 1763645393322,
+    "expiresAt": 1763648993322,
     "thumb": "items/images/en/thumbs/purgator_1_set.cd59243fe2d8a6cc4e29cb9adec65cb9.128x128.webp",
     "displayName": "Purgator 1 Set"
   },
@@ -5627,8 +5627,8 @@
     "directSetPrice": 25,
     "partsTotal": null,
     "variant": "parts",
-    "timestamp": 1763641981034,
-    "expiresAt": 1763645581034,
+    "timestamp": 1763645394123,
+    "expiresAt": 1763648994123,
     "thumb": "items/images/en/thumbs/efv_5_jupiter_set.c69153cce49d7d087e5b2268b3d37ac3.128x128.webp",
     "displayName": "EFV-5 Jupiter Set"
   },
@@ -5653,8 +5653,8 @@
     "directSetPrice": 25,
     "partsTotal": null,
     "variant": "parts",
-    "timestamp": 1763641981734,
-    "expiresAt": 1763645581734,
+    "timestamp": 1763645396822,
+    "expiresAt": 1763648996822,
     "thumb": "items/images/en/thumbs/efv_8_mars_set.7ea6d23799085277f1942e054de9f6fd.128x128.webp",
     "displayName": "EFV-8 Mars Set"
   },
@@ -5663,19 +5663,19 @@
       {
         "urlName": "dual_viciss_blade",
         "displayName": "Dual Viciss Blade",
-        "price": null
+        "price": 8
       },
       {
         "urlName": "dual_viciss_hilt",
         "displayName": "Dual Viciss Hilt",
-        "price": null
+        "price": 8
       }
     ],
-    "directSetPrice": 30,
-    "partsTotal": null,
+    "directSetPrice": 20,
+    "partsTotal": 16,
     "variant": "parts",
-    "timestamp": 1763641982518,
-    "expiresAt": 1763645582518,
+    "timestamp": 1763645397383,
+    "expiresAt": 1763648997383,
     "thumb": "items/images/en/thumbs/dual_viciss_set.c15a2204ca280b7b4db1bfe0d53a07cf.128x128.webp",
     "displayName": "Dual Viciss Set"
   },
@@ -5694,7 +5694,7 @@
       {
         "urlName": "yareli_prime_neuroptics_blueprint",
         "displayName": "Yareli Prime Neuroptics Blueprint",
-        "price": 18
+        "price": 17
       },
       {
         "urlName": "yareli_prime_systems_blueprint",
@@ -5702,11 +5702,11 @@
         "price": 19
       }
     ],
-    "directSetPrice": 50,
-    "partsTotal": 43,
+    "directSetPrice": 55,
+    "partsTotal": 42,
     "variant": "parts",
-    "timestamp": 1763641983647,
-    "expiresAt": 1763645583647,
+    "timestamp": 1763645398129,
+    "expiresAt": 1763648998129,
     "thumb": "items/images/en/thumbs/yareli_prime_set.80badf98bdde8e0c47cac61aa6149ea0.128x128.webp",
     "displayName": "Yareli Prime Set"
   },
@@ -5715,12 +5715,12 @@
       {
         "urlName": "daikyu_prime_blueprint",
         "displayName": "Daikyu Prime Blueprint",
-        "price": 1
+        "price": 2
       },
       {
         "urlName": "daikyu_prime_grip",
         "displayName": "Daikyu Prime Grip",
-        "price": 7
+        "price": 9
       },
       {
         "urlName": "daikyu_prime_lower_limb",
@@ -5739,10 +5739,10 @@
       }
     ],
     "directSetPrice": 25,
-    "partsTotal": 17,
+    "partsTotal": 20,
     "variant": "parts",
-    "timestamp": 1763641985113,
-    "expiresAt": 1763645585113,
+    "timestamp": 1763645398839,
+    "expiresAt": 1763648998839,
     "thumb": "items/images/en/thumbs/daikyu_prime_set.56987b8ec6a151a7dc61a753674d018f.128x128.webp",
     "displayName": "Daikyu Prime Set"
   },
@@ -5756,19 +5756,19 @@
       {
         "urlName": "kompressa_prime_blueprint",
         "displayName": "Kompressa Prime Blueprint",
-        "price": 5
+        "price": 4
       },
       {
         "urlName": "kompressa_prime_reciever",
         "displayName": "Kompressa Prime Receiver",
-        "price": 9
+        "price": 8
       }
     ],
-    "directSetPrice": 25,
-    "partsTotal": 22,
+    "directSetPrice": 28,
+    "partsTotal": 20,
     "variant": "parts",
-    "timestamp": 1763641985951,
-    "expiresAt": 1763645585951,
+    "timestamp": 1763645401778,
+    "expiresAt": 1763649001778,
     "thumb": "items/images/en/thumbs/kompressa_prime_set.5a08eed489a41bc8482f21bdabea7637.128x128.webp",
     "displayName": "Kompressa Prime Set"
   },
@@ -5792,14 +5792,14 @@
       {
         "urlName": "caliban_prime_systems_blueprint",
         "displayName": "Caliban Prime Systems Blueprint",
-        "price": 28
+        "price": 27
       }
     ],
     "directSetPrice": 56,
-    "partsTotal": 46,
+    "partsTotal": 45,
     "variant": "parts",
-    "timestamp": 1763641986927,
-    "expiresAt": 1763645586927,
+    "timestamp": 1763645402646,
+    "expiresAt": 1763649002646,
     "thumb": "items/images/en/thumbs/caliban_prime_set.cae2f667bfae7c3ae9f5089760f9f090.128x128.webp",
     "displayName": "Caliban Prime Set"
   },
@@ -5808,12 +5808,12 @@
       {
         "urlName": "vadarya_prime_barrel",
         "displayName": "Vadarya Prime Barrel",
-        "price": 4
+        "price": 5
       },
       {
         "urlName": "vadarya_prime_blueprint",
         "displayName": "Vadarya Prime Blueprint",
-        "price": 8
+        "price": 9
       },
       {
         "urlName": "vadarya_prime_receiver",
@@ -5823,14 +5823,14 @@
       {
         "urlName": "vadarya_prime_stock",
         "displayName": "Vadarya Prime Stock",
-        "price": 4
+        "price": 3
       }
     ],
-    "directSetPrice": 28,
-    "partsTotal": 22,
+    "directSetPrice": 29,
+    "partsTotal": 23,
     "variant": "parts",
-    "timestamp": 1763641987775,
-    "expiresAt": 1763645587775,
+    "timestamp": 1763645403339,
+    "expiresAt": 1763649003339,
     "thumb": "items/images/en/thumbs/vadarya_prime_set.0456477036c7f0194f3db68594ca85ab.128x128.webp",
     "displayName": "Vadarya Prime Set"
   },
@@ -5839,7 +5839,7 @@
       {
         "urlName": "venato_prime_blade",
         "displayName": "Venato Prime Blade",
-        "price": 12
+        "price": 14
       },
       {
         "urlName": "venato_prime_blueprint",
@@ -5852,11 +5852,11 @@
         "price": 4
       }
     ],
-    "directSetPrice": 28,
-    "partsTotal": 18,
+    "directSetPrice": 25,
+    "partsTotal": 20,
     "variant": "parts",
-    "timestamp": 1763641988617,
-    "expiresAt": 1763645588617,
+    "timestamp": 1763645404113,
+    "expiresAt": 1763649004113,
     "thumb": "items/images/en/thumbs/venato_prime_set.b920bae8db1aa3422664d86c0bed2bb2.128x128.webp",
     "displayName": "Venato Prime Set"
   }
