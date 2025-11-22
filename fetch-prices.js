@@ -34,7 +34,7 @@ async function fetchItems() {
   console.log('Fetching items...');
   const data = await fetchDirect(`${API_BASE}/items`);
   
-  // Filtruj tylko sety (Warframes, Weapons, Archwing)
+  // Filtruj tylko sety (Warframes, Weapons, Archwing, Companions)
   const sets = data.data.filter(item => {
     const tags = item.tags || [];
     const name = item.i18n?.en?.name || '';
@@ -45,7 +45,11 @@ async function fetchItems() {
       tags.includes('primary') ||
       tags.includes('secondary') ||
       tags.includes('melee') ||
-      tags.includes('archwing')
+      tags.includes('archwing') ||
+      tags.includes('companion') ||
+      tags.includes('sentinel') ||
+      tags.includes('kubrow') ||
+      tags.includes('kavat')
     );
   });
   
