@@ -1,3 +1,54 @@
+name: update-cache
+
+on:
+  schedule:
+    - cron: '45 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Cache npm
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.npm
+            node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install dependencies
+        run: npm ci --prefer-offline --no-audit --silent
+
+      - name: Run generator
+        run: node fetch-prices.js
+
+      - name: Commit cache.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet --exit-code cache.json; then
+            echo "no changes to cache.json"
+          else
+            git add cache.json
+            git commit -m "chore: update cache.json" || echo "commit failed"
+            git push origin main
+          fi
 name: Update Price Cache
 
 on:
