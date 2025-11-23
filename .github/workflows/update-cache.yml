@@ -1,3 +1,48 @@
+name: Update Warframe Cache
+
+on:
+  schedule:
+    # Run every hour at minute 45 (15 minutes before the hour)
+    - cron: '45 * * * *'
+  workflow_dispatch: {}
+
+jobs:
+  update-cache:
+    name: Regenerate cache.json
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Use Node.js 18
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: |
+          npm ci
+
+      - name: Run cache generation
+        run: |
+          node fetch-prices.js
+
+      - name: Commit and push cache.json (if changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # If cache.json changed, commit and push using the provided GITHUB_TOKEN
+          if git status --porcelain | grep -q "cache.json"; then
+            git add cache.json
+            git commit -m "chore: regenerate cache (scheduled)"
+            git push
+          else
+            echo "No changes to cache.json"
+          fi
+        shell: bash
 name: Update Price Cache
 
 on:
