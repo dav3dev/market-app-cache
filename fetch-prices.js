@@ -18,15 +18,38 @@ async function fetchDirect(url, retries = 3) {
       });
       return response.data;
     } catch (error) {
-      if (error.response?.status === 429 && i < retries - 1) {
-        // Rate limit - czekaj dłużej przed retry
-        const waitTime = (i + 1) * 2000;
-        console.log(`    Rate limited, waiting ${waitTime}ms...`);
+      const status = error.response?.status;
+      const retryAfterHeader = error.response?.headers?.['retry-after'] || error.response?.headers?.['Retry-After'];
+      const retryAfter = retryAfterHeader ? parseInt(retryAfterHeader, 10) : 0;
+
+      if (status === 429 && i < retries - 1) {
+        // Prefer server-provided Retry-After (seconds) if present, otherwise exponential backoff
+        const waitTime = retryAfter > 0 ? retryAfter * 1000 : Math.pow(2, i) * 1000;
+        console.log(`    Rate limited, waiting ${waitTime}ms (retry-after=${retryAfter})...`);
         await delay(waitTime);
         continue;
       }
       throw error;
     }
+  }
+}
+
+// Fetch the lowest sell order platinum for a given item slug (online sellers only if requested)
+async function fetchLowestSellPrice(slug, onlineOnly = true) {
+  try {
+    const ordersData = await fetchDirect(`${API_BASE}/orders/item/${slug}`);
+    const orders = ordersData.data || [];
+
+    let sellOrders = orders.filter(o => o.type === 'sell');
+    if (onlineOnly) {
+      sellOrders = sellOrders.filter(o => o.user && (o.user.status === 'ingame' || o.user.status === 'online'));
+    }
+
+    const prices = sellOrders.map(o => o.platinum).filter(p => p > 0);
+    return prices.length > 0 ? Math.min(...prices) : null;
+  } catch (error) {
+    console.error(`Failed to fetch orders for ${slug}:`, error.message || error);
+    return null;
   }
 }
 
@@ -170,20 +193,22 @@ async function main() {
       
       console.log(`[${i + 1}/${items.length}] ${itemName}`);
       
-      // Standardowy set item — pobieramy części i orders przez fetchSetPrices
-      const prices = await fetchSetPrices(item.slug, true);
-      if (prices) {
-        // Dodaj thumb, displayName i tags do cache
-        cache[cacheKey] = {
-          ...prices,
-          thumb: item.i18n?.en?.thumb,
-          displayName: itemName,
-          tags: item.tags || []
-        };
-        
-        // Zapisz cache po każdym itemie (incremental)
-        fs.writeFileSync(outputPath, JSON.stringify(cache, null, 2));
-      }
+      // Standardowy set item — pobieramy tylko najniższą, dostępną cenę sell (online)
+      const minPrice = await fetchLowestSellPrice(item.slug, true);
+      cache[cacheKey] = {
+        partPrices: [],
+        directSetPrice: minPrice,
+        partsTotal: null,
+        variant: minPrice !== null ? 'direct' : 'unknown',
+        timestamp: Date.now(),
+        expiresAt: Date.now() + (60 * 60 * 1000),
+        thumb: item.i18n?.en?.thumb,
+        displayName: itemName,
+        tags: item.tags || []
+      };
+
+      // Zapisz cache po każdym itemie (incremental)
+      fs.writeFileSync(outputPath, JSON.stringify(cache, null, 2));
       
       // Krótka pauza między itemami (API rate limit)
       if (i < items.length - 1) {
