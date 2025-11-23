@@ -168,6 +168,8 @@ async function fetchSetPrices(urlName, onlineOnly = true) {
 
 async function main() {
   try {
+    const FULL = process.argv.includes('--full');
+    if (FULL) console.log('Running in FULL mode: will fetch part prices for each set');
     const items = await fetchItems();
     
     // Wczytaj istniejący cache jeśli istnieje
@@ -192,20 +194,51 @@ async function main() {
       const cacheKey = `${item.slug}|online-true`;
       
       console.log(`[${i + 1}/${items.length}] ${itemName}`);
-      
-      // Standardowy set item — pobieramy tylko najniższą, dostępną cenę sell (online)
-      const minPrice = await fetchLowestSellPrice(item.slug, true);
-      cache[cacheKey] = {
-        partPrices: [],
-        directSetPrice: minPrice,
-        partsTotal: null,
-        variant: minPrice !== null ? 'direct' : 'unknown',
-        timestamp: Date.now(),
-        expiresAt: Date.now() + (60 * 60 * 1000),
-        thumb: item.i18n?.en?.thumb,
-        displayName: itemName,
-        tags: item.tags || []
-      };
+      if (FULL) {
+        // Fetch the full breakdown (parts + direct set price)
+        const full = await fetchSetPrices(item.slug, true);
+        if (full) {
+          cache[cacheKey] = {
+            partPrices: full.partPrices || [],
+            directSetPrice: full.directSetPrice || null,
+            partsTotal: typeof full.partsTotal === 'number' ? full.partsTotal : null,
+            variant: full.variant || (full.directSetPrice !== null ? 'direct' : 'unknown'),
+            timestamp: full.timestamp || Date.now(),
+            expiresAt: full.expiresAt || (Date.now() + (60 * 60 * 1000)),
+            thumb: item.i18n?.en?.thumb,
+            displayName: itemName,
+            tags: item.tags || []
+          };
+        } else {
+          // Fallback to minimal if fetchSetPrices failed
+          const minPrice = await fetchLowestSellPrice(item.slug, true);
+          cache[cacheKey] = {
+            partPrices: [],
+            directSetPrice: minPrice,
+            partsTotal: null,
+            variant: minPrice !== null ? 'direct' : 'unknown',
+            timestamp: Date.now(),
+            expiresAt: Date.now() + (60 * 60 * 1000),
+            thumb: item.i18n?.en?.thumb,
+            displayName: itemName,
+            tags: item.tags || []
+          };
+        }
+      } else {
+        // Standardowy set item — pobieramy tylko najniższą, dostępną cenę sell (online)
+        const minPrice = await fetchLowestSellPrice(item.slug, true);
+        cache[cacheKey] = {
+          partPrices: [],
+          directSetPrice: minPrice,
+          partsTotal: null,
+          variant: minPrice !== null ? 'direct' : 'unknown',
+          timestamp: Date.now(),
+          expiresAt: Date.now() + (60 * 60 * 1000),
+          thumb: item.i18n?.en?.thumb,
+          displayName: itemName,
+          tags: item.tags || []
+        };
+      }
 
       // Zapisz cache po każdym itemie (incremental)
       fs.writeFileSync(outputPath, JSON.stringify(cache, null, 2));
