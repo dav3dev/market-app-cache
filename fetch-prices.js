@@ -7,6 +7,20 @@ const API_BASE = 'https://api.warframe.market/v2';
 // Pomocnicza funkcja do delay
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
+// Map helper that runs async fn over items in batches to limit concurrency
+async function mapInBatches(items, batchSize, fn, pauseMs = 200) {
+  const out = [];
+  for (let i = 0; i < items.length; i += batchSize) {
+    const batch = items.slice(i, i + batchSize);
+    const results = await Promise.all(batch.map(fn));
+    out.push(...results);
+    if (i + batchSize < items.length && pauseMs > 0) {
+      await delay(pauseMs);
+    }
+  }
+  return out;
+}
+
 async function fetchDirect(url, retries = 3) {
   for (let i = 0; i < retries; i++) {
     try {
@@ -90,61 +104,58 @@ async function fetchSetPrices(urlName, onlineOnly = true) {
     // Znajdź części (nie setRoot)
     const parts = items.filter(item => !item.setRoot);
     
-    // Pobierz wszystkie zamówienia RÓWNOLEGLE (Promise.all)
-    const partPromises = parts.map(async (part) => {
+    // Pobierz wszystkie zamówienia partiami, żeby nie robić zbyt wielu równoległych requestów
+    const partFetcher = async (part) => {
       try {
         const ordersData = await fetchDirect(`${API_BASE}/orders/item/${part.slug}`);
         const orders = ordersData.data || [];
-        
-        // Filtruj sell orders (API v2 używa 'type' nie 'order_type')
+
+        // Filtruj sell orders
         let sellOrders = orders.filter(o => o.type === 'sell');
         if (onlineOnly) {
           sellOrders = sellOrders.filter(o => o.user?.status === 'ingame' || o.user?.status === 'online');
         }
-        
-        // Znajdź najniższą cenę (API v2 używa 'platinum' nie 'price')
+
         const prices = sellOrders.map(o => o.platinum).filter(p => p > 0);
         const minPrice = prices.length > 0 ? Math.min(...prices) : null;
-        
+
         return {
           urlName: part.slug,
           displayName: part.i18n?.en?.name || part.slug,
           price: minPrice
         };
       } catch (error) {
-        console.error(`Failed to fetch orders for ${part.slug}:`, error.message);
+        console.error(`Failed to fetch orders for ${part.slug}:`, error.message || error);
         return {
           urlName: part.slug,
           displayName: part.i18n?.en?.name || part.slug,
           price: null
         };
       }
-    });
-    
-    // Pobierz cenę bezpośrednią dla setu RÓWNOLEGLE
+    };
+
+    // Pobierz cenę bezpośrednią dla setu równolegle
     const setOrdersPromise = (async () => {
       try {
         const setOrdersData = await fetchDirect(`${API_BASE}/orders/item/${urlName}`);
         const setOrders = setOrdersData.data || [];
-        
+
         let sellOrders = setOrders.filter(o => o.type === 'sell');
         if (onlineOnly) {
           sellOrders = sellOrders.filter(o => o.user?.status === 'ingame' || o.user?.status === 'online');
         }
-        
+
         const prices = sellOrders.map(o => o.platinum).filter(p => p > 0);
         return prices.length > 0 ? Math.min(...prices) : null;
       } catch (error) {
-        console.error(`Failed to fetch set orders for ${urlName}:`, error.message);
+        console.error(`Failed to fetch set orders for ${urlName}:`, error.message || error);
         return null;
       }
     })();
-    
-    // Czekaj na wszystkie requesty naraz
-    const [partPrices, directSetPrice] = await Promise.all([
-      Promise.all(partPromises),
-      setOrdersPromise
-    ]);
+
+    // Use batching to fetch part prices, limit concurrency (batch size 5)
+    const partPrices = await mapInBatches(parts, 5, partFetcher, 250);
+    const directSetPrice = await setOrdersPromise;
     
     // Suma cen części
     const partsTotal = partPrices
@@ -168,7 +179,8 @@ async function fetchSetPrices(urlName, onlineOnly = true) {
 
 async function main() {
   try {
-    const FULL = process.argv.includes('--full');
+    // Run FULL by default (fetch part prices every run)
+    const FULL = true;
     if (FULL) console.log('Running in FULL mode: will fetch part prices for each set');
     const items = await fetchItems();
     
@@ -194,38 +206,22 @@ async function main() {
       const cacheKey = `${item.slug}|online-true`;
       
       console.log(`[${i + 1}/${items.length}] ${itemName}`);
-      if (FULL) {
-        // Fetch the full breakdown (parts + direct set price)
-        const full = await fetchSetPrices(item.slug, true);
-        if (full) {
-          cache[cacheKey] = {
-            partPrices: full.partPrices || [],
-            directSetPrice: full.directSetPrice || null,
-            partsTotal: typeof full.partsTotal === 'number' ? full.partsTotal : null,
-            variant: full.variant || (full.directSetPrice !== null ? 'direct' : 'unknown'),
-            timestamp: full.timestamp || Date.now(),
-            expiresAt: full.expiresAt || (Date.now() + (60 * 60 * 1000)),
-            thumb: item.i18n?.en?.thumb,
-            displayName: itemName,
-            tags: item.tags || []
-          };
-        } else {
-          // Fallback to minimal if fetchSetPrices failed
-          const minPrice = await fetchLowestSellPrice(item.slug, true);
-          cache[cacheKey] = {
-            partPrices: [],
-            directSetPrice: minPrice,
-            partsTotal: null,
-            variant: minPrice !== null ? 'direct' : 'unknown',
-            timestamp: Date.now(),
-            expiresAt: Date.now() + (60 * 60 * 1000),
-            thumb: item.i18n?.en?.thumb,
-            displayName: itemName,
-            tags: item.tags || []
-          };
-        }
+      // Always fetch full breakdown now
+      const full = await fetchSetPrices(item.slug, true);
+      if (full) {
+        cache[cacheKey] = {
+          partPrices: full.partPrices || [],
+          directSetPrice: full.directSetPrice || null,
+          partsTotal: typeof full.partsTotal === 'number' ? full.partsTotal : null,
+          variant: full.variant || (full.directSetPrice !== null ? 'direct' : 'unknown'),
+          timestamp: full.timestamp || Date.now(),
+          expiresAt: full.expiresAt || (Date.now() + (60 * 60 * 1000)),
+          thumb: item.i18n?.en?.thumb,
+          displayName: itemName,
+          tags: item.tags || []
+        };
       } else {
-        // Standardowy set item — pobieramy tylko najniższą, dostępną cenę sell (online)
+        // Fallback to minimal if fetchSetPrices failed
         const minPrice = await fetchLowestSellPrice(item.slug, true);
         cache[cacheKey] = {
           partPrices: [],
@@ -245,7 +241,7 @@ async function main() {
       
       // Krótka pauza między itemami (API rate limit)
       if (i < items.length - 1) {
-        await delay(350);
+        await delay(FULL ? 500 : 350);
       }
     }
     
