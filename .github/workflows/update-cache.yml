@@ -1,5 +1,8 @@
 name: Update Warframe Cache
 
+permissions:
+  contents: write
+
 on:
   schedule:
     # Run every hour at minute 45 (15 minutes before the hour)
@@ -15,6 +18,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           persist-credentials: true
 
       - name: Use Node.js 18
