@@ -34,11 +34,16 @@ async function fetchItems() {
   console.log('Fetching items...');
   const data = await fetchDirect(`${API_BASE}/items`);
   
-  // Filtruj tylko sety (Warframes, Weapons, Archwing, Companions)
-  const sets = data.data.filter(item => {
+  // Filtruj elementy: bierzemy sety (Warframes, Weapons, Archwing, Companions),
+  // a dodatkowo uwzględniamy elementy z tagiem 'arcane' (Arcanes).
+  const items = data.data.filter(item => {
     const tags = item.tags || [];
     const name = item.i18n?.en?.name || '';
     const isSet = name.toLowerCase().includes(' set');
+
+    // Include arcane mods even if they are not sets
+    if (tags.includes('arcane')) return true;
+
     return isSet && (
       tags.includes('warframe') ||
       tags.includes('weapon') ||
@@ -52,9 +57,9 @@ async function fetchItems() {
       tags.includes('kavat')
     );
   });
-  
-  console.log(`Found ${sets.length} sets`);
-  return sets;
+
+  console.log(`Found ${items.length} items (including arcane mods)`);
+  return items;
 }
 
 async function fetchSetPrices(urlName, onlineOnly = true) {
@@ -169,18 +174,47 @@ async function main() {
       
       console.log(`[${i + 1}/${items.length}] ${itemName}`);
       
-      const prices = await fetchSetPrices(item.slug, true);
-      if (prices) {
-        // Dodaj thumb, displayName i tags do cache
-        cache[cacheKey] = {
-          ...prices,
-          thumb: item.i18n?.en?.thumb,
-          displayName: itemName,
-          tags: item.tags || []
-        };
-        
-        // Zapisz cache po każdym itemie (incremental)
-        fs.writeFileSync(outputPath, JSON.stringify(cache, null, 2));
+      // Jeśli element jest arcane (mod), nie ma części setu — pobieramy tylko orders
+      if ((item.tags || []).includes('arcane')) {
+        try {
+          const ordersData = await fetchDirect(`${API_BASE}/orders/item/${item.slug}`);
+          let orders = ordersData.data || [];
+          // Filtruj tylko sell orders i online users
+          orders = orders.filter(o => o.type === 'sell');
+          orders = orders.filter(o => o.user?.status === 'ingame' || o.user?.status === 'online');
+          const prices = orders.map(o => o.platinum).filter(p => p > 0);
+          const minPrice = prices.length > 0 ? Math.min(...prices) : null;
+
+          cache[cacheKey] = {
+            partPrices: [],
+            directSetPrice: minPrice,
+            partsTotal: null,
+            variant: minPrice !== null ? 'direct' : 'unknown',
+            timestamp: Date.now(),
+            expiresAt: Date.now() + (60 * 60 * 1000),
+            thumb: item.i18n?.en?.thumb,
+            displayName: itemName,
+            tags: item.tags || []
+          };
+
+          fs.writeFileSync(outputPath, JSON.stringify(cache, null, 2));
+        } catch (err) {
+          console.error(`Failed to fetch orders for arcane ${item.slug}:`, err.message || err);
+        }
+      } else {
+        const prices = await fetchSetPrices(item.slug, true);
+        if (prices) {
+          // Dodaj thumb, displayName i tags do cache
+          cache[cacheKey] = {
+            ...prices,
+            thumb: item.i18n?.en?.thumb,
+            displayName: itemName,
+            tags: item.tags || []
+          };
+          
+          // Zapisz cache po każdym itemie (incremental)
+          fs.writeFileSync(outputPath, JSON.stringify(cache, null, 2));
+        }
       }
       
       // Krótka pauza między itemami (API rate limit)
