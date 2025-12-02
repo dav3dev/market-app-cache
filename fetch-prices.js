@@ -1,6 +1,7 @@
 const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
+const { MOD_TO_SYNDICATE } = require('./syndicate-mods.js');
 
 const API_BASE = 'https://api.warframe.market/v2';
 
@@ -71,18 +72,23 @@ async function fetchItems() {
   console.log('Fetching items...');
   const data = await fetchDirect(`${API_BASE}/items`);
   
-  // Filtruj elementy: bierzemy sety (Warframes, Weapons, Archwing, Companions) + mody z syndykatów
+  // Lista modów do cachowania (z syndicate-mods.js)
+  const modsToCache = Object.keys(MOD_TO_SYNDICATE);
+  
+  // Filtruj elementy: bierzemy sety (Warframes, Weapons, Archwing, Companions) + wybrane mody
   const items = data.data.filter(item => {
     const tags = item.tags || [];
     const name = item.i18n?.en?.name || '';
+    const slug = item.slug || '';
     const isSet = name.toLowerCase().includes(' set');
 
-    // Syndicate mods (augment mods)
-    const syndicateTags = ['syndicate', 'steel_meridian', 'arbiters_of_hexis', 'cephalon_suda', 
-                          'perrin_sequence', 'red_veil', 'new_loka', 'augment'];
-    const isSyndicateMod = tags.includes('mod') && syndicateTags.some(tag => tags.includes(tag));
-    
-    if (isSyndicateMod) return true;
+    // Sprawdź czy mod jest na liście do cachowania
+    if (tags.includes('mod')) {
+      return modsToCache.some(modKey => 
+        slug.includes(modKey) || 
+        slug.replace(/_/g, ' ').includes(modKey.replace(/_/g, ' '))
+      );
+    }
 
     return isSet && (
       tags.includes('warframe') ||
@@ -98,7 +104,7 @@ async function fetchItems() {
     );
   });
 
-  console.log(`Found ${items.length} items (sets + syndicate mods)`);
+  console.log(`Found ${items.length} items (sets + selected mods)`);
   return items;
 }
 
