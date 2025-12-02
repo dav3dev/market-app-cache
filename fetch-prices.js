@@ -71,11 +71,18 @@ async function fetchItems() {
   console.log('Fetching items...');
   const data = await fetchDirect(`${API_BASE}/items`);
   
-  // Filtruj elementy: bierzemy tylko sety (Warframes, Weapons, Archwing, Companions).
+  // Filtruj elementy: bierzemy sety (Warframes, Weapons, Archwing, Companions) + mody z syndykatów
   const items = data.data.filter(item => {
     const tags = item.tags || [];
     const name = item.i18n?.en?.name || '';
     const isSet = name.toLowerCase().includes(' set');
+
+    // Syndicate mods (augment mods)
+    const syndicateTags = ['syndicate', 'steel_meridian', 'arbiters_of_hexis', 'cephalon_suda', 
+                          'perrin_sequence', 'red_veil', 'new_loka', 'augment'];
+    const isSyndicateMod = tags.includes('mod') && syndicateTags.some(tag => tags.includes(tag));
+    
+    if (isSyndicateMod) return true;
 
     return isSet && (
       tags.includes('warframe') ||
@@ -91,13 +98,33 @@ async function fetchItems() {
     );
   });
 
-  console.log(`Found ${items.length} set items (arcane mods excluded)`);
+  console.log(`Found ${items.length} items (sets + syndicate mods)`);
   return items;
 }
 
 async function fetchSetPrices(urlName, onlineOnly = true) {
   try {
-    // Pobierz części setu
+    // Sprawdź czy to mod (nie ma setu, tylko pojedyncza cena)
+    const itemData = await fetchDirect(`${API_BASE}/items/${urlName}`);
+    const item = itemData.data;
+    const tags = item?.tags || [];
+    const isMod = tags.includes('mod');
+    
+    if (isMod) {
+      // Dla modów pobierz tylko pojedynczą cenę
+      const price = await fetchLowestSellPrice(urlName, onlineOnly);
+      return {
+        partPrices: [],
+        directSetPrice: price,
+        partsTotal: null,
+        variant: 'direct',
+        timestamp: Date.now(),
+        expiresAt: Date.now() + (60 * 60 * 1000), // 1 godzina
+        isMod: true
+      };
+    }
+    
+    // Pobierz części setu (dla setów)
     const setData = await fetchDirect(`${API_BASE}/items/${urlName}/set`);
     const items = setData.data?.items || [];
     
