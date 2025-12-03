@@ -68,6 +68,35 @@ async function fetchLowestSellPrice(slug, onlineOnly = true) {
   }
 }
 
+// Fetch both WTS (sell) and WTB (buy) prices for mods
+async function fetchModPrices(slug, onlineOnly = true) {
+  try {
+    const ordersData = await fetchDirect(`${API_BASE}/orders/item/${slug}`);
+    const orders = ordersData.data || [];
+
+    // WTS - gracze sprzedający (sell orders)
+    let sellOrders = orders.filter(o => o.type === 'sell');
+    if (onlineOnly) {
+      sellOrders = sellOrders.filter(o => o.user && (o.user.status === 'ingame' || o.user.status === 'online'));
+    }
+    const sellPrices = sellOrders.map(o => o.platinum).filter(p => p > 0);
+    const wtsPrice = sellPrices.length > 0 ? Math.min(...sellPrices) : null;
+
+    // WTB - gracze kupujący (buy orders)
+    let buyOrders = orders.filter(o => o.type === 'buy');
+    if (onlineOnly) {
+      buyOrders = buyOrders.filter(o => o.user && (o.user.status === 'ingame' || o.user.status === 'online'));
+    }
+    const buyPrices = buyOrders.map(o => o.platinum).filter(p => p > 0);
+    const wtbPrice = buyPrices.length > 0 ? Math.max(...buyPrices) : null;
+
+    return { wtsPrice, wtbPrice };
+  } catch (error) {
+    console.error(`Failed to fetch orders for ${slug}:`, error.message || error);
+    return { wtsPrice: null, wtbPrice: null };
+  }
+}
+
 async function fetchItems() {
   console.log('Fetching items...');
   const data = await fetchDirect(`${API_BASE}/items`);
@@ -117,16 +146,18 @@ async function fetchSetPrices(urlName, onlineOnly = true) {
     const isMod = tags.includes('mod');
     
     if (isMod) {
-      // Dla modów pobierz tylko pojedynczą cenę
-      const price = await fetchLowestSellPrice(urlName, onlineOnly);
+      // Dla modów pobierz ceny WTS i WTB
+      const { wtsPrice, wtbPrice } = await fetchModPrices(urlName, onlineOnly);
       return {
         partPrices: [],
-        directSetPrice: price,
+        directSetPrice: wtsPrice,
         partsTotal: null,
         variant: 'direct',
         timestamp: Date.now(),
         expiresAt: Date.now() + (60 * 60 * 1000), // 1 godzina
-        isMod: true
+        isMod: true,
+        wtsPrice,
+        wtbPrice
       };
     }
     
@@ -251,7 +282,10 @@ async function main() {
           expiresAt: full.expiresAt || (Date.now() + (60 * 60 * 1000)),
           thumb: item.i18n?.en?.thumb,
           displayName: itemName,
-          tags: item.tags || []
+          tags: item.tags || [],
+          isMod: full.isMod || false,
+          wtsPrice: full.wtsPrice || null,
+          wtbPrice: full.wtbPrice || null
         };
       } else {
         // Fallback to minimal if fetchSetPrices failed
