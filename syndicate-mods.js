@@ -705,11 +705,14 @@ const SYNDICATE_MODS = {
   ],
 };
 
-// Stwórz odwrotne mapowanie: mod -> syndykat
+// Stwórz odwrotne mapowanie: mod -> syndykaty (tablica)
 const MOD_TO_SYNDICATE = {};
 for (const [syndicate, mods] of Object.entries(SYNDICATE_MODS)) {
   mods.forEach(mod => {
-    MOD_TO_SYNDICATE[mod] = syndicate;
+    if (!MOD_TO_SYNDICATE[mod]) {
+      MOD_TO_SYNDICATE[mod] = [];
+    }
+    MOD_TO_SYNDICATE[mod].push(syndicate);
   });
 }
 
