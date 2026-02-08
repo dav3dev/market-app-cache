@@ -2,8 +2,7 @@ name: update-cache
 
 on:
   schedule:
-    # Uruchom co 30 minut między 18:00 a 01:30 UTC (19:00 - 02:30 CET)
-    #- cron: '0 16,18,20,22,0,2 * * *'
+    - cron: '0 16,18,20,22,0,2 * * *'
   workflow_dispatch:
 
 permissions:
